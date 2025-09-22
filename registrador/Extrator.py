@@ -89,7 +89,7 @@ class ExtratorFinanceiro:
         except ValueError:
             return None
     
-    def estrai_valor(self, text: str) -> Tuple[Optional[float], str]:
+    def extrai_valor(self, text: str) -> Tuple[Optional[float], str]:
         """Extrai valor monetário do texto"""
         text = text.lower()
         
@@ -211,7 +211,7 @@ class ExtratorFinanceiro:
         """Função unificada que extrai todos os campos estruturados"""
         
         # Extrações principais
-        amount, amount_source = self.estrai_valor(text)
+        amount, amount_source = self.extrai_valor(text)
         category, category_source = self.extrai_categoria(text)
         place, place_source = self.extrai_lugar(text)
         date_extracted = self.extrai_data(text)
@@ -249,26 +249,3 @@ class ExtratorFinanceiro:
             }
         }
 
-# Testando o extrator
-extractor = ExtratorFinanceiro()
-
-print("Extrator rule-based implementado com sucesso!")
-print("\\nTestando com alguns exemplos:")
-
-test_cases = [
-    "5 reais num pastel",
-    "R$ 23,50 no mercado", 
-    "Paguei 1.500,00 de aluguel",
-    "Transferi R$ 500 para minha mãe",
-    "Salário 15/09 4200",
-    "5,35 reais no uber",
-    "20 reais transferido no BB",
-    "7 conto na 99",
-    "6 reais no uber moto"
-]
-
-for i, test in enumerate(test_cases, 1):
-    result = extractor.aplica_extrator(test)
-    print(f"\\n{i}. '{test}'")
-    print(f"   → Valor: {result['amount']} | Categoria: {result['category']} | Local: {result['place']}")
-    print(f"   → Tipo: {result['type']} | Confiança: {result['meta']['confidence']}")
