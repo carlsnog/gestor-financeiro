@@ -10,7 +10,7 @@ class ExtratorFinanceiro:
     def __init__(self):
         # Mapa de keywords para categorias
         self.CATEGORIAS_MAP = {
-            'comida': ['pastel', 'pizza', 'hamburguer', 'lanche', 'jantar', 'almoço', 'café', 'restaurante', 'lanchonete', 'padaria', 'delivery'],
+            'comida': ['pastel', 'pizza', 'hamburguer', 'lanche', 'jantar', 'almoço', 'café', 'restaurante', 'lanchonete', 'padaria', 'delivery', 'ifood'],
             'transporte': ['uber', '99', 'taxi', 'ônibus', 'gasolina', 'combustível', 'estacionamento', 'posto', 'carro', 'manutenção'],
             'mercado': ['mercado', 'supermercado', 'extra', 'pão de açúcar', 'compras'],
             'moradia': ['aluguel', 'luz', 'água', 'gas', 'internet', 'condomínio', 'limpeza'],
@@ -33,7 +33,11 @@ class ExtratorFinanceiro:
             # R$ 1.234,56 ou R$1.234,56 
             r'R\$\s*(\d{1,3}(?:\.\d{3})*(?:,\d{1,2})?)',
             # Números simples
-            r'\b(\d+(?:,\d{1,2})?)\b'
+            r'\b(\d+(?:,\d{1,2})?)\b',
+            # 1.234,56 reais/rs
+            r'(\d{1,3}(?:\.\d{3})*(?:,\d{1,2})?)\s*(?:reais?|rs?)\b',
+            # Apenas números seguidos de espaço e contexto
+            r'(\d{1,3}(?:\.\d{3})*(?:,\d{1,2})?)\s*(?=\w)'
         ]
         
         # Regex para datas
@@ -44,9 +48,9 @@ class ExtratorFinanceiro:
         
         # Palavras que indicam tipos de transação
         self.TIPO_TRANSACAO = {
-            'receita': ['recebi', 'salário', 'deposito', 'depósito', 'bonificação', 'cashback', 'vendeu'],
-            'transferencia': ['transferi', 'pix',],
-            'gasto': ['gastei', 'paguei', 'comprei', ]
+            'receita': ['recebi', 'salário', 'deposito', 'depósito', 'bonificação', 'cashback', 'vendeu', 'ganhei', 'empréstimo recebido'],
+            'transferencia': ['transferi', 'pix', 'mandei', 'enviei'],
+            'gasto': ['gastei', 'paguei', 'comprei', 'pagamento']
         }
         
     def normaliza_valor(self, valor_str: str) -> float:
@@ -93,6 +97,9 @@ class ExtratorFinanceiro:
     def extrai_lugar(self, text: str) -> Tuple[Optional[str], str]:
         """Extrai local baseado em heurísticas"""
         text_lower = text.lower()
+
+        #ajustar para ele não verificar as preposições por categorias
+
         
         # Busca por padrões "no/na/em + lugar"
         for prep in self.PREPOSICOES_LUGARES:
