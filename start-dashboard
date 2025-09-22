@@ -1,0 +1,27 @@
+#!/bin/bash
+# Inicializar Dashboard Streamlit
+set -e
+
+echo "📊 Iniciando Dashboard..."
+echo "========================"
+
+# Ativar ambiente virtual
+source venv/bin/activate
+
+# Carregar variáveis de ambiente
+if [ -f ".env" ]; then
+    export $(grep -v '^#' .env | xargs)
+fi
+
+# Navegar para pasta do dashboard
+cd src/ui
+
+# Configurar PYTHONPATH
+export PYTHONPATH="${PYTHONPATH}:$(pwd)/.."
+
+# Iniciar dashboard
+echo "🌐 Dashboard rodando em: http://localhost:8501"
+echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+echo ""
+
+streamlit run dashboard.py --server.port 8501

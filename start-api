@@ -1,0 +1,33 @@
+#!/bin/bash
+# Inicializar API FastAPI
+set -e
+
+echo "🚀 Iniciando Gestor Financeiro API..."
+echo "===================================="
+
+# Ativar ambiente virtual
+source venv/bin/activate
+
+# Carregar variáveis de ambiente
+if [ -f ".env" ]; then
+    echo "⚙️ Carregando configurações..."
+    export $(grep -v '^#' .env | xargs)
+else
+    echo "⚠️ Arquivo .env não encontrado. Execute ./setup primeiro."
+    exit 1
+fi
+
+# Navegar para pasta da API
+cd src/api
+
+# Configurar PYTHONPATH
+export PYTHONPATH="${PYTHONPATH}:$(pwd)/.."
+
+# Iniciar servidor
+echo "🌐 API rodando em: http://localhost:8000"
+echo "📚 Documentação: http://localhost:8000/docs"
+echo "📱 Webhook: http://localhost:8000/whatsapp/webhook"
+echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+echo ""
+
+uvicorn app:app --reload --host 0.0.0.0 --port 8000

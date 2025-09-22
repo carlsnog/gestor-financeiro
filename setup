@@ -1,0 +1,39 @@
+#!/bin/bash
+# Setup completo do projeto
+set -e
+
+echo "🚀 Configurando Gestor Financeiro..."
+echo "=================================="
+
+# Criar ambiente virtual se não existir
+if [ ! -d "venv" ]; then
+    echo "📦 Criando ambiente virtual..."
+    python3 -m venv venv
+fi
+
+# Ativar ambiente virtual
+source venv/bin/activate
+
+# Instalar dependências
+echo "⬇️ Instalando dependências..."
+pip install --upgrade pip
+pip install -r config/requirements.txt
+
+# Criar arquivo .env se não existir
+if [ ! -f ".env" ]; then
+    echo "⚙️ Criando arquivo .env..."
+    cp config/.env.example .env
+    echo "✏️ Configure suas credenciais Twilio no arquivo .env"
+fi
+
+# Inicializar banco de dados
+echo "🗄️ Inicializando banco de dados..."
+export PYTHONPATH="${PYTHONPATH}:$(pwd)/src"
+cd src/core/models && python -c "from database import init_db; init_db()" && cd ../../..
+
+echo ""
+echo "✅ Setup concluído!"
+echo "💡 Próximos passos:"
+echo "   1. Configure o .env com suas credenciais Twilio"
+echo "   2. Execute: ./start-api"
+echo "   3. Execute: ./start-dashboard (opcional)"
