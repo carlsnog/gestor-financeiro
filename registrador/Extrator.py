@@ -34,8 +34,8 @@ class ExtratorFinanceiro:
             r'R\$\s*(\d{1,3}(?:\.\d{3})*(?:,\d{1,2})?)',
             # Números simples
             r'\b(\d+(?:,\d{1,2})?)\b',
-            # 1.234,56 reais/rs
-            r'(\d{1,3}(?:\.\d{3})*(?:,\d{1,2})?)\s*(?:reais?|rs?)\b',
+            # 1.234,56 reais/rs/conto
+            r'(\d{1,3}(?:\.\d{3})*(?:,\d{1,2})?)\s*(?:reais?|rs?|conto?)\b',
             # Apenas números seguidos de espaço e contexto
             r'(\d{1,3}(?:\.\d{3})*(?:,\d{1,2})?)\s*(?=\w)'
         ]
@@ -97,9 +97,6 @@ class ExtratorFinanceiro:
     def extrai_lugar(self, text: str) -> Tuple[Optional[str], str]:
         """Extrai local baseado em heurísticas"""
         text_lower = text.lower()
-
-        #ajustar para ele não verificar as preposições por categorias
-
         
         # Busca por padrões "no/na/em + lugar"
         for prep in self.PREPOSICOES_LUGARES:
@@ -245,7 +242,9 @@ test_cases = [
     "Transferi R$ 500 para minha mãe",
     "Salário 15/09 4200",
     "5,35 reais no uber",
-    "20 reais transferido no BB"
+    "20 reais transferido no BB",
+    "7 conto na 99",
+    "6 reais no uber moto"
 ]
 
 for i, test in enumerate(test_cases, 1):
