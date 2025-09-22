@@ -32,12 +32,16 @@ class ExtratorFinanceiro:
         self.PADRAO_MONETARIO = [
             # R$ 1.234,56 ou R$1.234,56 
             r'R\$\s*(\d{1,3}(?:\.\d{3})*(?:,\d{1,2})?)',
-            # Números simples
-            r'\b(\d+(?:,\d{1,2})?)\b',
-            # 1.234,56 reais/rs/conto
+            # Números com formato brasileiro seguidos de "reais"
             r'(\d{1,3}(?:\.\d{3})*(?:,\d{1,2})?)\s*(?:reais?|rs?|conto?)\b',
-            # Apenas números seguidos de espaço e contexto
-            r'(\d{1,3}(?:\.\d{3})*(?:,\d{1,2})?)\s*(?=\w)'
+            # Valores grandes isolados (3+ dígitos)
+            r'(?<![\/\d])\b(\d{4,}(?:,\d{1,2})?)\b(?![\d\/])',  # 4+ dígitos isolados
+            # Valores com pontos como separador de milhar + vírgula decimal
+            r'\b(\d{1,3}(?:\.\d{3})*,\d{1,2})\b',
+            # Formato americano
+            r'\b(\d+\.\d{2})\b(?!\d)',
+            # Valores simples (até 3 dígitos)
+            r'\b(\d{1,3}(?:,\d{1,2})?)\b(?=\s*(?:reais?|rs?|no|na|em|para|pro|$))'
         ]
         
         # Regex para datas
@@ -55,17 +59,33 @@ class ExtratorFinanceiro:
         
     def normaliza_valor(self, valor_str: str) -> float:
         """Normaliza string monetária para float"""
-        # Remove espaços e converte vírgula para ponto
-        limpo = valor_str.strip().replace('.', '').replace(',', '.')
-        
-        # Se tem mais de um ponto, o último é decimal
-        if limpo.count('.') > 1:
-            parts = limpo.split('.')
-            # Junta tudo menos o último como inteiros, último como decimal
-            limpo = ''.join(parts[:-1]) + '.' + parts[-1]
-        
+        texto_limpo = valor_str.strip()
+
+        # Se tem vírgula e pontos, formato brasileiro: pontos=milhar, vírgula=decimal
+        if ',' in texto_limpo and '.' in texto_limpo:
+            texto_limpo = texto_limpo.replace('.', '').replace(',', '.')
+        # Se tem apenas vírgula, pode ser decimal brasileiro
+        elif ',' in texto_limpo and texto_limpo.count(',') == 1:
+            # Se tem 1-2 dígitos após vírgula, é decimal
+            if re.match(r'^\d+,\d{1,2}$', texto_limpo):
+                texto_limpo = texto_limpo.replace(',', '.')
+            else:
+                # Vírgula como separador de milhar (raro, mas acontece)
+                texto_limpo = texto_limpo.replace(',', '')
+        # Se tem apenas pontos
+        elif '.' in texto_limpo:
+            # Múltiplos pontos = separadores de milhar
+            if texto_limpo.count('.') > 1:
+                texto_limpo = texto_limpo.replace('.', '')
+            # Um ponto com exatamente 2 dígitos = decimal americano
+            elif re.match(r'^\d+\.\d{2}$', texto_limpo):
+                pass  # já correto
+            else:
+                # Ponto único com != 2 casas = separador de milhar
+                texto_limpo = texto_limpo.replace('.', '')
+
         try:
-            return float(limpo)
+            return float(texto_limpo)
         except ValueError:
             return None
     
@@ -109,7 +129,7 @@ class ExtratorFinanceiro:
                 if len(lugar) > 2:  # Evita lugares muito pequenos
                     return lugar, "heuristic"
         
-        # Busca por nomes próprios (palavras capitalizadas)
+        # Busca por nomes próprios 
         texto_original = text
         pronomes_proprios = re.findall(r'\\b[A-Z][a-z]+(?:\\s+[A-Z][a-z]+)*', texto_original)
         if pronomes_proprios:
