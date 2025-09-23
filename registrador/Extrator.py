@@ -26,27 +26,28 @@ class ExtratorFinanceiro:
             for keyword in keywords:
                 self.keyword_to_category[keyword.lower()] = category.capitalize()
                 
+        number = r'(?:\d{1,3}(?:[.,]\d{3})+|\d+)(?:[.,]\d{1,2})?'
         # Regex para valores monetários
         self.PADRAO_MONETARIO = [
-            # R$ 1.234,56 ou R$1.234,56 ou R$ 3500
-            r'R\$\s*(\d+(?:\.\d{3})*(?:,\d{1,2})?)',
-            # Números com formato brasileiro seguidos de "reais"
-            r'(\d+(?:\.\d{3})*(?:,\d{1,2})?)\s*(?:reais?|rs?|conto?)\b',
-            # Valores grandes isolados (4+ dígitos)
-            r'(?<![\/\d])\b(\d{4,}(?:,\d{1,2})?)\b(?![\d\/])',
-            # Valores com pontos como separador de milhar + vírgula decimal
+            # R$ 1.234,56 ou R$1.234,56 ou R$ 3500,25
+            rf'R\$\s*({number})',
+
+            # Números com formato brasileiro seguidos de "reais" (nega lookbehind para não ser parte de outro número)
+            rf'(?<![\d\.,])({number})\s*(?:reais?|rs?|conto?)\b',
+
+            # Valores grandes isolados (4+ dígitos) — permite também decimais com , ou .
+            rf'(?<![\/\d])\b(\d{{4,}}(?:[.,]\d{{1,2}})?)\b(?![\d\/])',
+
+            # Valores com pontos como separador de milhar + vírgula decimal (ex: 3.500,00)
             r'\b(\d{1,3}(?:\.\d{3})*,\d{1,2})\b',
-            # Formato americano (1234.56)
-            r'\b(\d+\.\d{2})\b(?!\d)',
-            # Valores simples (até 3 dígitos)
-            r'\b(\d{1,3}(?:,\d{1,2})?)\b(?=\s*(?:reais?|rs?|no|na|em|para|pro|$))'
+
+            # Formato americano (1234.56) — bloqueia ser parte de outro número
+            rf'(?<![\d\.,])\b({number})\b(?!\d)',
+
+            # Valores simples (até 3 dígitos) — com negative lookbehind para não pegar "92" de "45.92"
+            rf'(?<![\d\.,])\b(\d{{1,3}}(?:,\d{{1,2}})?)\b(?=\s*(?:reais?|rs?|no|na|em|para|pro|$))'
         ]
         
-        # Regex para datas
-        self.PADRAO_DATA = [
-            r'(\d{1,2})/(\d{1,2})/(\d{4})',  # dd/mm/yyyy
-            r'(\d{1,2})/(\d{1,2})',  # dd/mm
-        ]
         
         # Palavras que indicam tipos de transação
         self.TIPO_TRANSACAO = {

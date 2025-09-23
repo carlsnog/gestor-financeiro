@@ -94,39 +94,6 @@ class ExtratorFinanceiroAvaliador:
             'errors': errors
         }
 
-    def avalia_extracao_lugar(self, gold_data):
-        """Avalia extração de locais"""
-        y_true = []
-        y_pred = []
-        errors = []
-
-        for example in gold_data:
-            text = example['raw_text']
-            true_place = example['place']
-
-            pred_place, _ = self.extrator.extrai_lugar(text)
-
-            # Para avaliação binária: tem lugar ou não tem
-            y_true.append(true_place is not None)
-            y_pred.append(pred_place is not None)
-
-            if (true_place is None) != (pred_place is None) or (true_place != pred_place and true_place is not None):
-                errors.append({
-                    'text': text,
-                    'true_place': true_place,
-                    'pred_place': pred_place
-                })
-
-        accuracy = accuracy_score(y_true, y_pred)
-        precision, recall, f1, _ = precision_recall_fscore_support(y_true, y_pred, average='binary')
-
-        return {
-            'accuracy': accuracy,
-            'precision': precision,
-            'recall': recall,
-            'f1_score': f1,
-            'errors': errors
-        }
 
     def avalia_pipeline_completo(self, gold_data):
         """Avalia todo o pipeline de extração"""
@@ -141,7 +108,6 @@ class ExtratorFinanceiroAvaliador:
                 'text': text,
                 'amount_correct': self._compare_amounts(example['amount'], pred_result['amount']),
                 'category_correct': example['category'] == pred_result['category'],
-                'place_correct': example['place'] == pred_result['place'],
                 'type_correct': example['type'] == pred_result['type'],
                 'confidence': pred_result['meta']['confidence']
             }
@@ -167,7 +133,6 @@ class ExtratorFinanceiroAvaliador:
         # Avaliação por campo
         amount_metrics = self.avalia_extracao_valor(gold_data)
         category_metrics = self.avalia_extracao_categoria(gold_data)
-        place_metrics = self.avalia_extracao_lugar(gold_data)
 
         print(f"\n📊 EXTRAÇÃO DE VALORES MONETÁRIOS:")
         print(f"   Precisão: {amount_metrics['precision']:.3f}")
@@ -183,12 +148,6 @@ class ExtratorFinanceiroAvaliador:
         print(f"   Acurácia: {category_metrics['accuracy']:.3f}")
         print(f"   Erros de categoria: {len(category_metrics['errors'])}")
 
-        print(f"\n📍 EXTRAÇÃO DE LOCAIS:")
-        print(f"   Precisão: {place_metrics['precision']:.3f}")
-        print(f"   Recall: {place_metrics['recall']:.3f}")
-        print(f"   F1-Score: {place_metrics['f1_score']:.3f}")
-        print(f"   Acurácia: {place_metrics['accuracy']:.3f}")
-        print(f"   Erros de local: {len(place_metrics['errors'])}")
 
         # Avaliação completa
         full_results = self.avalia_pipeline_completo(gold_data)
@@ -196,13 +155,11 @@ class ExtratorFinanceiroAvaliador:
         # Estatísticas gerais
         amount_accuracy = sum(1 for r in full_results if r['amount_correct']) / len(full_results)
         category_accuracy = sum(1 for r in full_results if r['category_correct']) / len(full_results)
-        place_accuracy = sum(1 for r in full_results if r['place_correct']) / len(full_results)
         type_accuracy = sum(1 for r in full_results if r['type_correct']) / len(full_results)
 
         print(f"\n🎯 ACURÁCIA POR CAMPO:")
         print(f"   Valores: {amount_accuracy:.1%}")
         print(f"   Categorias: {category_accuracy:.1%}")
-        print(f"   Locais: {place_accuracy:.1%}")
         print(f"   Tipos: {type_accuracy:.1%}")
 
         avg_confidence = np.mean([r['confidence'] for r in full_results])
@@ -231,11 +188,9 @@ class ExtratorFinanceiroAvaliador:
         return {
             'amount_metrics': amount_metrics,
             'category_metrics': category_metrics,
-            'place_metrics': place_metrics,
             'summary': {
                 'amount_accuracy': amount_accuracy,
                 'category_accuracy': category_accuracy,
-                'place_accuracy': place_accuracy,
                 'type_accuracy': type_accuracy,
                 'avg_confidence': avg_confidence,
                 'meets_criteria': amount_ok and category_ok

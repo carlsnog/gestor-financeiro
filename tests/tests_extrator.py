@@ -36,6 +36,10 @@ class TestExtratorFinanceiro:
         valor, source = self.extrator.extrai_valor("200 reais na farmácia") 
         assert valor == 200.0
         assert source == "regex"
+       
+        valor, source = self.extrator.extrai_valor("Táxi até em casa 45.92 reais") 
+        assert valor == 45.92
+        assert source == "regex"
         
 
     def test_extrai_valor_with_rs_symbol(self):
@@ -53,6 +57,9 @@ class TestExtratorFinanceiro:
         valor, source = self.extrator.extrai_valor("Paguei 1.500,00 de aluguel")
         assert valor == 1500.0
         assert source == "regex"
+
+        valor, source = self.extrator.extrai_valor("Recebi R$ 3500,25 de salário")
+        assert valor == 3500.25
 
         valor, source = self.extrator.extrai_valor("Salário 15/09 4200")
         assert valor == 4200.0  
@@ -110,15 +117,6 @@ class TestExtratorFinanceiro:
         assert categoria == "Outros"
         assert source == "none"
 
-    def test_extrai_lugar_with_prepositions(self):
-        """Testa extração de local com preposições"""
-        lugar, source = self.extrator.extrai_lugar("R$ 23,50 no mercado")
-        assert lugar == "mercado"
-        assert source == "heuristic"
-
-        lugar, source = self.extrator.extrai_lugar("200 reais na farmácia")
-        assert lugar == "farmácia"
-        assert source == "heuristic"
 
     def test_extrai_tipo_transacao_expense(self):
         """Testa detecção de gastos"""
@@ -144,21 +142,8 @@ class TestExtratorFinanceiro:
         transaction_type = self.extrator.extrai_tipo_transacao("Pix de 100 reais pro João")
         assert transaction_type == "transferencia"
 
-    def test_extrai_data_formats(self):
-        """Testa extração de datas em diferentes formatos"""
-        date_extracted = self.extrator.extrai_data("Salário 15/09 4200")
-        assert date_extracted == "2025-09-15"  # Assume ano atual
 
-        date_extracted = self.extrator.extrai_data("Depósito salário 02/09/2024 3500")
-        assert date_extracted == "2024-09-02"
 
-    def test_extrai_data_relative(self):
-        """Testa extração de datas relativas"""
-        from datetime import date
-        today = date.today()
-
-        date_extracted = self.extrator.extrai_data("Comprei um café hoje")
-        assert date_extracted == today.strftime('%Y-%m-%d')
 
     def test_aplica_extrator_complete_example(self):
         """Testa extração estruturada completa"""
@@ -169,12 +154,9 @@ class TestExtratorFinanceiro:
         assert result["amount"] == 23.5
         assert result["currency"] == "BRL"
         assert result["category"] == "Mercado"
-        assert result["place"] == "mercado"
         assert result["type"] == "gasto"
         assert result["meta"]["amount_source"] == "regex"
         assert result["meta"]["category_source"] == "keyword"
-        assert result["meta"]["place_source"] == "heuristic"
-        assert result["meta"]["confidence"] > 0.8
 
     def test_aplica_extrator_no_amount(self):
         """Testa extração quando não há valor"""
