@@ -4,10 +4,13 @@ from datetime import datetime, date
 from typing import Tuple, Optional, Dict, Any
 import json
 
+from registrador.gerenciador_modelo import CategoryModel
+
 class ExtratorFinanceiro:
     """Extrator rule-based para transações financeiras em português"""
     
     def __init__(self):
+        self.category_model = CategoryModel()
         # Mapa de keywords para categorias
         self.CATEGORIAS_MAP = {
             'comida': ['pastel', 'pizza', 'hamburguer', 'lanche', 'jantar', 'almoço', 'café', 'restaurante', 'lanchonete', 'padaria', 'delivery', 'ifood'],
@@ -102,7 +105,7 @@ class ExtratorFinanceiro:
                     
         return None, "none"
     
-    def extrai_categoria(self, text: str) -> Tuple[str, str]:
+    def extrai_categoria_keyword(self, text: str) -> Tuple[str, str]:
         """Extrai categoria baseada em keywords"""
         text_lower = text.lower()
         
@@ -139,12 +142,12 @@ class ExtratorFinanceiro:
             for padrao in self.PADRAO_MONETARIO:
                 texto_limpo = re.sub(padrao, '', texto_limpo, flags=re.IGNORECASE)
                 
-            
         # Remove preposições e artigos comuns
-        texto_limpo = re.sub(r'\\b(no|na|em|do|da|o|a|os|as|para|pro|de|com)\\b', '', texto_limpo, flags=re.IGNORECASE)
+        texto_limpo = re.sub(r'\b(no|na|em|do|da|o|a|os|as|para|pro|de|com)\b', '', texto_limpo, flags=re.IGNORECASE)
         
-        # Remove palavras de ação comuns
-        texto_limpo = re.sub(r'\\b(gastei|paguei|comprei|recebi|transferi)\\b', '', texto_limpo, flags=re.IGNORECASE)
+        # Remove palavras de ação comuns 
+        texto_limpo = re.sub(r'\b(gastei|paguei|comprei|recebi|transferi)\b', '', texto_limpo, flags=re.IGNORECASE)
+        
         
         # Limpa espaços extras
         texto_limpo = ' '.join(texto_limpo.split()).strip()
@@ -156,37 +159,56 @@ class ExtratorFinanceiro:
         return None
     
     def aplica_extrator(self, text: str) -> Dict[str, Any]:
-        """Função unificada que extrai todos os campos estruturados"""
-        
-        # Extrações principais
         amount, amount_source = self.extrai_valor(text)
-        category, category_source = self.extrai_categoria(text)
-        transaction_type = self.extrai_tipo_transacao(text)
+        category_kw, category_source = self.extrai_categoria_keyword(text)
+        tx_type = self.extrai_tipo_transacao(text)
         details = self.extrai_detalhes(text, amount)
-        
-        # Se não tem valor, marca como desconhecido
+
         if amount is None:
-            transaction_type = "desconhecido"
-        
-        # Calcula confiança baseada nas extrações bem-sucedidas
-        confidence_factors = []
-        if amount_source != "none": confidence_factors.append(0.4)
-        if category_source != "none": confidence_factors.append(0.3)
-        
-        confidence = sum(confidence_factors) if confidence_factors else 0.3
-        confidence = min(confidence, 1.0)  # Cap at 1.0
-        
+            tx_type = "desconhecido"
+
+        # previsão do modelo, se injetado
+        category_model = None
+        model_prob = None
+        if self.category_model is not None:
+            try:
+                category_model, model_prob = self.category_model.predict(text)
+            except Exception as e:
+                print(f"[ExtratorFinanceiro] Erro ao usar CategoryModel: {e}")
+                category_model, model_prob = None, None
+
+        # decisão final de categoria
+        final_category = category_model
+
+        # confiança: fatores simples (valor + keyword + modelo + acordo)
+        confidence = 0.0
+        if amount_source != "none":
+            confidence += 0.4
+        if category_source != "none":
+            confidence += 0.3
+        if model_prob is not None:
+            confidence += 0.4 * float(model_prob)
+        # bônus se concordam
+        cat_agreement = False
+        if category_model and category_kw and (category_model.strip().lower() == category_kw.strip().lower()):
+            cat_agreement = True
+            confidence += 0.2
+
+        confidence = min(confidence, 1.0)
         return {
             "raw_text": text,
-            "type": transaction_type,
+            "type": tx_type,
             "amount": amount,
             "currency": "BRL" if amount is not None else None,
-            "category": category,
+            "category": final_category,
+            "model_confidence": round(model_prob, 3) if model_prob is not None else None,
             "details": details,
             "meta": {
                 "amount_source": amount_source,
                 "category_source": category_source,
-                "confidence": round(confidence, 2)
+                "confidence": round(confidence, 2),
+                "category_agreement": cat_agreement
             }
         }
+
 

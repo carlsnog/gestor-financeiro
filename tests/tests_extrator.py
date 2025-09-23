@@ -71,49 +71,49 @@ class TestExtratorFinanceiro:
         assert valor is None
         assert source == "none"
 
-    def test_extrai_categoria_food(self):
+    def test_extrai_categoria_keyword_food(self):
         """Testa extração de categoria Comida"""
-        categoria, source = self.extrator.extrai_categoria("5 reais num pastel")
+        categoria, source = self.extrator.extrai_categoria_keyword("5 reais num pastel")
         assert categoria == "Comida"
         assert source == "keyword"
 
-        categoria, source = self.extrator.extrai_categoria("Pizza delivery 42,90")
+        categoria, source = self.extrator.extrai_categoria_keyword("Pizza delivery 42,90")
         assert categoria == "Comida"
         assert source == "keyword"
 
-    def test_extrai_categoria_transport(self):
+    def test_extrai_categoria_keyword_transport(self):
         """Testa extração de categoria Transporte"""
-        categoria, source = self.extrator.extrai_categoria("13 reais em uber")
+        categoria, source = self.extrator.extrai_categoria_keyword("13 reais em uber")
         assert categoria == "Transporte"
         assert source == "keyword"
 
-        categoria, source = self.extrator.extrai_categoria("Gasolina posto Shell 120")
+        categoria, source = self.extrator.extrai_categoria_keyword("Gasolina posto Shell 120")
         assert categoria == "Transporte"
         assert source == "keyword"
 
-    def test_extrai_categoria_health(self):
+    def test_extrai_categoria_keyword_health(self):
         """Testa extração de categoria Saúde"""
-        categoria, source = self.extrator.extrai_categoria("R$150 consulta médica")
+        categoria, source = self.extrator.extrai_categoria_keyword("R$150 consulta médica")
         assert categoria == "Saúde"
         assert source == "keyword"
 
-        categoria, source = self.extrator.extrai_categoria("200 reais na farmácia")
+        categoria, source = self.extrator.extrai_categoria_keyword("200 reais na farmácia")
         assert categoria == "Saúde"
         assert source == "keyword"
 
-    def test_extrai_categoria_salary(self):
+    def test_extrai_categoria_keyword_salary(self):
         """Testa extração de categoria Salário"""
-        categoria, source = self.extrator.extrai_categoria("Salário 15/09 4200")
+        categoria, source = self.extrator.extrai_categoria_keyword("Salário 15/09 4200")
         assert categoria == "Salário"
         assert source == "keyword"
 
-        categoria, source = self.extrator.extrai_categoria("Depósito salário 02/09 3500")
+        categoria, source = self.extrator.extrai_categoria_keyword("Depósito salário 02/09 3500")
         assert categoria == "Salário"
         assert source == "keyword"
 
-    def test_extrai_categoria_default(self):
+    def test_extrai_categoria_keyword_default(self):
         """Testa categoria padrão quando não encontra keywords"""
-        categoria, source = self.extrator.extrai_categoria("Cortei o cabelo 35 reais")
+        categoria, source = self.extrator.extrai_categoria_keyword("Cortei o cabelo 35 reais")
         assert categoria == "Outros"
         assert source == "none"
 
