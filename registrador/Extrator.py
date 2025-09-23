@@ -25,9 +25,7 @@ class ExtratorFinanceiro:
         for category, keywords in self.CATEGORIAS_MAP.items():
             for keyword in keywords:
                 self.keyword_to_category[keyword.lower()] = category.capitalize()
-        
-        self.PREPOSICOES_LUGARES = ['no', 'na', 'em', 'do', 'da', 'pelo', 'pela']
-        
+                
         # Regex para valores monetários
         self.PADRAO_MONETARIO = [
             # R$ 1.234,56 ou R$1.234,56 ou R$ 3500
@@ -114,56 +112,7 @@ class ExtratorFinanceiro:
                 
         return "Outros", "none"
     
-    def extrai_lugar(self, text: str) -> Tuple[Optional[str], str]:
-        """Extrai local baseado em heurísticas"""
-        text_lower = text.lower()
-        
-        # Busca por padrões "no/na/em + lugar"
-        for prep in self.PREPOSICOES_LUGARES:
-            padrao = f'{prep}\\s+(\\w+(?:\\s+\\w+)*?)(?:\\s|$)'
-            matches = re.findall(padrao, text_lower)
-            if matches:
-                lugar = matches[0].strip()
-                # Remove artigos comuns
-                lugar = re.sub(r'^(o|a|os|as)\\s+', '', lugar)
-                if len(lugar) > 2:  # Evita lugares muito pequenos
-                    return lugar, "heuristic"
-        
-        # Busca por nomes próprios 
-        texto_original = text
-        pronomes_proprios = re.findall(r'\\b[A-Z][a-z]+(?:\\s+[A-Z][a-z]+)*', texto_original)
-        if pronomes_proprios:
-            # Pega o maior nome próprio
-            longest = max(pronomes_proprios, key=len)
-            if len(longest) > 3:
-                return longest, "heuristic"
-                
-        return None, "none"
     
-    def extrai_data(self, text: str) -> Optional[str]:
-        """Extrai data do texto"""
-        hoje = date.today()
-        
-        # Palavras especiais
-        if 'hoje' in text.lower():
-            return hoje.strftime('%Y-%m-%d')
-        elif 'ontem' in text.lower():
-            ontem = date(hoje.year, hoje.month, hoje.day - 1)
-            return ontem.strftime('%Y-%m-%d')
-        
-        # Padrões de data
-        for padrao in self.PADRAO_DATA:
-            matches = re.findall(padrao, text)
-            if matches:
-                match = matches[0]
-                if len(match) == 3:  # dd/mm/yyyy
-                    day, month, year = match
-                    return f"{year}-{month.zfill(2)}-{day.zfill(2)}"
-                elif len(match) == 2:  # dd/mm (assume ano atual)
-                    day, month = match
-                    return f"{hoje.year}-{month.zfill(2)}-{day.zfill(2)}"
-                    
-        return None
     
     def extrai_tipo_transacao(self, text: str) -> str:
         """Determina o tipo da transação"""
@@ -178,9 +127,9 @@ class ExtratorFinanceiro:
         # Default para gastos se tem valor
         return "gasto"
     
-    def extrai_detalhes(self, text: str, amount: Optional[float], place: Optional[str]) -> Optional[str]:
+    def extrai_detalhes(self, text: str, amount: Optional[float]) -> Optional[str]:
         """Extrai detalhes adicionais"""
-        # Remove valor monetário e lugar do texto
+        # Remove valor monetário
 
         texto_limpo = text
         
@@ -189,8 +138,6 @@ class ExtratorFinanceiro:
             for padrao in self.PADRAO_MONETARIO:
                 texto_limpo = re.sub(padrao, '', texto_limpo, flags=re.IGNORECASE)
                 
-        if place:
-            texto_limpo = texto_limpo.replace(place, '')
             
         # Remove preposições e artigos comuns
         texto_limpo = re.sub(r'\\b(no|na|em|do|da|o|a|os|as|para|pro|de|com)\\b', '', texto_limpo, flags=re.IGNORECASE)
@@ -213,10 +160,8 @@ class ExtratorFinanceiro:
         # Extrações principais
         amount, amount_source = self.extrai_valor(text)
         category, category_source = self.extrai_categoria(text)
-        place, place_source = self.extrai_lugar(text)
-        date_extracted = self.extrai_data(text)
         transaction_type = self.extrai_tipo_transacao(text)
-        details = self.extrai_detalhes(text, amount, place)
+        details = self.extrai_detalhes(text, amount)
         
         # Se não tem valor, marca como desconhecido
         if amount is None:
@@ -226,8 +171,6 @@ class ExtratorFinanceiro:
         confidence_factors = []
         if amount_source != "none": confidence_factors.append(0.4)
         if category_source != "none": confidence_factors.append(0.3)
-        if place_source != "none": confidence_factors.append(0.2)
-        if date_extracted: confidence_factors.append(0.1)
         
         confidence = sum(confidence_factors) if confidence_factors else 0.3
         confidence = min(confidence, 1.0)  # Cap at 1.0
@@ -238,13 +181,10 @@ class ExtratorFinanceiro:
             "amount": amount,
             "currency": "BRL" if amount is not None else None,
             "category": category,
-            "place": place,
             "details": details,
-            "date": date_extracted,
             "meta": {
                 "amount_source": amount_source,
                 "category_source": category_source,
-                "place_source": place_source,
                 "confidence": round(confidence, 2)
             }
         }
