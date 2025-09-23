@@ -147,8 +147,6 @@ class ExtratorFinanceiroAvaliador:
                 'type_correct': example.get('type', None) == pred_result.get('type', None),
                 'confidence': pred_result.get('meta', {}).get('confidence', None),
                 # infos extras para análise
-                'category_keyword': pred_result.get('meta', {}).get('category_source', None),
-                'category_model': pred_result.get('category_model', None),
                 'model_confidence': pred_result.get('model_confidence', None),
                 'final_category': pred_result.get('category', None),
                 'gold_category': example.get('category', None)
@@ -343,7 +341,7 @@ def main():
     """Executa avaliação completa"""
 
     # Inicializa extrator (seu extrator pode ser construído com CategoryModel injetado se desejar)
-    extrator = ExtratorFinanceiro()  # ou: ExtratorFinanceiro(category_model=...)
+    extrator = ExtratorFinanceiro()  
     avaliador = ExtratorFinanceiroAvaliador(extrator)
 
     # Carrega dados de teste
