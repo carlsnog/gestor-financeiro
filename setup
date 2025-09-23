@@ -23,7 +23,7 @@ pip install -r config/requirements.txt
 if [ ! -f ".env" ]; then
     echo "⚙️ Criando arquivo .env..."
     cp config/.env.example .env
-    echo "✏️ Configure suas credenciais Twilio no arquivo .env"
+    echo "✏️ Configure suas credenciais no arquivo .env"
 fi
 
 # Inicializar banco de dados
@@ -34,6 +34,6 @@ cd src/core/models && python -c "from database import init_db; init_db()" && cd 
 echo ""
 echo "✅ Setup concluído!"
 echo "💡 Próximos passos:"
-echo "   1. Configure o .env com suas credenciais Twilio"
+echo "   1. Configure o .env com suas credenciais"
 echo "   2. Execute: ./start-api"
 echo "   3. Execute: ./start-dashboard (opcional)"

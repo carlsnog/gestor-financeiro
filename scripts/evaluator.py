@@ -234,7 +234,11 @@ class FinancialExtractorEvaluator:
             api_status = "offline"
         
         if api_status != "online":
-            return {"status": api_status, "message": "API não está acessível"}
+            return {
+                "status": api_status, 
+                "processing_status": "offline",
+                "message": "API não está acessível"
+            }
         
         # Testar processamento de mensagem
         test_message = "Gastei R$ 50 no almoço hoje"
@@ -284,32 +288,6 @@ class FinancialExtractorEvaluator:
   • Processamento:        {api_test['processing_status'].upper()}
   • Resultado:            {api_test['message']}
 
-{'=' * 60}
-
-🎯 INTERPRETAÇÃO:
-"""
-        
-        if metrics.accuracy >= 0.9:
-            report += "  ✅ EXCELENTE: Sistema muito preciso (≥90%)\n"
-        elif metrics.accuracy >= 0.8:
-            report += "  ✅ BOM: Sistema preciso o suficiente (≥80%)\n" 
-        elif metrics.accuracy >= 0.7:
-            report += "  ⚠️  REGULAR: Sistema precisa melhorar (≥70%)\n"
-        else:
-            report += "  ❌ RUIM: Sistema precisa revisão urgente (<70%)\n"
-        
-        if api_test['processing_status'] == 'success':
-            report += "  ✅ INTEGRAÇÃO: API funcionando corretamente\n"
-        else:
-            report += "  ❌ INTEGRAÇÃO: Problemas na API detectados\n"
-        
-        report += """
-📋 PRÓXIMOS PASSOS:
-  1. Revisar casos de erro para melhorar extração
-  2. Adicionar mais dados de treinamento se necessário  
-  3. Implementar validação adicional na API
-  4. Testar com dados reais de usuários
-
 """
         return report
 
@@ -334,7 +312,6 @@ def main():
     with open("evaluation_report.txt", "w", encoding="utf-8") as f:
         f.write(report)
     
-    print("📄 Relatório salvo em: evaluation_report.txt")
 
 if __name__ == "__main__":
     main()

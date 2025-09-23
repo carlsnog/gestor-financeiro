@@ -276,7 +276,7 @@ class TransactionService:
     
     def _transaction_to_dict(self, transaction: Transaction) -> Dict[str, Any]:
         """Converte Transaction para dicionário"""
-        return {
+        result = {
             'id': transaction.id,
             'raw_message': transaction.raw_message,
             'type': transaction.transaction_type,
@@ -290,3 +290,13 @@ class TransactionService:
             'created_at': transaction.created_at.isoformat(),
             'is_verified': transaction.is_verified
         }
+        
+        # Adicionar metadados de extração se disponíveis
+        if transaction.extraction_metadata:
+            metadata = transaction.extraction_metadata
+            result['amount_source'] = metadata.get('amount_source')
+            result['category_source'] = metadata.get('category_source')
+            result['category_agreement'] = metadata.get('category_agreement')
+            result['extraction_metadata'] = metadata
+        
+        return result

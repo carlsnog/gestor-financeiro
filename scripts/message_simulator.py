@@ -1,5 +1,5 @@
 """
-Simulador de mensagens para testar a API sem integração real com WhatsApp
+Simulador de mensagens para testar a API
 """
 
 import requests

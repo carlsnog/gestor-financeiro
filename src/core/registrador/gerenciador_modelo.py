@@ -122,15 +122,21 @@ class CategoryModel:
     - abstrair diferenças de artefato (se salvaram dict com key 'model' ou só o estimator)
     """
     def __init__(self):
-        # caminho para o artefato salvo
-        MODEL_PATH = Path("modelos/category_model_tfidf_lr.joblib")
+        # caminho para o artefato salvo - usar caminho absoluto baseado no diretório do projeto
+        import os
+        project_root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
+        MODEL_PATH = Path(project_root) / "modelos" / "category_model_tfidf_lr.joblib"
 
         # 1) criar ModelManager e tentar carregar
         mm = ModelManager(model_path=MODEL_PATH)
         artifact = mm.load()
-        # espera artefato com chave "model" (conforme seu script), mas tolera estimator diretamente
+        
+        # Se não conseguir carregar o modelo, usar None e funcionar sem ML
         if artifact is None:
-            raise ValueError("artifact não pode ser None")
+            print(f"[CategoryModel] AVISO: Não foi possível carregar modelo de {MODEL_PATH}. Funcionando apenas com regras.")
+            self.estimator = None
+            return
+            
         if isinstance(artifact, dict) and "model" in artifact:
             self.estimator = artifact["model"]
         else:
@@ -143,6 +149,10 @@ class CategoryModel:
 
     def predict(self, text: str) -> Tuple[Optional[str], Optional[float]]:
         """Retorna (categoria, prob) ou (None, None) em caso de erro / modelo ausente."""
+        # Se não há modelo carregado, retornar None
+        if self.estimator is None:
+            return None, None
+            
         try:
             pred = self.estimator.predict([text])[0]
             prob = None

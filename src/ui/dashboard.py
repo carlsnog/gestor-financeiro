@@ -204,6 +204,7 @@ def main():
             balance = stats['total_revenue'] - stats['total_expenses']
             st.metric("Saldo do Período", f"R$ {balance:.2f}")
     
+    
     # Tabela de transações recentes
     st.markdown("### 📋 Transações Recentes")
     transactions = get_transactions(user_id)
@@ -215,8 +216,31 @@ def main():
         df['date'] = pd.to_datetime(df['date']).dt.strftime('%d/%m/%Y') if 'date' in df.columns else "N/A"
         
         # Mostrar colunas relevantes
-        display_df = df[['raw_message', 'type', 'amount', 'category', 'place', 'date']].copy()
-        display_df.columns = ['Mensagem', 'Tipo', 'Valor', 'Categoria', 'Local', 'Data']
+        columns_to_show = ['raw_message', 'type', 'amount', 'category', 'date']
+        
+        # Adicionar coluna de confiança se disponível
+        if 'confidence' in df.columns:
+            columns_to_show.append('confidence')
+        
+        display_df = df[columns_to_show].copy()
+        
+        # Renomear colunas para exibição
+        column_mapping = {
+            'raw_message': 'Mensagem',
+            'type': 'Tipo',
+            'amount': 'Valor',
+            'category': 'Categoria',
+            'date': 'Data',
+            'confidence': 'Confiança'
+        }
+        
+        display_df.columns = [column_mapping.get(col, col) for col in display_df.columns]
+        
+        # Formatar valores de confiança como porcentagem
+        if 'Confiança' in display_df.columns:
+            display_df['Confiança'] = display_df['Confiança'].apply(
+                lambda x: f"{x:.1%}" if pd.notna(x) else "N/A"
+            )
         
         st.dataframe(display_df, use_container_width=True)
     else:

@@ -4,7 +4,7 @@ from datetime import datetime, date
 from typing import Tuple, Optional, Dict, Any
 import json
 
-from registrador.gerenciador_modelo import CategoryModel
+from .gerenciador_modelo import CategoryModel
 
 class ExtratorFinanceiro:
     """Extrator rule-based para transações financeiras em português"""
@@ -158,6 +158,7 @@ class ExtratorFinanceiro:
             
         return None
     
+    
     def aplica_extrator(self, text: str) -> Dict[str, Any]:
         amount, amount_source = self.extrai_valor(text)
         category_kw, category_source = self.extrai_categoria_keyword(text)
@@ -177,8 +178,8 @@ class ExtratorFinanceiro:
                 print(f"[ExtratorFinanceiro] Erro ao usar CategoryModel: {e}")
                 category_model, model_prob = None, None
 
-        # decisão final de categoria
-        final_category = category_model
+        # decisão final de categoria - usar modelo se disponível, senão usar keywords
+        final_category = category_model if category_model is not None else category_kw
 
         # confiança: fatores simples (valor + keyword + modelo + acordo)
         confidence = 0.0
