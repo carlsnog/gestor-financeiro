@@ -1,0 +1,969 @@
+text,amount_correct,category_correct,type_correct,confidence,model_confidence,final_category,gold_category
+5 reais num pastel,True,True,True,1.0,0.782,Comida,Comida
+13 reais em uber de casa para shopping,True,True,True,1.0,0.871,Transporte,Transporte
+50 reais no jantar bodega rainha,True,True,True,1.0,0.759,Comida,Comida
+Depósito salário 3500,True,True,True,1.0,0.921,Salário,Salário
+Paguei R$ 40 no posto de gasolina,True,True,True,1.0,0.912,Transporte,Transporte
+"Gastei R$ 23,50 no mercado",True,False,True,0.99,0.722,Comida,Mercado
+200 reais na farmácia,True,True,True,1.0,0.748,Saúde,Saúde
+R$150 consulta médica,True,True,True,1.0,0.955,Saúde,Saúde
+"Paguei 1.500,00 de aluguel",True,True,True,1.0,0.691,Moradia,Moradia
+85 rs no cinema ontem,True,True,True,1.0,0.93,Lazer,Lazer
+Transferi R$ 500 para minha mãe,True,True,True,0.97,0.933,Outros,Outros
+Pix de 100 reais pro João,True,True,True,0.95,0.882,Outros,Outros
+Recebi R$ 2500 freelance,True,True,True,1.0,0.909,Salário,Salário
+Salário 4200,True,True,True,1.0,0.954,Salário,Salário
+30 reais na padaria,True,True,True,1.0,0.701,Comida,Comida
+Gastei 45 reais em livros,True,True,True,1.0,0.808,Educação,Educação
+20 reais para o ônibus,True,True,True,1.0,0.676,Transporte,Transporte
+Comi um hamburguer por 25 reais,True,True,True,1.0,0.619,Comida,Comida
+Gastei R$ 80 na fhamacia,True,True,True,0.92,0.557,Saúde,Saúde
+Compras do mês R$ 680 no Extra,True,True,True,1.0,0.88,Mercado,Mercado
+120 reais supermercado Pão de Açúcar,True,True,True,1.0,0.953,Mercado,Mercado
+"Netflix R$ 29,90 mensal",True,True,True,1.0,0.896,Lazer,Lazer
+"Spotify premium 16,90",True,True,True,1.0,0.904,Lazer,Lazer
+"Cerveja 12,50 no bar",True,True,True,1.0,0.833,Lazer,Lazer
+Doação de 50 reais,True,True,True,0.87,0.676,Outros,Outros
+Cortei o cabelo 35 reais,True,True,True,0.83,0.576,Outros,Outros
+Curso online R$199,True,True,True,1.0,0.936,Educação,Educação
+Remédio na drogaria 89 reais,True,True,True,1.0,0.818,Saúde,Saúde
+"Pizza delivery 42,90",True,True,True,1.0,0.936,Comida,Comida
+Táxi pro aeroporto R$ 65,True,True,True,0.67,0.678,Transporte,Transporte
+"Exame laboratorial 180,00",True,True,True,1.0,0.643,Saúde,Saúde
+Gasolina posto Shell 120,True,True,True,1.0,0.897,Transporte,Transporte
+"Jantar romântico R$ 95,50",True,True,True,1.0,0.912,Comida,Comida
+Paguei a conta de luz 230 reais,True,True,True,1.0,0.93,Moradia,Moradia
+"Internet 89,90 por mês",True,True,True,1.0,0.658,Moradia,Moradia
+Comprei tênis R$ 180 na loja,True,True,True,0.85,0.628,Outros,Outros
+Vendeu bicicleta por 450,True,True,True,0.94,0.846,Outros,Outros
+"Academia mensal 79,90",True,True,True,1.0,0.617,Saúde,Saúde
+Manutenção do carro R$ 350,True,True,True,1.0,0.526,Transporte,Transporte
+"Lanche na cantina 15,50",True,True,True,1.0,0.858,Comida,Comida
+Ingresso teatro 60 reais,True,True,True,1.0,0.922,Lazer,Lazer
+Empréstimo recebido 800 reais,True,True,True,0.96,0.898,Outros,Outros
+Material escolar R$ 120,True,True,True,1.0,0.937,Educação,Educação
+Bonificação 13/10 1200,True,True,True,1.0,0.445,Salário,Salário
+Serviço de limpeza 100 reais,True,True,True,1.0,0.924,Moradia,Moradia
+Dentista particular R$ 280,True,True,True,1.0,0.792,Saúde,Saúde
+"Convênio médico 450,90",True,False,True,0.85,0.373,Outros,Saúde
+Estacionamento shopping 8 reais,True,True,True,1.0,0.856,Transporte,Transporte
+"Cashback R$ 25,80",True,True,True,0.94,0.852,Outros,Outros
+Comprei um café hoje,True,True,True,0.78,0.707,Comida,Comida
+Pagamento pendente,True,True,True,0.42,0.543,Outros,Outros
+"6,5 num misto quente em Helio",True,True,True,0.65,0.626,Comida,Comida
+15 reais em uma caipirinha na praia,True,True,True,0.66,0.656,Lazer,Lazer
+10 reais no paceio de barco,True,True,True,1.0,0.852,Lazer,Lazer
+30 reais paceio de caiaque,True,True,True,0.68,0.69,Lazer,Lazer
+80 reais num protetor solar,True,True,True,0.68,0.688,Saúde,Saúde
+66 reais da internet,True,True,True,1.0,0.729,Moradia,Moradia
+2 reais numa bolacha,True,True,True,0.65,0.627,Comida,Comida
+10 reais no pix pra mãe,True,True,True,0.86,0.659,Outros,Outros
+700 reais na viagem fortaleza,True,True,True,0.7,0.749,Lazer,Lazer
+183 reais para o evento BRACIS,True,True,True,0.64,0.59,Lazer,Lazer
+"R$ 7,50 no pão francês",True,True,True,0.64,0.596,Comida,Comida
+Depósito 1200 para conta poupança,True,True,True,1.0,0.896,Outros,Outros
+Trabalhei e recebi 600 de freelancer,True,True,True,1.0,0.654,Salário,Salário
+"R$ 3.200,00 salário 01/07/2025",True,True,True,1.0,0.874,Salário,Salário
+"Comprei 3 latas de cerveja 27,30",True,True,True,1.0,0.741,Lazer,Lazer
+"Pedi delivery ifood 49,90",True,True,True,1.0,0.913,Comida,Comida
+R$ 45 em material de escritório,True,True,True,1.0,0.905,Educação,Educação
+Transferi 250 para João via pix,True,True,True,0.97,0.93,Outros,Outros
+"R$ 9,90 assinatura app",True,True,True,0.74,0.843,Lazer,Lazer
+400 reais em peças para o carro,True,True,True,1.0,0.603,Transporte,Transporte
+"Aluguel 01/08 R$ 1.800,00",True,True,True,1.0,0.839,Moradia,Moradia
+Doação 25 reais para instituição,True,True,True,0.97,0.919,Outros,Outros
+R$ 220 no supermercado Extra,True,True,True,1.0,0.721,Mercado,Mercado
+"Paguei a água 55,75",True,True,True,1.0,0.755,Moradia,Moradia
+Comprei passagem R$ 350 para Recife,True,True,True,0.63,0.576,Lazer,Lazer
+"R$ 14,20 no restaurante japonês",True,True,True,1.0,0.78,Comida,Comida
+Venda de livros 120 reais,True,False,False,0.92,0.547,Outros,Educação
+R$ 49 mensalidade curso online,True,True,True,1.0,0.947,Educação,Educação
+Paguei estacionamento 12 reais no centro,True,True,True,1.0,0.818,Transporte,Transporte
+R$ 15 no lanche da escola,True,True,True,1.0,0.856,Comida,Comida
+Recebi 200 de reembolso do plano,True,True,True,0.94,0.848,Outros,Outros
+Paguei R$ 55 no conserto do celular,True,True,True,0.94,0.84,Outros,Outros
+R$ 300 consulta psicólogo particular,True,True,True,1.0,0.813,Saúde,Saúde
+Gastei 22 reais em pastel e suco,True,True,True,1.0,0.838,Comida,Comida
+Pagamento MercadoPago R$ 60,True,True,True,1.0,0.591,Mercado,Mercado
+"R$ 18,50 na padaria São José",True,True,True,1.0,0.778,Comida,Comida
+"Compras farmacia 75,00",True,True,True,0.92,0.558,Saúde,Saúde
+R$ 250 de depósito salário extra,True,True,True,1.0,0.934,Salário,Salário
+"Pedi uber 28,00 pro trabalho",True,True,True,1.0,0.776,Transporte,Transporte
+"R$ 5,00 do cafezinho na esquina",True,True,True,0.73,0.819,Comida,Comida
+Venda de roupa 90 reais,True,True,False,0.83,0.57,Outros,Outros
+Paguei R$ 120 no curso de fotografia,True,True,True,1.0,0.651,Educação,Educação
+R$ 250 transferência para poupança,True,True,False,0.98,0.94,Outros,Outros
+"Paguei doc 15,00 pelo banco",True,True,True,0.96,0.896,Outros,Outros
+R$ 3.600 aluguel anual dividido,True,True,True,1.0,0.769,Moradia,Moradia
+"Compra mercado 320,50 Pão de Açúcar",True,True,True,1.0,0.917,Mercado,Mercado
+"Cinema com amigos 35,00",True,True,True,1.0,0.773,Lazer,Lazer
+"Pedi entrega de comida R$ 58,20",True,True,True,0.7,0.761,Comida,Comida
+R$ 95 restauração do carro,True,True,True,1.0,0.648,Transporte,Transporte
+Dois cafés grátis (cupom),True,True,True,0.76,0.647,Comida,Comida
+"R$ 18,50 táxi até a rodoviária",True,True,True,0.76,0.888,Transporte,Transporte
+Paguei R$ 14 na manicure,True,True,True,0.82,0.556,Outros,Outros
+Workshop R$ 210 12/11/2024,True,True,True,0.71,0.782,Educação,Educação
+"R$ 49,90 Spotify Premium",True,True,True,1.0,0.899,Lazer,Lazer
+Pagamento condomínio 420,True,True,True,1.0,0.829,Moradia,Moradia
+"R$ 33,20 compra na padaria do bairro",True,True,True,1.0,0.653,Comida,Comida
+Venda ingresso 120 para show,True,True,False,0.9,0.512,Outros,Outros
+"R$ 5,50 salgadinho no intervalo",True,True,True,0.64,0.602,Comida,Comida
+Transferência recebida 600 PIX,True,True,True,0.97,0.919,Outros,Outros
+R$ 1.250 conserto ar condicionado,True,True,True,0.64,0.601,Moradia,Moradia
+"Paguei 27,40 por livro usado",True,True,True,1.0,0.62,Educação,Educação
+"R$ 75,00 do conserto da bicicleta",True,False,True,0.89,0.724,Outros,Transporte
+Pix 40 pro André,True,True,True,0.97,0.921,Outros,Outros
+R$ 5.000 adiantamento salário,True,True,True,1.0,0.909,Salário,Salário
+"Compra no atacarejo 560,00",True,True,True,0.64,0.6,Mercado,Mercado
+"R$ 19,90 assinatura de notícias",True,True,True,0.74,0.841,Lazer,Lazer
+Gastei 12 reais no ponto de táxi,True,True,True,1.0,0.816,Transporte,Transporte
+R$ 250 compra de presente,True,True,True,0.93,0.814,Outros,Outros
+Recebi doação 1000,True,True,True,0.96,0.896,Outros,Outros
+R$ 6 no pão de queijo hoje,True,False,True,0.6,0.509,Mercado,Comida
+"Pagamento Uber 32,10",True,True,True,1.0,0.68,Transporte,Transporte
+"R$ 14,00 compra na banca de jornal",True,True,True,0.65,0.627,Lazer,Lazer
+"Comprei material de desenho 58,60",True,True,True,1.0,0.771,Educação,Educação
+R$ 5 pix devolução,True,True,False,0.98,0.96,Outros,Outros
+"Pagamento de luz 210,00",True,True,True,1.0,0.817,Moradia,Moradia
+"R$ 11,50 sorvete na praça",True,True,True,0.75,0.876,Comida,Comida
+Transferi 800 pro aluguel via TED,True,False,True,0.91,0.515,Outros,Moradia
+"R$ 29,99 compra app jogo",True,True,True,1.0,0.745,Lazer,Lazer
+Serviço doméstico 90 reais,True,True,True,0.67,0.674,Moradia,Moradia
+"R$ 42,40 lanche pós-treino",True,True,True,1.0,0.829,Comida,Comida
+"Venda equipamento 1.200,00",True,True,False,0.94,0.849,Outros,Outros
+Paguei ingresso cinema 50,True,True,True,1.0,0.917,Lazer,Lazer
+R$ 260 consulta veterinária,True,True,True,1.0,0.92,Saúde,Saúde
+"Assinatura revista 19,00 mensal",True,True,True,0.77,0.918,Lazer,Lazer
+Recebi 3.000 por venda do carro,True,True,True,1.0,0.848,Outros,Outros
+"R$ 7,00 água mineral na praia",True,True,True,0.94,0.588,Comida,Comida
+"Pagamento de bolsa 500,00",True,True,False,0.82,0.554,Outros,Outros
+R$ 120 compra de presente do aniversário,True,True,True,0.97,0.926,Outros,Outros
+Gastei 27 reais em sucos naturais,True,True,True,1.0,0.738,Comida,Comida
+"Paguei plano saúde 320,00 mensal",True,True,True,0.74,0.842,Saúde,Saúde
+R$ 18 almoço Executivo restaurante,True,True,True,1.0,0.767,Comida,Comida
+Transferi 60 para divisão de conta,True,True,True,0.94,0.857,Outros,Outros
+"R$ 45,00 lavagem de carro",True,True,True,1.0,0.889,Transporte,Transporte
+Venda ingressos feira 300,True,True,False,1.0,0.816,Outros,Outros
+Táxi até em casa 45.92 reais,True,True,True,0.76,0.906,Transporte,Transporte
+"Sapato novo R$136,17",True,True,True,0.97,0.924,Outros,Outros
+Workshop de marketing R$ 346.79,True,True,True,0.77,0.928,Educação,Educação
+"Pastel na feira 12,32 reais",True,True,True,1.0,0.93,Comida,Comida
+"Hambúrguer no food truck R$28,30",True,True,True,0.77,0.919,Comida,Comida
+Débito automático,True,True,True,0.51,0.764,Outros,Outros
+Pagamento consultoria 4293.71 rs,True,True,False,0.77,0.92,Salário,Salário
+"Água da SABESP R$1460,05",True,True,True,1.0,0.916,Moradia,Moradia
+Devolução da loja R$135.31,True,True,False,0.98,0.939,Outros,Outros
+Spotify premium R$63.14,True,True,True,1.0,0.887,Lazer,Lazer
+Estorno pendente,True,True,True,0.51,0.772,Outros,Outros
+Certificação online R$314.56,True,True,True,0.77,0.935,Educação,Educação
+"Hora extra 7449,81 rs",True,True,False,1.0,0.923,Salário,Salário
+"Reembolso do plano R$294,19",True,True,False,0.97,0.925,Outros,Outros
+"Transferi 89,37 reais para minha filho",True,True,True,0.98,0.942,Outros,Outros
+"Conserto do celular R$88,41",True,True,True,0.97,0.922,Outros,Outros
+PIX 252.81 reais divisão conta,True,True,True,0.96,0.896,Outros,Outros
+Transferi R$224.98 para minha irmã,True,True,True,0.97,0.928,Outros,Outros
+"Workshop de marketing R$ 102,74",True,True,True,0.76,0.911,Educação,Educação
+Show no Allianz 10.62 rs,True,True,True,0.77,0.918,Lazer,Lazer
+"Emprestei 351,80 rs para o Fernanda",True,True,False,0.96,0.898,Outros,Outros
+Hora extra 2494.25 rs,True,True,False,1.0,0.923,Salário,Salário
+R$30 no lanche da tarde,True,True,True,1.0,0.928,Comida,Comida
+"Sapato novo R$220,00",True,True,True,0.96,0.897,Outros,Outros
+99 pop 170.93 reais,True,True,True,1.0,0.932,Transporte,Transporte
+"Aula particular 223,18 reais",True,True,True,0.76,0.895,Educação,Educação
+"DOC R$249,69 para filho",True,True,False,0.97,0.925,Outros,Outros
+"Material escolar R$307,31",True,True,True,1.0,0.928,Educação,Educação
+"Caneta e caderno 282,04 rs",True,True,True,0.76,0.901,Educação,Educação
+"Pagamento da empresa 5961,13 rs",True,True,False,0.77,0.917,Salário,Salário
+Mercadinho da esquina 417.25 reais,True,True,True,0.76,0.903,Mercado,Mercado
+"Perfume importado 156,25 rs",True,True,True,0.97,0.923,Outros,Outros
+Prêmio da loteria R$ 208.04,True,True,False,0.97,0.921,Outros,Outros
+Viagem para a praia R$ 96.04,True,True,True,0.76,0.902,Lazer,Lazer
+"99 pop 64,64 rs",True,True,True,1.0,0.895,Transporte,Transporte
+"Sacolão 258,67 rs",True,True,True,0.74,0.846,Mercado,Mercado
+"Prêmio da loteria 85,46 rs",True,True,False,0.98,0.938,Outros,Outros
+Remédio da pressão 73.28 reais,True,True,True,1.0,0.885,Saúde,Saúde
+"Apostila do concurso R$ 299,89",True,True,True,1.0,0.919,Educação,Educação
+Maquiagem Natura 340.91 reais,True,True,True,0.88,0.71,Outros,Outros
+PIX agendado 384.05 rs,True,True,True,0.97,0.924,Outros,Outros
+Transação não identificada,True,True,True,0.51,0.764,Outros,Outros
+"Emprestei 315,76 reais para o Paulo",True,True,False,0.97,0.932,Outros,Outros
+"Pedágio da rodovia R$ 165,19",True,True,True,0.75,0.885,Transporte,Transporte
+"Ajuda familiar R$383,85",True,True,False,0.98,0.943,Outros,Outros
+Material de limpeza 1093.21 reais,True,True,True,1.0,0.825,Moradia,Moradia
+"Freelance programação R$2633,22",True,True,False,1.0,0.944,Salário,Salário
+"Mandei R$15,49 pro José",True,True,True,0.96,0.896,Outros,Outros
+"Teatro municipal R$7,03",True,True,True,1.0,0.898,Lazer,Lazer
+Compra cancelada,True,True,True,0.48,0.701,Outros,Outros
+Reembolso processando,True,True,True,0.57,0.937,Outros,Outros
+Taxa do banco R$145.50,True,True,True,0.97,0.92,Outros,Outros
+"Hora extra R$4461,55",True,True,False,1.0,0.918,Salário,Salário
+"Plano de saúde R$16,29",True,True,True,0.77,0.927,Saúde,Saúde
+"Aluguel do apartamento R$ 1659,27",True,True,True,1.0,0.802,Moradia,Moradia
+"Passagem de ônibus R$45,68",True,True,True,1.0,0.931,Transporte,Transporte
+Saiu do banco,True,True,True,0.57,0.934,Outros,Outros
+Cinema no shopping 127.11 reais,True,True,True,1.0,0.895,Lazer,Lazer
+"Certificação online R$ 371,07",True,True,True,0.77,0.936,Educação,Educação
+Sacolão R$ 170.59,True,True,True,0.78,0.942,Mercado,Mercado
+"Dividendos ações R$ 278,30",True,True,False,0.97,0.924,Outros,Outros
+"Exames de sangue R$315,75",True,True,True,1.0,0.939,Saúde,Saúde
+Maquiagem Natura R$243.53,True,True,True,0.84,0.61,Outros,Outros
+Estacionamento do shopping 146.02 reais,True,True,True,1.0,0.891,Transporte,Transporte
+"Taxa do banco 328,41 rs",True,True,True,0.98,0.945,Outros,Outros
+"Pão de Açúcar R$150,63",True,True,True,1.0,0.949,Mercado,Mercado
+"Presente de aniversário R$ 185,57",True,True,True,0.97,0.936,Outros,Outros
+"Pizza delivery R$ 35,19",True,True,True,1.0,0.919,Comida,Comida
+Revisão do carro 158.17 rs,True,True,True,1.0,0.844,Transporte,Transporte
+Comprinhas básicas 174.01 rs,True,True,True,0.77,0.921,Mercado,Mercado
+Uber para o trabalho R$152.17,True,True,True,1.0,0.93,Transporte,Transporte
+"Roupas na C&A R$343,39",True,True,True,0.94,0.844,Outros,Outros
+"Pão de Açúcar R$ 124,41",True,True,True,1.0,0.951,Mercado,Mercado
+Comprei umas coisas hoje,True,True,True,0.42,0.545,Outros,Outros
+"Dividendos ações 367,10 reais",True,True,False,0.98,0.938,Outros,Outros
+Consulta médica 266.58 reais,True,True,True,1.0,0.941,Saúde,Saúde
+"Condomínio 1078,17 rs",True,True,True,1.0,0.923,Moradia,Moradia
+Carnes no açougue 449.75 reais,True,True,True,0.77,0.925,Mercado,Mercado
+Seguro do carro R$57.54,True,True,True,1.0,0.813,Outros,Outros
+Teatro municipal R$ 85.96,True,True,True,1.0,0.946,Lazer,Lazer
+"Parque de diversões 173,54 reais",True,True,True,0.77,0.93,Lazer,Lazer
+Presente de aniversário 23.11 reais,True,True,True,0.96,0.902,Outros,Outros
+Internet banda larga R$ 515.64,True,True,True,1.0,0.88,Moradia,Moradia
+Academia Smart Fit R$102.31,True,True,True,1.0,0.936,Saúde,Saúde
+Remédio da pressão 293.38 rs,True,True,True,1.0,0.911,Saúde,Saúde
+25.87 rs no lanche da tarde,True,True,True,1.0,0.936,Comida,Comida
+Transferi 364.01 rs para minha irmã,True,True,True,0.97,0.936,Outros,Outros
+Prêmio da loteria R$201.30,True,True,False,0.97,0.929,Outros,Outros
+Faxina da casa R$ 170.97,True,True,True,0.75,0.882,Moradia,Moradia
+61.36 rs no lanche da tarde,True,True,True,1.0,0.931,Comida,Comida
+"Farmácia popular 300,07 rs",True,True,True,1.0,0.939,Saúde,Saúde
+"Taxa do banco R$341,73",True,True,True,0.98,0.941,Outros,Outros
+"Pão de Açúcar 21,23 reais",True,True,True,1.0,0.947,Mercado,Mercado
+"Show no Allianz 23,20 reais",True,True,True,0.73,0.83,Lazer,Lazer
+"Aula particular 183,61 reais",True,True,True,0.77,0.931,Educação,Educação
+5.21 rs no lanche da tarde,True,True,True,1.0,0.947,Comida,Comida
+"Certificação online R$183,82",True,True,True,0.77,0.932,Educação,Educação
+Fisioterapia R$ 190.73,True,True,True,0.76,0.904,Saúde,Saúde
+"IPTU R$ 1424,03",True,True,True,0.75,0.869,Moradia,Moradia
+"Trabalho extra R$ 1655,12",True,True,False,1.0,0.848,Salário,Salário
+"Transferi R$ 54,38 para minha irmã",True,True,True,0.97,0.934,Outros,Outros
+R$ 74.00 no lanche da tarde,True,True,True,1.0,0.931,Comida,Comida
+Show no Allianz R$44.90,True,True,True,0.76,0.894,Lazer,Lazer
+Mercadinho da esquina 449.35 reais,True,True,True,0.76,0.911,Mercado,Mercado
+Comprinhas básicas 419.97 rs,True,True,True,0.78,0.944,Mercado,Mercado
+Exames de sangue 62.26 rs,True,True,True,1.0,0.921,Saúde,Saúde
+"Troca de óleo R$76,76",True,True,True,0.75,0.882,Transporte,Transporte
+"Fisioterapia R$317,44",True,True,True,0.75,0.879,Saúde,Saúde
+"Show no Allianz 131,57 reais",True,True,True,0.77,0.915,Lazer,Lazer
+"Ajuda familiar R$ 90,76",True,True,False,0.97,0.915,Outros,Outros
+Curso de inglês R$ 34.20,True,True,True,1.0,0.927,Educação,Educação
+"46,87 rs no lanche da tarde",True,True,True,1.0,0.944,Comida,Comida
+Seguro do carro 44.44 rs,True,True,True,1.0,0.866,Outros,Outros
+"99 pop 11,85 rs",True,True,True,1.0,0.915,Transporte,Transporte
+Troca de óleo R$99.83,True,True,True,1.0,0.957,Transporte,Transporte
+Carnes no açougue R$ 398.23,True,True,True,0.77,0.918,Mercado,Mercado
+"Presente de aniversário R$ 213,49",True,True,True,0.97,0.923,Outros,Outros
+Sapato novo R$ 136.15,True,True,True,0.97,0.923,Outros,Outros
+Taxa administrativa,True,True,True,0.57,0.931,Outros,Outros
+"Empréstimo recebido 173,65 reais",True,True,True,0.98,0.94,Outros,Outros
+"Doação para ONG R$131,07",True,True,True,0.97,0.921,Outros,Outros
+Cinema no shopping 202.15 rs,True,True,True,1.0,0.921,Lazer,Lazer
+"Salário depositado R$3639,13",True,True,True,1.0,0.94,Salário,Salário
+"Taxa do banco R$37,66",True,True,True,0.97,0.933,Outros,Outros
+"Compras da semana R$ 295,34",True,True,True,1.0,0.915,Mercado,Mercado
+"Atacadão compras 403,43 reais",True,True,True,1.0,0.914,Mercado,Mercado
+"Emprestei R$ 335,78 para o José",True,True,False,0.97,0.928,Outros,Outros
+"Dividendos ações R$ 303,63",True,True,False,0.97,0.937,Outros,Outros
+"Extra supermercados 35,87 rs",True,True,True,1.0,0.828,Mercado,Mercado
+"Spotify premium R$13,40",True,True,True,1.0,0.852,Lazer,Lazer
+"Jantar romântico custou R$ 8,79",True,True,True,1.0,0.948,Comida,Comida
+"Ingresso do jogo R$47,98",True,True,True,1.0,0.872,Lazer,Lazer
+"Água da SABESP R$ 1756,22",True,True,True,1.0,0.918,Moradia,Moradia
+Drogaria pacheco R$ 77.04,True,True,True,1.0,0.903,Saúde,Saúde
+Remédio da pressão 112.85 reais,True,True,True,1.0,0.94,Saúde,Saúde
+"Prêmio da loteria 61,34 rs",True,True,False,0.97,0.932,Outros,Outros
+Vendeu o celular 294.76 rs,True,True,True,0.97,0.936,Outros,Outros
+"Transferência 71,00 rs emergência",True,True,False,0.96,0.898,Outros,Outros
+"Uber para o trabalho R$94,04",True,True,True,1.0,0.887,Transporte,Transporte
+Pão de açúcar 38.40 rs,True,True,True,1.0,0.946,Mercado,Mercado
+Faxina da casa R$ 285.38,True,True,True,0.75,0.872,Moradia,Moradia
+Verduras e frutas R$408.23,True,True,True,0.78,0.947,Mercado,Mercado
+Vendeu o celular 365.57 reais,True,True,True,0.97,0.934,Outros,Outros
+Aula particular R$357.42,True,True,True,0.76,0.905,Educação,Educação
+Salário depositado R$3853.56,True,True,True,1.0,0.926,Salário,Salário
+Reembolso do plano 367.33 reais,True,True,False,0.95,0.865,Outros,Outros
+"Spotify premium 231,05 rs",True,True,True,1.0,0.903,Lazer,Lazer
+Gasolina do carro R$102.01,True,True,True,1.0,0.83,Transporte,Transporte
+"Conserto do celular R$177,38",True,True,True,0.97,0.934,Outros,Outros
+Açaí com granola R$ 84.81,True,True,True,0.75,0.887,Comida,Comida
+"Hora extra 2189,57 reais",True,True,False,1.0,0.901,Salário,Salário
+Gastei no cartão,True,False,True,0.63,0.814,Comida,Outros
+"Gás de cozinha 626,96 rs",True,True,True,0.76,0.903,Moradia,Moradia
+"Cashback do cartão 120,01 rs",True,True,True,0.97,0.913,Outros,Outros
+Pagamento da empresa R$ 2439.93,True,True,False,0.77,0.919,Salário,Salário
+Estacionamento do shopping 68.25 rs,True,True,True,1.0,0.804,Transporte,Transporte
+"Atacadão compras R$213,83",True,True,True,1.0,0.888,Mercado,Mercado
+"Gás de cozinha R$1724,42",True,True,True,0.77,0.932,Moradia,Moradia
+Sacolão R$ 160.69,True,True,True,0.76,0.888,Mercado,Mercado
+"Freelance programação 4162,54 reais",True,True,False,1.0,0.939,Salário,Salário
+"Revisão do carro 61,95 rs",True,True,True,1.0,0.782,Transporte,Transporte
+"Aluguel da casa 159,37 rs",True,True,False,0.98,0.708,Outros,Outros
+"Comissão de vendas R$3170,30",True,True,False,0.77,0.93,Salário,Salário
+Jantar romântico custou R$44.77,True,True,True,1.0,0.938,Comida,Comida
+Conta de luz R$1498.72,True,True,True,1.0,0.935,Moradia,Moradia
+"Caneta e caderno 152,83 reais",True,True,True,0.76,0.888,Educação,Educação
+Reforma do banheiro R$1062.25,True,True,True,0.68,0.707,Moradia,Moradia
+Pastel na feira 11.89 reais,True,True,True,1.0,0.927,Comida,Comida
+"Netflix mensal R$ 202,52",True,True,True,1.0,0.931,Lazer,Lazer
+"Bonificação R$2553,29",True,True,True,1.0,0.783,Salário,Salário
+Netflix mensal 99.96 rs,True,True,True,1.0,0.891,Lazer,Lazer
+"Vendeu o celular 128,74 reais",True,True,True,0.97,0.919,Outros,Outros
+Passagem de ônibus 74.51 rs,True,True,True,1.0,0.94,Transporte,Transporte
+Roupas na C&A 76.68 rs,True,True,True,0.93,0.829,Outros,Outros
+"Caneta e caderno 92,38 reais",True,True,True,0.76,0.905,Educação,Educação
+Presente de aniversário R$163.64,True,True,True,0.97,0.933,Outros,Outros
+"Renda extra R$ 123,79",True,True,False,0.97,0.671,Outros,Outros
+Cinema no shopping R$235.57,True,True,True,1.0,0.92,Lazer,Lazer
+Certificação online R$70.16,True,True,True,0.77,0.918,Educação,Educação
+"Exames de sangue 269,76 reais",True,True,True,1.0,0.937,Saúde,Saúde
+Renda extra 182.76 reais,True,True,False,1.0,0.807,Outros,Outros
+"Sapato novo R$ 120,79",True,True,True,0.97,0.921,Outros,Outros
+Balada sábado R$ 212.33,True,True,True,0.77,0.924,Lazer,Lazer
+IPTU R$ 1661.25,True,True,True,0.76,0.9,Moradia,Moradia
+Trabalho extra R$ 5509.89,True,True,False,1.0,0.93,Salário,Salário
+"Cervejinha com os amigos 16,49 rs",True,True,True,0.77,0.913,Comida,Comida
+"Pedágio da rodovia 45,80 rs",True,True,True,0.76,0.894,Transporte,Transporte
+"Pedágio da rodovia R$ 10,02",True,True,True,0.75,0.873,Transporte,Transporte
+"Transferência 6,34 reais emergência",True,True,False,0.97,0.933,Outros,Outros
+"99 pop 154,01 rs",True,True,True,1.0,0.925,Transporte,Transporte
+Prêmio da loteria R$83.16,True,True,False,0.97,0.923,Outros,Outros
+"Spotify premium 65,82 rs",True,True,True,1.0,0.852,Lazer,Lazer
+"Freelance programação R$ 5554,58",True,True,False,1.0,0.931,Salário,Salário
+"Reembolso do plano 172,80 rs",True,True,False,0.92,0.797,Outros,Outros
+"Reembolso do plano R$ 204,59",True,True,False,0.92,0.807,Outros,Outros
+"Sacolão 251,96 reais",True,True,True,0.77,0.924,Mercado,Mercado
+Sapato novo R$ 65.06,True,True,True,0.98,0.941,Outros,Outros
+"Carnes no açougue 427,16 reais",True,True,True,0.77,0.925,Mercado,Mercado
+"Consulta médica R$ 143,52",True,True,True,1.0,0.911,Saúde,Saúde
+Devolução da loja R$ 305.90,True,True,False,0.95,0.88,Outros,Outros
+"Fisioterapia R$118,82",True,True,True,0.77,0.924,Saúde,Saúde
+Empréstimo recebido 75.05 rs,True,True,True,0.96,0.896,Outros,Outros
+Balada sábado 107.26 reais,True,True,True,0.77,0.931,Lazer,Lazer
+"Prêmio da loteria R$ 55,20",True,True,False,0.95,0.881,Outros,Outros
+Passagem de ônibus 133.85 rs,True,True,True,1.0,0.908,Transporte,Transporte
+"Almocei hoje e gastei 75,56 rs",True,True,True,1.0,0.827,Comida,Comida
+R$ 31.41 no lanche da tarde,True,True,True,1.0,0.941,Comida,Comida
+Mensalidade Unopar 221.47 rs,True,True,True,0.77,0.914,Educação,Educação
+"Mandei 250,17 rs pro João",True,True,True,0.96,0.89,Outros,Outros
+Hambúrguer no food truck R$40.93,True,True,True,0.78,0.951,Comida,Comida
+"Material escolar R$ 301,29",True,True,True,1.0,0.943,Educação,Educação
+Caneta e caderno R$47.89,True,True,True,0.77,0.925,Educação,Educação
+"Seguro do carro R$287,27",True,True,True,1.0,0.804,Outros,Outros
+"99 pop R$ 155,01",True,True,True,1.0,0.934,Transporte,Transporte
+"Balada sábado R$ 35,20",True,True,True,0.77,0.926,Lazer,Lazer
+Academia Smart Fit 296.53 rs,True,True,True,1.0,0.942,Saúde,Saúde
+Cervejinha com os amigos R$ 62.27,True,True,True,0.76,0.898,Comida,Comida
+Parque de diversões R$189.37,True,True,True,0.78,0.944,Lazer,Lazer
+Empréstimo recebido R$49.29,True,True,True,0.96,0.912,Outros,Outros
+"Transferi 359,92 rs para minha irmã",True,True,True,0.97,0.919,Outros,Outros
+"Seguro do carro 242,10 rs",True,True,True,1.0,0.763,Outros,Outros
+"Curso de inglês R$ 366,68",True,True,True,1.0,0.948,Educação,Educação
+"Aluguel da casa 272,56 reais",True,True,False,0.92,0.556,Outros,Outros
+"Apostila do concurso R$365,02",True,True,True,1.0,0.89,Educação,Educação
+Certificação online R$ 359.46,True,True,True,0.78,0.948,Educação,Educação
+"Faxina da casa R$ 1542,21",True,True,True,0.76,0.905,Moradia,Moradia
+"Dividendos ações 373,25 rs",True,True,False,0.97,0.932,Outros,Outros
+"Material escolar 12,40 reais",True,True,True,1.0,0.947,Educação,Educação
+IPTU 1239.51 rs,True,True,True,0.77,0.935,Moradia,Moradia
+"Bar com a galera 249,24 reais",True,True,True,1.0,0.927,Lazer,Lazer
+Venda produtos R$ 33.35,True,True,False,0.97,0.93,Outros,Outros
+Viagem para a praia 17.87 rs,True,True,True,0.72,0.806,Lazer,Lazer
+"Jantar romântico custou 30,71 reais",True,True,True,1.0,0.926,Comida,Comida
+"Sapato novo R$ 199,10",True,True,True,1.0,0.939,Outros,Outros
+Xerox das provas 23.58 rs,True,True,True,0.77,0.935,Educação,Educação
+"Plano de saúde R$ 14,09",True,True,True,0.77,0.937,Saúde,Saúde
+Sapato novo R$ 158.86,True,True,True,0.97,0.931,Outros,Outros
+Pastel na feira 75.22 rs,True,True,True,1.0,0.895,Comida,Comida
+Condomínio 771.65 reais,True,True,True,1.0,0.914,Moradia,Moradia
+PIX agendado R$335.01,True,True,True,0.98,0.946,Outros,Outros
+Extra supermercados R$273.96,True,True,True,1.0,0.892,Mercado,Mercado
+"Transferi 383,99 reais para minha filho",True,True,True,1.0,0.849,Outros,Outros
+Sacolão R$ 39.76,True,True,True,0.74,0.857,Mercado,Mercado
+Exames de sangue 307.67 reais,True,True,True,1.0,0.939,Saúde,Saúde
+"Sacolão R$ 175,00",True,True,True,0.77,0.918,Mercado,Mercado
+"Certificação online 277,36 reais",True,True,True,0.77,0.926,Educação,Educação
+"Empréstimo recebido R$24,81",True,True,True,0.97,0.933,Outros,Outros
+Hambúrguer no food truck 66.21 reais,True,True,True,0.77,0.931,Comida,Comida
+"Cafezinho da manhã 60,70 reais",True,True,True,0.76,0.907,Comida,Comida
+"Fisioterapia 268,48 rs",True,True,True,0.74,0.838,Saúde,Saúde
+Pizza delivery R$ 43.05,True,True,True,1.0,0.917,Comida,Comida
+"Apostila do concurso 109,40 rs",True,True,True,1.0,0.939,Educação,Educação
+Pão de açúcar R$76.12,True,True,True,1.0,0.945,Mercado,Mercado
+Devolução da loja R$376.49,True,True,False,0.97,0.928,Outros,Outros
+Doação para ONG R$ 52.22,True,True,True,0.97,0.925,Outros,Outros
+Vendeu o celular R$ 166.07,True,True,True,0.97,0.914,Outros,Outros
+Faxina da casa R$ 1208.86,True,True,True,0.72,0.812,Moradia,Moradia
+Doação para ONG R$ 236.28,True,True,True,0.98,0.947,Outros,Outros
+"Dentista 39,14 rs",True,True,True,1.0,0.882,Saúde,Saúde
+"Troca de óleo R$ 47,68",True,True,True,0.77,0.928,Transporte,Transporte
+Xerox das provas 257.59 reais,True,True,True,0.77,0.927,Educação,Educação
+Comissão de vendas R$1577.38,True,True,False,0.77,0.936,Salário,Salário
+"R$ 52,92 no lanche da tarde",True,True,True,1.0,0.92,Comida,Comida
+"Reembolso do plano R$253,14",True,True,False,0.95,0.873,Outros,Outros
+Cafezinho da manhã 55.85 rs,True,True,True,0.76,0.905,Comida,Comida
+"Hambúrguer no food truck R$ 59,76",True,True,True,0.77,0.914,Comida,Comida
+"Parque de diversões R$241,26",True,True,True,0.78,0.943,Lazer,Lazer
+Farmácia popular R$111.56,True,True,True,1.0,0.922,Saúde,Saúde
+"Roupas na C&A R$ 177,02",True,True,True,0.94,0.848,Outros,Outros
+"Cinema no shopping 244,72 rs",True,True,True,1.0,0.933,Lazer,Lazer
+Revisão do carro 8.27 rs,True,True,True,1.0,0.845,Transporte,Transporte
+"Apostila do concurso R$360,78",True,True,True,1.0,0.933,Educação,Educação
+Cashback do cartão R$108.55,True,True,True,0.97,0.926,Outros,Outros
+Caneta e caderno R$32.71,True,True,True,0.77,0.929,Educação,Educação
+"Roupas na C&A R$ 125,13",True,True,True,0.9,0.745,Outros,Outros
+"Conserto do celular R$164,02",True,True,True,0.97,0.93,Outros,Outros
+"Estacionamento do shopping R$21,40",True,True,True,1.0,0.847,Transporte,Transporte
+"Presente de aniversário R$293,36",True,True,True,0.97,0.919,Outros,Outros
+"Bilhete único R$ 175,37",True,True,True,0.74,0.844,Transporte,Transporte
+Devolução da loja 378.46 rs,True,True,False,0.98,0.942,Outros,Outros
+Verduras e frutas R$ 56.35,True,True,True,0.77,0.93,Mercado,Mercado
+"Estacionamento do shopping 59,58 reais",True,True,True,1.0,0.839,Transporte,Transporte
+"Presente de aniversário R$ 73,86",True,True,True,0.96,0.911,Outros,Outros
+Cashback do cartão 302.92 rs,True,True,True,0.97,0.929,Outros,Outros
+Hambúrguer no food truck R$ 53.53,True,True,True,0.77,0.92,Comida,Comida
+Apostila do concurso R$268.24,True,True,True,1.0,0.927,Educação,Educação
+"Passagem de ônibus 17,38 rs",True,True,True,1.0,0.932,Transporte,Transporte
+"Venda produtos R$358,42",True,True,False,0.97,0.925,Outros,Outros
+28.72 rs no lanche da tarde,True,True,True,1.0,0.936,Comida,Comida
+Freelance programação 6943.27 reais,True,True,False,1.0,0.921,Salário,Salário
+"Gás de cozinha 1294,64 reais",True,True,True,0.77,0.936,Moradia,Moradia
+"Aluguel do apartamento 463,57 reais",True,True,True,1.0,0.722,Moradia,Moradia
+51.04 rs no lanche da tarde,True,True,True,1.0,0.944,Comida,Comida
+Pão de Açúcar 179.04 rs,True,True,True,1.0,0.932,Mercado,Mercado
+"Farmácia popular R$ 70,84",True,True,True,1.0,0.935,Saúde,Saúde
+"PIX agendado 35,64 rs",True,True,True,0.97,0.916,Outros,Outros
+Cervejinha com os amigos 69.13 rs,True,True,True,0.77,0.937,Comida,Comida
+"Netflix mensal R$ 62,88",True,True,True,1.0,0.923,Lazer,Lazer
+Devolução da loja R$ 197.46,True,True,False,0.98,0.942,Outros,Outros
+Seguro do carro R$ 181.89,True,True,True,1.0,0.883,Outros,Outros
+Condomínio R$ 229.24,True,True,True,1.0,0.928,Moradia,Moradia
+Gás de cozinha 810.47 reais,True,True,True,0.77,0.931,Moradia,Moradia
+"Academia Smart Fit 319,74 reais",True,True,True,1.0,0.947,Saúde,Saúde
+Taxa do banco R$ 65.34,True,True,True,0.98,0.939,Outros,Outros
+"Devolução da loja 346,57 reais",True,True,False,0.97,0.934,Outros,Outros
+Material de limpeza 501.74 reais,True,True,True,1.0,0.799,Moradia,Moradia
+Balada sábado 120.92 reais,True,True,True,0.77,0.922,Lazer,Lazer
+Renda extra 328.53 rs,True,True,False,1.0,0.767,Outros,Outros
+13º salário R$ 2112.83,True,True,True,1.0,0.952,Salário,Salário
+Venda produtos 269.57 reais,True,True,False,0.97,0.936,Outros,Outros
+"Comprinhas básicas 403,74 reais",True,True,True,0.78,0.941,Mercado,Mercado
+Mercadinho da esquina 79.56 reais,True,True,True,0.74,0.843,Mercado,Mercado
+"Parque de diversões R$ 138,92",True,True,True,0.77,0.936,Lazer,Lazer
+Fisioterapia R$301.12,True,True,True,0.77,0.913,Saúde,Saúde
+"Pagamento consultoria R$ 3772,98",True,True,False,0.76,0.907,Salário,Salário
+"Devolução da loja 111,45 rs",True,True,False,0.97,0.921,Outros,Outros
+Comprinhas básicas R$266.82,True,True,True,0.77,0.928,Mercado,Mercado
+"Conserto do celular R$167,33",True,True,True,0.97,0.92,Outros,Outros
+"Ajuda familiar R$365,03",True,True,False,0.98,0.939,Outros,Outros
+Mercadinho da esquina 440.18 reais,True,True,True,0.75,0.871,Mercado,Mercado
+"Gasolina do carro 162,10 reais",True,True,True,1.0,0.708,Transporte,Transporte
+"Devolução da loja 368,21 rs",True,True,False,0.97,0.924,Outros,Outros
+Cervejinha com os amigos R$ 45.07,True,True,True,0.77,0.936,Comida,Comida
+"Aluguel da casa R$ 224,95",True,True,False,0.96,0.658,Outros,Outros
+Freelance programação 7292.64 rs,True,True,False,1.0,0.94,Salário,Salário
+"PIX agendado R$308,41",True,True,True,0.97,0.933,Outros,Outros
+Empréstimo recebido 148.67 reais,True,True,True,0.97,0.934,Outros,Outros
+"Renda extra R$ 86,07",True,True,False,0.97,0.663,Outros,Outros
+99 pop R$ 85.12,True,True,True,1.0,0.927,Transporte,Transporte
+"Mensalidade Unopar R$ 58,46",True,True,True,0.77,0.934,Educação,Educação
+Consulta médica R$ 228.87,True,True,True,1.0,0.938,Saúde,Saúde
+Consulta médica R$18.78,True,True,True,1.0,0.936,Saúde,Saúde
+Fisioterapia R$ 59.93,True,True,True,0.77,0.93,Saúde,Saúde
+Aluguel da casa R$370.54,True,True,False,0.9,0.5,Outros,Outros
+Ingresso do jogo 143.00 rs,True,True,True,1.0,0.89,Lazer,Lazer
+"Trabalho extra 7239,98 reais",True,True,False,1.0,0.938,Salário,Salário
+"Transferi 75,31 rs para minha filha",True,True,True,0.97,0.921,Outros,Outros
+Taxa do banco R$ 370.24,True,True,True,0.97,0.928,Outros,Outros
+Freelance programação R$5252.83,True,True,False,1.0,0.941,Salário,Salário
+Parque de diversões 132.15 rs,True,True,True,0.78,0.949,Lazer,Lazer
+"Carnes no açougue R$ 66,91",True,True,True,0.77,0.927,Mercado,Mercado
+Ingresso do jogo 180.68 reais,True,True,True,1.0,0.799,Lazer,Lazer
+Hora extra 4591.22 reais,True,True,False,1.0,0.937,Salário,Salário
+"Perfume importado 221,68 rs",True,True,True,0.97,0.916,Outros,Outros
+"Bar com a galera R$6,88",True,True,True,1.0,0.927,Lazer,Lazer
+"Mandei 355,06 rs pro José",True,True,True,0.97,0.928,Outros,Outros
+Compras da semana R$82.15,True,True,True,1.0,0.924,Mercado,Mercado
+"Aluguel da casa R$ 57,87",True,True,False,0.94,0.601,Outros,Outros
+"Perfume importado R$142,66",True,True,True,0.97,0.914,Outros,Outros
+"Devolução da loja R$91,36",True,True,False,0.97,0.935,Outros,Outros
+"Doação para ONG R$178,76",True,True,True,0.98,0.945,Outros,Outros
+Empréstimo recebido R$123.71,True,True,True,0.97,0.915,Outros,Outros
+"Comprinhas básicas 449,91 rs",True,True,True,0.78,0.945,Mercado,Mercado
+"Certificação online R$358,02",True,True,True,0.78,0.944,Educação,Educação
+"Verduras e frutas 271,29 reais",True,True,True,0.76,0.904,Mercado,Mercado
+Dividendos ações R$ 267.43,True,True,False,0.97,0.93,Outros,Outros
+"Bonificação 4134,49 rs",True,True,True,1.0,0.766,Salário,Salário
+"Devolução da loja R$192,62",True,True,False,0.97,0.931,Outros,Outros
+"Vendeu o celular R$ 76,82",True,True,True,0.97,0.926,Outros,Outros
+"Dentista 152,95 rs",True,True,True,1.0,0.907,Saúde,Saúde
+"Pastel na feira 31,48 rs",True,True,True,1.0,0.916,Comida,Comida
+"Venda produtos 258,66 rs",True,True,False,0.97,0.932,Outros,Outros
+Uber para o trabalho R$88.86,True,True,True,1.0,0.85,Transporte,Transporte
+Material escolar R$29.92,True,True,True,1.0,0.941,Educação,Educação
+Remédio da pressão 181.42 rs,True,True,True,1.0,0.926,Saúde,Saúde
+Material escolar R$ 131,True,True,True,1.0,0.946,Educação,Educação
+"Verduras e frutas 225,92 rs",True,True,True,0.77,0.937,Mercado,Mercado
+"Revisão do carro 69,17 rs",True,True,True,1.0,0.851,Transporte,Transporte
+"Pão de açúcar R$ 48,03",True,True,True,1.0,0.931,Mercado,Mercado
+Emprestei 328.57 rs para o João,True,True,False,0.97,0.933,Outros,Outros
+"Presente de aniversário 173,54 rs",True,True,True,0.97,0.917,Outros,Outros
+"Aluguel da casa 164,94 rs",True,True,False,0.95,0.635,Outros,Outros
+"Reembolso do plano R$275,37",True,True,False,0.97,0.914,Outros,Outros
+Verduras e frutas R$ 24.20,True,True,True,0.77,0.915,Mercado,Mercado
+Remédio da pressão 26.28 reais,True,True,True,1.0,0.917,Saúde,Saúde
+Trabalho extra 7080.66 reais,True,True,False,1.0,0.887,Salário,Salário
+"Doação para ONG 99,00 reais",True,True,True,1.0,0.807,Outros,Outros
+"Remédio da pressão 95,40 reais",True,True,True,1.0,0.942,Saúde,Saúde
+Devolução da loja 281.50 rs,True,True,False,0.95,0.873,Outros,Outros
+TED 362.79 reais pagamento,True,True,False,0.9,0.757,Outros,Outros
+13º salário 1117.35 reais,True,True,True,1.0,0.944,Salário,Salário
+Mensalidade Unopar R$203.21,True,True,True,0.77,0.935,Educação,Educação
+"Pagamento consultoria R$ 5677,01",True,True,False,0.74,0.861,Salário,Salário
+Consulta médica R$136.29,True,True,True,1.0,0.928,Saúde,Saúde
+Prêmio da loteria R$ 345.43,True,True,False,0.97,0.924,Outros,Outros
+"Conta de luz R$149,53",True,True,True,1.0,0.947,Moradia,Moradia
+"Extra supermercados 18,59 reais",True,True,True,1.0,0.887,Mercado,Mercado
+"Apostila do concurso R$69,99",True,True,True,1.0,0.875,Educação,Educação
+"Show no Allianz 224,12 rs",True,True,True,0.77,0.927,Lazer,Lazer
+"Mensalidade Unopar R$250,78",True,True,True,0.77,0.914,Educação,Educação
+"Devolução da loja 398,05 rs",True,True,False,0.97,0.924,Outros,Outros
+"Pizza delivery 40,98 rs",True,True,True,1.0,0.927,Comida,Comida
+"Plano de saúde 250,40 rs",True,True,True,0.77,0.935,Saúde,Saúde
+"Hambúrguer no food truck 56,01 rs",True,True,True,0.77,0.934,Comida,Comida
+PIX agendado R$ 168.65,True,True,True,0.98,0.941,Outros,Outros
+"Verduras e frutas R$ 361,57",True,True,True,0.75,0.868,Mercado,Mercado
+Academia Smart Fit 84.85 reais,True,True,True,1.0,0.943,Saúde,Saúde
+Reembolso do plano 384.40 rs,True,True,False,0.95,0.874,Outros,Outros
+"Farmácia popular 107,37 reais",True,True,True,1.0,0.932,Saúde,Saúde
+Parque de diversões R$ 111.45,True,True,True,0.77,0.923,Lazer,Lazer
+Passagem de ônibus R$ 107.25,True,True,True,1.0,0.934,Transporte,Transporte
+"Jantar romântico custou R$ 27,87",True,True,True,1.0,0.94,Comida,Comida
+Spotify premium R$ 220.24,True,True,True,1.0,0.839,Lazer,Lazer
+"Cashback do cartão 276,28 rs",True,True,True,0.98,0.942,Outros,Outros
+"Passagem de ônibus 22,46 reais",True,True,True,1.0,0.936,Transporte,Transporte
+"Corte de cabelo R$ 291,28",True,True,True,0.84,0.593,Outros,Outros
+"Compras da semana R$409,23",True,True,True,1.0,0.941,Mercado,Mercado
+Renda extra R$ 258.89,True,True,False,1.0,0.771,Outros,Outros
+"Cervejinha com os amigos R$9,10",True,True,True,0.76,0.898,Comida,Comida
+Pizza delivery R$3.22,True,True,True,1.0,0.945,Comida,Comida
+Material escolar R$ 144.45,True,True,True,1.0,0.961,Educação,Educação
+Netflix mensal 134.13 rs,True,True,True,1.0,0.925,Lazer,Lazer
+Prêmio da loteria 215.95 rs,True,True,False,0.97,0.919,Outros,Outros
+Mandei R$269.18 pro Antônio,True,True,True,0.96,0.907,Outros,Outros
+"PIX para Carlos R$245,49",True,True,True,0.97,0.918,Outros,Outros
+Renda extra R$33.95,True,True,False,1.0,0.837,Outros,Outros
+"TED 94,72 reais pagamento",True,True,False,0.93,0.816,Outros,Outros
+"Mercadinho da esquina 155,09 reais",True,True,True,0.75,0.867,Mercado,Mercado
+"99 pop 147,40 reais",True,True,True,1.0,0.941,Transporte,Transporte
+Água da SABESP 1047.24 rs,True,True,True,1.0,0.931,Moradia,Moradia
+Maquiagem Natura R$ 206.12,True,True,True,0.89,0.728,Outros,Outros
+"Mercadinho da esquina R$360,33",True,True,True,0.74,0.843,Mercado,Mercado
+Maquiagem Natura R$271.07,True,True,True,0.63,0.57,Salário,Salário
+Uber para o trabalho R$ 157.70,True,True,True,1.0,0.907,Transporte,Transporte
+Pão de Açúcar R$ 78.32,True,True,True,1.0,0.93,Mercado,Mercado
+Movimento estranho,True,True,True,0.52,0.792,Outros,Outros
+Trabalho extra R$5808.98,True,True,False,1.0,0.942,Salário,Salário
+Pagamento da empresa R$ 2525.41,True,True,False,0.74,0.856,Salário,Salário
+"Reembolso do plano 251,50 rs",True,True,False,0.96,0.902,Outros,Outros
+Condomínio R$1266.05,True,True,True,1.0,0.926,Moradia,Moradia
+"Seguro do carro R$70,18",True,True,True,0.97,0.687,Outros,Outros
+Exames de sangue 77.99 reais,True,True,True,1.0,0.921,Saúde,Saúde
+"Maquiagem Natura 270,30 rs",True,True,True,0.91,0.784,Outros,Outros
+"Compras da semana 161,80 reais",True,True,True,1.0,0.884,Mercado,Mercado
+Cafezinho da manhã R$ 54.37,True,True,True,0.76,0.91,Comida,Comida
+Curso de inglês 217.06 rs,True,True,True,1.0,0.908,Educação,Educação
+"Almocei hoje e gastei R$41,07",True,True,True,1.0,0.929,Comida,Comida
+Gás de cozinha R$1699.67,True,True,True,1.0,0.942,Moradia,Moradia
+"Transferi R$243,51 para minha cunhado",True,True,True,0.97,0.929,Outros,Outros
+Pagamento da empresa 4166.83 rs,True,True,False,0.76,0.892,Salário,Salário
+"Pão de Açúcar R$318,42",True,True,True,1.0,0.951,Mercado,Mercado
+Academia Smart Fit R$103.40,True,True,True,1.0,0.941,Saúde,Saúde
+"Jantar romântico custou 17,41 reais",True,True,True,1.0,0.942,Comida,Comida
+"Pastel na feira 66,55 rs",True,True,True,1.0,0.887,Comida,Comida
+"13º salário 6988,81 rs",True,True,True,1.0,0.951,Salário,Salário
+"Ajuda familiar 372,93 reais",True,True,False,0.97,0.925,Outros,Outros
+35 reais de crédito no celular,True,False,True,0.63,0.567,Lazer,Outros
+"Curso de inglês 157,52 reais",True,True,True,1.0,0.944,Educação,Educação
+Remédio da pressão R$248.58,True,True,True,1.0,0.923,Saúde,Saúde
+Ajuda familiar R$ 63.97,True,True,False,0.97,0.934,Outros,Outros
+Taxa do banco 199.69 rs,True,True,True,1.0,0.939,Outros,Outros
+"Spotify premium R$ 168,33",True,True,True,1.0,0.877,Lazer,Lazer
+Consulta médica R$ 219.28,True,True,True,1.0,0.934,Saúde,Saúde
+"PIX para Ana R$347,39",True,True,True,0.97,0.935,Outros,Outros
+"Cashback do cartão 398,56 rs",True,True,True,0.97,0.928,Outros,Outros
+TED R$ 135.57 pagamento,True,True,False,0.94,0.851,Outros,Outros
+"Sacolão R$ 202,23",True,True,True,0.77,0.927,Mercado,Mercado
+Prêmio da loteria R$ 212.51,True,True,False,0.97,0.928,Outros,Outros
+"Renda extra 382,70 reais",True,True,False,1.0,0.836,Outros,Outros
+"Bilhete único R$ 11,61",True,True,True,0.77,0.925,Transporte,Transporte
+"Taxa do banco 141,84 rs",True,True,True,0.97,0.923,Outros,Outros
+99 pop 84.14 reais,True,True,True,1.0,0.916,Transporte,Transporte
+"Certificação online R$353,87",True,True,True,0.78,0.94,Educação,Educação
+Açaí com granola 81.72 reais,True,True,True,0.74,0.856,Comida,Comida
+"Pagamento consultoria R$828,59",True,True,False,0.76,0.904,Salário,Salário
+Xerox das provas R$27.24,True,True,True,0.78,0.938,Educação,Educação
+Hora extra 6970.89 rs,True,True,False,1.0,0.927,Salário,Salário
+"Venda produtos 14,74 reais",True,True,False,0.96,0.904,Outros,Outros
+IPTU R$ 103.13,True,True,True,0.77,0.929,Moradia,Moradia
+Hambúrguer no food truck 14.13 reais,True,True,True,0.77,0.924,Comida,Comida
+"TED R$ 214,38 pagamento",True,True,False,0.93,0.829,Outros,Outros
+"Transferi R$38,91 para minha irmã",True,True,True,0.97,0.934,Outros,Outros
+Comprinhas básicas 312.81 reais,True,True,True,0.78,0.94,Mercado,Mercado
+"Pedágio da rodovia 12,76 rs",True,True,True,0.76,0.907,Transporte,Transporte
+Dividendos ações 354.85 reais,True,True,False,0.97,0.933,Outros,Outros
+Mandei R$390.10 pro Francisca,True,True,True,0.98,0.939,Outros,Outros
+Condomínio R$ 408.84,True,True,True,1.0,0.872,Moradia,Moradia
+Roupas na C&A R$233.92,True,True,True,0.92,0.807,Outros,Outros
+Hora extra R$ 1668.88,True,True,False,1.0,0.927,Salário,Salário
+Apostila do concurso R$ 178.58,True,True,True,1.0,0.92,Educação,Educação
+"Pedágio da rodovia 79,88 reais",True,True,True,0.77,0.919,Transporte,Transporte
+IPTU R$ 1405.98,True,True,True,0.77,0.932,Moradia,Moradia
+Gasolina do carro 33.04 reais,True,True,True,1.0,0.893,Transporte,Transporte
+Prêmio da loteria R$ 241.06,True,True,False,0.98,0.939,Outros,Outros
+Açaí com granola 48.73 rs,True,True,True,0.76,0.905,Comida,Comida
+"Pedágio da rodovia R$16,76",True,True,True,0.73,0.816,Transporte,Transporte
+Ajuda familiar R$272.14,True,True,False,0.97,0.935,Outros,Outros
+Trabalho extra R$1406.38,True,True,False,1.0,0.873,Salário,Salário
+"Venda produtos R$ 67,24",True,True,False,0.97,0.928,Outros,Outros
+Verduras e frutas 171.02 reais,True,True,True,0.77,0.926,Mercado,Mercado
+"Pagamento da empresa 5262,76 reais",True,True,False,0.75,0.876,Salário,Salário
+99 pop 35.18 rs,True,True,True,1.0,0.919,Transporte,Transporte
+"Carnes no açougue 141,16 rs",True,True,True,0.77,0.92,Mercado,Mercado
+"Ajuda familiar 99,50 reais",True,True,False,1.0,0.88,Outros,Outros
+Ajuda familiar R$ 342,True,True,False,0.98,0.948,Outros,Outros
+13º salário 3034.56 rs,True,True,True,1.0,0.946,Salário,Salário
+"Vendeu o celular 145,60 reais",True,True,True,0.97,0.919,Outros,Outros
+Gasolina do carro 15.86 rs,True,True,True,1.0,0.76,Transporte,Transporte
+"Emprestei 60,66 rs para o Pedro",True,True,False,0.97,0.915,Outros,Outros
+Salário depositado 4931.45 reais,True,True,True,1.0,0.926,Salário,Salário
+"Empréstimo recebido 357,37 rs",True,True,True,0.97,0.934,Outros,Outros
+Plano de saúde 66.74 rs,True,True,True,0.77,0.928,Saúde,Saúde
+"13º salário 2585,97 rs",True,True,True,1.0,0.951,Salário,Salário
+Certificação online R$316.22,True,True,True,0.78,0.944,Educação,Educação
+"Gasolina do carro R$150,93",True,True,True,1.0,0.867,Transporte,Transporte
+Venda produtos R$ 373.25,True,True,False,0.97,0.935,Outros,Outros
+PIX agendado R$ 83.29,True,True,True,0.97,0.923,Outros,Outros
+"Plano de saúde 80,74 rs",True,True,True,0.77,0.931,Saúde,Saúde
+"Curso de inglês 154,96 rs",True,True,True,1.0,0.924,Educação,Educação
+Livros da faculdade R$140.11,True,True,True,1.0,0.742,Educação,Educação
+"Remédio da pressão R$ 266,78",True,True,True,1.0,0.923,Saúde,Saúde
+Teatro municipal R$ 22.32,True,True,True,1.0,0.911,Lazer,Lazer
+"Doação para ONG 48,49 reais",True,True,True,0.96,0.906,Outros,Outros
+"Cashback do cartão 46,63 reais",True,True,True,0.97,0.935,Outros,Outros
+Perfume importado R$ 113.16,True,True,True,0.97,0.922,Outros,Outros
+Plano de saúde 147.90 reais,True,True,True,0.77,0.917,Saúde,Saúde
+"Táxi até em casa 125,96 rs",True,True,True,0.76,0.906,Transporte,Transporte
+"Workshop de marketing 98,92 reais",True,True,True,0.76,0.893,Educação,Educação
+Transferência 165.10 rs emergência,True,True,False,0.97,0.915,Outros,Outros
+Táxi até em casa 168.18 reais,True,True,True,0.77,0.924,Transporte,Transporte
+"Reembolso do plano R$286,88",True,True,False,0.97,0.928,Outros,Outros
+"Taxa do banco 250,88 reais",True,True,True,0.97,0.931,Outros,Outros
+"Farmácia popular 231,54 reais",True,True,True,1.0,0.944,Saúde,Saúde
+PIX para Maria R$224.19,True,True,True,0.96,0.893,Outros,Outros
+"Remédio da pressão 153,22 reais",True,True,True,1.0,0.94,Saúde,Saúde
+"Conta de luz 935,20 reais",True,True,True,1.0,0.943,Moradia,Moradia
+"Jantar romântico custou R$16,48",True,True,True,1.0,0.94,Comida,Comida
+"Vendeu o celular 10,25 rs",True,True,True,0.97,0.93,Outros,Outros
+"Netflix mensal R$ 44,60",True,True,True,1.0,0.908,Lazer,Lazer
+Farmácia popular 230.93 rs,True,True,True,1.0,0.951,Saúde,Saúde
+"PIX 46,18 rs divisão conta",True,True,True,0.96,0.903,Outros,Outros
+Ingresso do jogo 241.23 rs,True,True,True,1.0,0.867,Lazer,Lazer
+"Consulta médica R$ 204,46",True,True,True,1.0,0.933,Saúde,Saúde
+Extra supermercados R$ 253.65,True,True,True,1.0,0.848,Mercado,Mercado
+"Gasolina do carro R$123,56",True,True,True,1.0,0.838,Transporte,Transporte
+"Sapato novo R$351,55",True,True,True,0.97,0.933,Outros,Outros
+"Taxa do banco 233,42 reais",True,True,True,0.97,0.934,Outros,Outros
+"Taxa do banco 39,58 rs",True,True,True,0.96,0.91,Outros,Outros
+TED R$ 316.52 pagamento,True,True,False,0.89,0.716,Outros,Outros
+Conserto do celular 309.80 rs,True,True,True,0.97,0.92,Outros,Outros
+Viagem para a praia R$ 165.75,True,True,True,0.7,0.745,Lazer,Lazer
+"Água da SABESP R$ 1108,61",True,True,True,1.0,0.924,Moradia,Moradia
+"Perfume importado 390,01 rs",True,True,True,0.97,0.936,Outros,Outros
+"PIX agendado R$ 261,63",True,True,True,0.97,0.935,Outros,Outros
+"Plano de saúde 162,18 reais",True,True,True,0.77,0.926,Saúde,Saúde
+Netflix mensal R$ 156.78,True,True,True,1.0,0.92,Lazer,Lazer
+"Aluguel do apartamento 1327,82 rs",True,True,True,1.0,0.704,Moradia,Moradia
+Parque de diversões R$113.21,True,True,True,0.77,0.928,Lazer,Lazer
+Presente de aniversário R$ 263.27,True,True,True,0.97,0.915,Outros,Outros
+Seguro do carro 93.72 reais,True,True,True,1.0,0.822,Outros,Outros
+"Aluguel da casa 257,00 reais",True,True,False,0.91,0.52,Outros,Outros
+"Teatro municipal 41,72 rs",True,True,True,1.0,0.917,Lazer,Lazer
+Cafezinho da manhã R$ 3.13,True,True,True,0.78,0.947,Comida,Comida
+Pagamento da empresa 883.25 rs,True,True,False,0.76,0.894,Salário,Salário
+"Condomínio R$1172,59",True,True,True,1.0,0.89,Moradia,Moradia
+"Táxi até em casa 74,92 reais",True,True,True,0.77,0.916,Transporte,Transporte
+Cinema no shopping R$171.20,True,True,True,1.0,0.878,Lazer,Lazer
+"Roupas na C&A 265,63 rs",True,True,True,0.92,0.803,Outros,Outros
+PIX agendado R$ 34.54,True,True,True,0.97,0.933,Outros,Outros
+Exames de sangue 249.33 reais,True,True,True,1.0,0.943,Saúde,Saúde
+"Vendeu o celular R$347,85",True,True,True,0.98,0.938,Outros,Outros
+R$65.32 no lanche da tarde,True,True,True,1.0,0.937,Comida,Comida
+Uber para o trabalho 104.93 rs,True,True,True,1.0,0.894,Transporte,Transporte
+"Seguro do carro 105,82 rs",True,True,True,1.0,0.788,Outros,Outros
+Dividendos ações R$288.70,True,True,False,0.97,0.932,Outros,Outros
+"Sacolão 347,00 reais",True,True,True,0.76,0.902,Mercado,Mercado
+"Atacadão compras 227,17 reais",True,True,True,1.0,0.907,Mercado,Mercado
+"Show no Allianz R$ 228,71",True,True,True,0.77,0.922,Lazer,Lazer
+"Comprinhas básicas 79,48 rs",True,True,True,0.76,0.903,Mercado,Mercado
+"Corte de cabelo R$391,31",True,True,True,0.83,0.579,Outros,Outros
+Gás de cozinha 1478.41 rs,True,True,True,0.78,0.938,Moradia,Moradia
+PIX para João R$ 382.95,True,True,True,0.97,0.933,Outros,Outros
+"Pizza delivery 22,92 reais",True,True,True,1.0,0.928,Comida,Comida
+Verduras e frutas 54.23 rs,True,True,True,0.78,0.947,Mercado,Mercado
+DOC 371.06 rs para filho,True,True,False,0.97,0.93,Outros,Outros
+"Fisioterapia 274,59 reais",True,True,True,0.77,0.931,Saúde,Saúde
+"Uber para o trabalho 46,54 reais",True,True,True,1.0,0.913,Transporte,Transporte
+Almocei hoje e gastei R$ 69.60,True,True,True,1.0,0.915,Comida,Comida
+"IPTU R$622,40",True,True,True,0.78,0.938,Moradia,Moradia
+Cashback do cartão R$190.58,True,True,True,0.96,0.908,Outros,Outros
+"Farmácia popular 83,13 reais",True,True,True,1.0,0.944,Saúde,Saúde
+"PIX agendado R$ 107,27",True,True,True,0.96,0.904,Outros,Outros
+"Pão de Açúcar 261,54 rs",True,True,True,1.0,0.95,Mercado,Mercado
+"Bonificação 3097,90 reais",True,True,True,1.0,0.431,Salário,Salário
+"Compras da semana R$157,83",True,True,True,1.0,0.935,Mercado,Mercado
+Pão de Açúcar 236.81 reais,True,True,True,1.0,0.94,Mercado,Mercado
+"Plano de saúde 242,17 reais",True,True,True,0.77,0.93,Saúde,Saúde
+Exames de sangue 145.42 reais,True,True,True,1.0,0.949,Saúde,Saúde
+"Pagamento da empresa 2288,40 reais",True,True,False,0.77,0.928,Salário,Salário
+"Cervejinha com os amigos 64,23 reais",True,True,True,0.77,0.919,Comida,Comida
+Xerox das provas R$ 29.96,True,True,True,0.77,0.926,Educação,Educação
+"Dentista R$57,65",True,True,True,1.0,0.633,Saúde,Saúde
+"Passagem de ônibus R$ 53,25",True,True,True,1.0,0.927,Transporte,Transporte
+"Hora extra R$ 4362,87",True,True,False,1.0,0.916,Salário,Salário
+"Dividendos ações 96,30 rs",True,True,False,0.93,0.825,Outros,Outros
+"Balada sábado R$112,89",True,True,True,0.77,0.919,Lazer,Lazer
+"Emprestei 348,29 reais para o José",True,True,False,0.97,0.926,Outros,Outros
+Perfume importado R$284.98,True,True,True,0.96,0.893,Outros,Outros
+"Faxina da casa R$ 1783,69",True,True,True,0.75,0.874,Moradia,Moradia
+Certificação online 205.88 reais,True,True,True,0.78,0.948,Educação,Educação
+"Ajuda familiar R$361,23",True,True,False,0.97,0.92,Outros,Outros
+Material escolar 237.19 reais,True,True,True,1.0,0.946,Educação,Educação
+Faxina da casa R$ 259.66,True,True,True,0.74,0.843,Moradia,Moradia
+PIX para José 24.81 rs,True,True,True,0.98,0.939,Outros,Outros
+Remédio da pressão R$ 99.94,True,True,True,1.0,0.867,Saúde,Saúde
+"Vendeu o celular R$ 32,16",True,True,True,0.96,0.91,Outros,Outros
+"Passagem de ônibus R$ 37,48",True,True,True,1.0,0.91,Transporte,Transporte
+"Transferência R$171,86 emergência",True,True,False,0.97,0.924,Outros,Outros
+Prêmio da loteria 315.77 reais,True,True,False,0.96,0.904,Outros,Outros
+Aula particular 39.51 rs,True,True,True,0.76,0.91,Educação,Educação
+PIX para Juliana R$52.67,True,True,True,0.97,0.923,Outros,Outros
+Pão de açúcar 50.89 reais,True,True,True,1.0,0.928,Mercado,Mercado
+"Academia Smart Fit 32,76 rs",True,True,True,1.0,0.933,Saúde,Saúde
+"Comprinhas básicas 206,55 rs",True,True,True,0.76,0.907,Mercado,Mercado
+Corte de cabelo 62.04 rs,True,True,True,0.62,0.559,Salário,Salário
+13º salário R$1219.35,True,True,True,1.0,0.951,Salário,Salário
+"Aula particular R$ 49,26",True,True,True,0.76,0.912,Educação,Educação
+Freelance programação R$1705.31,True,True,False,1.0,0.929,Salário,Salário
+"Cashback do cartão 179,80 rs",True,True,True,0.97,0.926,Outros,Outros
+"Troca de óleo 62,07 reais",True,True,True,0.77,0.914,Transporte,Transporte
+Hora extra R$ 1489.34,True,True,False,1.0,0.918,Salário,Salário
+Pastel na feira R$ 20.43,True,True,True,1.0,0.929,Comida,Comida
+Seguro do carro R$138.96,True,True,True,1.0,0.799,Outros,Outros
+"Extra supermercados R$213,48",True,True,True,1.0,0.883,Mercado,Mercado
+Xerox das provas 50.05 reais,True,True,True,0.76,0.895,Educação,Educação
+"Viagem para a praia 6,53 rs",True,True,True,0.74,0.84,Lazer,Lazer
+Vendeu o celular 329.25 reais,True,True,True,0.97,0.935,Outros,Outros
+"Sapato novo R$289,81",True,True,True,0.97,0.93,Outros,Outros
+"Renda extra 100,01 reais",True,True,False,1.0,0.819,Outros,Outros
+"Pão de Açúcar R$ 38,01",True,True,True,1.0,0.946,Mercado,Mercado
+Passagem de ônibus R$167.51,True,True,True,1.0,0.939,Transporte,Transporte
+"Apostila do concurso R$ 209,68",True,True,True,1.0,0.919,Educação,Educação
+"Caneta e caderno R$ 55,33",True,True,True,0.76,0.893,Educação,Educação
+"Hambúrguer no food truck R$57,92",True,True,True,0.76,0.898,Comida,Comida
+"Comissão de vendas R$ 4429,93",True,True,False,0.77,0.936,Salário,Salário
+Salário depositado 3566.84 rs,True,True,True,1.0,0.935,Salário,Salário
+Bar com a galera 64.49 reais,True,True,True,1.0,0.885,Lazer,Lazer
+40 reais em um gel de limpeza facial,True,True,True,0.95,0.615,Saúde,Saúde
+Conserto do celular 288.35 reais,True,True,True,0.97,0.928,Outros,Outros
+Sacolão 425.29 reais,True,True,True,0.77,0.93,Mercado,Mercado
+Curso de inglês 287.96 rs,True,True,True,1.0,0.928,Educação,Educação
+"Trabalho extra R$3420,53",True,True,False,1.0,0.925,Salário,Salário
+Bilhete único R$33.54,True,True,True,0.77,0.925,Transporte,Transporte
+Pão de Açúcar R$ 134.38,True,True,True,1.0,0.943,Mercado,Mercado
+Roupas na C&A R$ 202.10,True,True,True,0.92,0.795,Outros,Outros
+"Pagamento consultoria R$1515,50",True,True,False,0.75,0.865,Salário,Salário
+Cafezinho da manhã R$ 34.48,True,True,True,0.77,0.92,Comida,Comida
+PIX 307.65 rs divisão conta,True,True,True,0.96,0.888,Outros,Outros
+"Pizza delivery 20,97 rs",True,True,True,1.0,0.946,Comida,Comida
+"Uber para o trabalho R$8,06",True,True,True,1.0,0.828,Transporte,Transporte
+Remédio da pressão 30.45 rs,True,True,True,1.0,0.939,Saúde,Saúde
+Faxina da casa R$ 742.40,True,True,True,0.76,0.908,Moradia,Moradia
+Seguro do carro 343 reais,True,True,True,1.0,0.747,Outros,Outros
+Faxina da casa 1367.94 rs,True,True,True,0.72,0.805,Moradia,Moradia
+"Apostila do concurso 161,54 reais",True,True,True,1.0,0.936,Educação,Educação
+Pastel na feira R$64.78,True,True,True,1.0,0.926,Comida,Comida
+Exames de sangue R$ 34.61,True,True,True,1.0,0.925,Saúde,Saúde
+Bilhete único R$ 20.59,True,True,True,0.76,0.901,Transporte,Transporte
+Faxina da casa 1704.31 reais,True,True,True,0.72,0.8,Moradia,Moradia
+Renda extra R$316.16,True,True,False,1.0,0.792,Outros,Outros
+Emprestei R$82.94 para o Francisca,True,True,False,0.97,0.929,Outros,Outros
+"Reforma do banheiro 244,98 rs",True,True,True,0.73,0.835,Moradia,Moradia
+Emprestei R$ 260.90 para o Maria,True,True,False,0.96,0.895,Outros,Outros
+"Sapato novo R$ 320,99",True,True,True,1.0,0.905,Outros,Outros
+Atacadão compras R$ 84.78,True,True,True,1.0,0.906,Mercado,Mercado
+Material escolar 172.10 reais,True,True,True,1.0,0.915,Educação,Educação
+"Venda produtos 390,02 rs",True,True,False,0.98,0.938,Outros,Outros
+"Bonificação R$6506,27",True,True,True,1.0,0.617,Salário,Salário
+Devolução da loja R$274.17,True,True,False,0.97,0.915,Outros,Outros
+"PIX R$11,00 divisão conta",True,True,True,0.96,0.895,Outros,Outros
+Devolução da loja R$ 166.49,True,True,False,0.97,0.93,Outros,Outros
+Material de limpeza 248.08 rs,True,True,True,1.0,0.891,Moradia,Moradia
+"Roupas na C&A R$328,22",True,True,True,0.93,0.825,Outros,Outros
+"IPTU 1629,39 rs",True,True,True,0.76,0.912,Moradia,Moradia
+Transferi 361.23 rs para minha irmã,True,True,True,0.97,0.929,Outros,Outros
+Troca de óleo R$ 144.26,True,True,True,0.77,0.931,Transporte,Transporte
+"Compras da semana 319,93 rs",True,True,True,1.0,0.906,Mercado,Mercado
+Plano de saúde 213.30 rs,True,True,True,0.76,0.907,Saúde,Saúde
+Cafezinho da manhã 51.10 reais,True,True,True,0.76,0.899,Comida,Comida
+"Hora extra R$ 5159,96",True,True,False,1.0,0.913,Salário,Salário
+"Comissão de vendas R$ 7384,42",True,True,False,0.77,0.932,Salário,Salário
+"DOC R$125,62 para sogra",True,True,False,0.96,0.912,Outros,Outros
+"Revisão do carro 174,14 rs",True,True,True,1.0,0.838,Transporte,Transporte
+"Apostila do concurso 227,01 reais",True,True,True,1.0,0.922,Educação,Educação
+99 pop 141.23 rs,True,True,True,1.0,0.916,Transporte,Transporte
+Pão de açúcar R$ 80.46,True,True,True,1.0,0.923,Mercado,Mercado
+Renda extra R$ 26.86,True,True,False,1.0,0.847,Outros,Outros
+"Gasolina do carro 159,75 rs",True,True,True,1.0,0.803,Transporte,Transporte
+Conserto do celular R$ 333.10,True,True,True,0.97,0.931,Outros,Outros
+Bilhete único R$153.91,True,True,True,0.76,0.909,Transporte,Transporte
+"Perfume importado 330,23 reais",True,True,True,0.96,0.911,Outros,Outros
+Transferência 344.95 reais emergência,True,True,False,0.97,0.92,Outros,Outros
+"Reforma do banheiro R$592,85",True,True,True,0.69,0.716,Moradia,Moradia
+"Almocei hoje e gastei R$49,89",True,True,True,1.0,0.9,Comida,Comida
+"Dividendos ações 95,76 reais",True,True,False,0.97,0.914,Outros,Outros
+Remédio da pressão 187.17 reais,True,True,True,1.0,0.94,Saúde,Saúde
+"Transferi 389,17 reais para minha irmã",True,True,True,0.97,0.926,Outros,Outros
+Cashback do cartão 28.41 rs,True,True,True,0.97,0.935,Outros,Outros
+Hora extra R$1997.43,True,True,False,1.0,0.907,Salário,Salário
+"Pizza delivery R$ 19,74",True,True,True,1.0,0.946,Comida,Comida
+"Aluguel da casa 124,95 rs",True,True,False,0.95,0.623,Outros,Outros
+Pastel na feira R$79.23,True,True,True,1.0,0.934,Comida,Comida
+Devolução da loja R$92.10,True,True,False,0.98,0.942,Outros,Outros
+"Carnes no açougue R$ 325,69",True,True,True,0.76,0.911,Mercado,Mercado
+"Troca de óleo 110,14 rs",True,True,True,0.77,0.933,Transporte,Transporte
+"Mandei R$ 216,06 pro Francisca",True,True,True,0.97,0.929,Outros,Outros
+"Material de limpeza 1613,79 reais",True,True,True,1.0,0.788,Moradia,Moradia
+Reembolso do plano 341.15 rs,True,True,False,0.97,0.915,Outros,Outros
+"Teatro municipal 105,36 rs",True,True,True,1.0,0.913,Lazer,Lazer
+Reembolso do plano R$ 122.44,True,True,False,0.97,0.926,Outros,Outros
+"Xerox das provas 25,93 rs",True,True,True,0.77,0.926,Educação,Educação
+Hambúrguer no food truck 9.19 rs,True,True,True,0.76,0.905,Comida,Comida
+"Xerox das provas 212,17 reais",True,True,True,0.78,0.946,Educação,Educação
+"Cinema no shopping R$143,50",True,True,True,1.0,0.881,Lazer,Lazer
+"Aluguel da casa 236,64 reais",True,True,False,0.95,0.623,Outros,Outros
+Seguro do carro 202.33 reais,True,True,True,1.0,0.766,Outros,Outros
+Cashback do cartão R$ 116.06,True,True,True,0.98,0.943,Outros,Outros
+"Vendeu o celular 356,84 reais",True,True,True,0.97,0.93,Outros,Outros
+"Bilhete único 42,83 rs",True,True,True,0.77,0.913,Transporte,Transporte
+Conta de luz 1069.51 rs,True,True,True,1.0,0.944,Moradia,Moradia
+Conta de luz 600.83 rs,True,True,True,1.0,0.925,Moradia,Moradia
+Transferi 160.04 rs para minha mãe,True,True,True,0.96,0.911,Outros,Outros
+"Conta de luz R$143,51",True,True,True,1.0,0.941,Moradia,Moradia
+"Cashback do cartão R$ 195,51",True,True,True,0.97,0.924,Outros,Outros
+Pagamento consultoria R$1847.54,True,True,False,0.76,0.891,Salário,Salário
+Troca de óleo 176.13 reais,True,True,True,0.78,0.942,Transporte,Transporte
+"Teatro municipal 38,82 rs",True,True,True,1.0,0.922,Lazer,Lazer
+Compras da semana 410.51 reais,True,True,True,1.0,0.937,Mercado,Mercado
+TED R$309.83 pagamento,True,True,False,0.92,0.802,Outros,Outros
+Mensalidade Unopar 268.52 reais,True,True,True,0.78,0.946,Educação,Educação
+"Internet banda larga 144,07 rs",True,True,True,1.0,0.79,Moradia,Moradia
+PIX para Luiza R$ 86.55,True,True,True,0.97,0.93,Outros,Outros
+"Teatro municipal R$ 14,56",True,True,True,1.0,0.923,Lazer,Lazer
+"Carnes no açougue R$ 116,94",True,True,True,0.77,0.929,Mercado,Mercado
+Taxa do banco 54.84 rs,True,True,True,0.97,0.93,Outros,Outros
+"Troca de óleo 64,55 reais",True,True,True,0.77,0.932,Transporte,Transporte
+Devolução da loja 275.49 reais,True,True,False,0.97,0.934,Outros,Outros
+Material escolar 332.87 reais,True,True,True,1.0,0.945,Educação,Educação
+"Pagamento da empresa 4052,95 rs",True,True,False,0.75,0.876,Salário,Salário
+Cafezinho da manhã 37.86 rs,True,True,True,0.76,0.888,Comida,Comida
+IPTU 1595.74 reais,True,True,True,0.77,0.917,Moradia,Moradia
+"Carnes no açougue 117,42 reais",True,True,True,0.77,0.93,Mercado,Mercado
+"Cafezinho da manhã R$ 15,48",True,True,True,0.77,0.933,Comida,Comida
+Hambúrguer no food truck R$44.06,True,True,True,0.77,0.929,Comida,Comida
+"PIX agendado R$108,67",True,True,True,0.98,0.942,Outros,Outros
+"Prêmio da loteria R$156,12",True,True,False,0.98,0.941,Outros,Outros
+"Hora extra R$6634,77",True,True,False,1.0,0.924,Salário,Salário
+"Taxa do banco R$290,63",True,True,True,0.98,0.946,Outros,Outros
+"Água da SABESP R$758,06",True,True,True,1.0,0.891,Moradia,Moradia
+"Material escolar 139,47 rs",True,True,True,1.0,0.945,Educação,Educação
+"15,17 rs no lanche da tarde",True,True,True,1.0,0.922,Comida,Comida
+Cashback do cartão R$ 104.82,True,True,True,0.97,0.934,Outros,Outros
+"Cafezinho da manhã 79,13 rs",True,True,True,0.78,0.94,Comida,Comida
+13º salário R$ 4405.21,True,True,True,1.0,0.947,Salário,Salário
+"Presente de aniversário R$208,41",True,True,True,0.97,0.934,Outros,Outros
+Troca de óleo 37.67 reais,True,True,True,0.77,0.918,Transporte,Transporte
+13º salário R$ 5611.63,True,True,True,1.0,0.938,Salário,Salário
+Apostila do concurso R$ 71.82,True,True,True,1.0,0.923,Educação,Educação
+Compras da semana 389.15 rs,True,True,True,1.0,0.937,Mercado,Mercado
+Spotify premium 170.92 rs,True,True,True,1.0,0.941,Lazer,Lazer
+Empréstimo recebido 154.03 rs,True,True,True,0.97,0.936,Outros,Outros
+Academia Smart Fit R$74.70,True,True,True,1.0,0.936,Saúde,Saúde
+"Corte de cabelo 253,73 rs",True,True,True,0.83,0.567,Outros,Outros
+"Comprinhas básicas R$406,10",True,True,True,0.76,0.91,Mercado,Mercado
+"Ajuda familiar R$ 44,64",True,True,False,0.97,0.932,Outros,Outros
+Vendeu o celular R$ 332.85,True,True,True,0.97,0.937,Outros,Outros
+Ajuda familiar R$ 357.25,True,True,False,0.97,0.933,Outros,Outros
+"Extra supermercados 103,53 rs",True,True,True,1.0,0.847,Mercado,Mercado
+Trabalho extra 2838.88 reais,True,True,False,1.0,0.898,Salário,Salário
+"Aluguel do apartamento R$ 205,23",True,True,True,1.0,0.798,Moradia,Moradia
+Comprinhas básicas R$44.59,True,True,True,0.78,0.942,Mercado,Mercado
+"Pão de Açúcar 164,57 reais",True,True,True,1.0,0.942,Mercado,Mercado
+Ajuda familiar 60.07 rs,True,True,False,0.97,0.916,Outros,Outros
+"Uber para o trabalho 94,30 rs",True,True,True,1.0,0.837,Transporte,Transporte
+"Prêmio da loteria R$222,08",True,True,False,0.95,0.887,Outros,Outros
+"Drogaria pacheco 105,45 rs",True,True,True,1.0,0.91,Saúde,Saúde
+Pão de Açúcar R$ 241.20,True,True,True,1.0,0.918,Mercado,Mercado
+"Açaí com granola 68,35 reais",True,True,True,0.74,0.847,Comida,Comida
+Emprestei R$61.16 para o João,True,True,False,0.97,0.933,Outros,Outros
+68.23 reais no lanche da tarde,True,True,True,1.0,0.917,Comida,Comida
+Spotify premium 144.98 reais,True,True,True,1.0,0.92,Lazer,Lazer
+"DOC R$214,30 para irmão",True,True,False,0.96,0.91,Outros,Outros
+"Vitaminas R$129,33",True,True,True,0.66,0.652,Saúde,Saúde
+"Pagamento da empresa 5642,72 reais",True,True,False,0.76,0.901,Salário,Salário
+Uber para o trabalho 125.94 rs,True,True,True,1.0,0.794,Transporte,Transporte
+Mensalidade Unopar R$229.47,True,True,True,0.77,0.929,Educação,Educação
+"Material escolar R$291,54",True,True,True,1.0,0.946,Educação,Educação
+Dividendos ações R$ 62.69,True,True,False,0.97,0.92,Outros,Outros
+Devolução da loja R$ 31.34,True,True,False,0.97,0.931,Outros,Outros
+"Bar com a galera 159,15 rs",True,True,True,1.0,0.921,Lazer,Lazer
+Sapato novo 163.37 reais,True,True,True,0.97,0.931,Outros,Outros
+"Comprinhas básicas 29,08 rs",True,True,True,0.77,0.935,Mercado,Mercado
+Ajuda familiar R$217.97,True,True,False,0.98,0.939,Outros,Outros
+Água da SABESP R$502.93,True,True,True,1.0,0.914,Moradia,Moradia
+"Reembolso do plano 236,20 reais",True,True,False,0.96,0.911,Outros,Outros
+Aluguel do apartamento R$ 792.34,True,True,True,1.0,0.724,Moradia,Moradia
+Cafezinho da manhã R$16.21,True,True,True,0.77,0.93,Comida,Comida
+Prêmio da loteria R$ 151.66,True,True,False,0.96,0.901,Outros,Outros
+Empréstimo recebido 175.51 reais,True,True,True,0.97,0.932,Outros,Outros
+Balada sábado 194.29 reais,True,True,True,0.77,0.929,Lazer,Lazer
+Pastel na feira 76.25 rs,True,True,True,1.0,0.868,Comida,Comida
+"Gás de cozinha R$278,92",True,True,True,0.78,0.938,Moradia,Moradia
+"Venda produtos 162,40 reais",True,True,False,0.96,0.908,Outros,Outros
+Conta de luz R$ 767,True,True,True,1.0,0.955,Moradia,Moradia
+"Apostila do concurso R$ 85,44",True,True,True,1.0,0.854,Educação,Educação
+"Devolução da loja 342,65 reais",True,True,False,0.97,0.936,Outros,Outros
+"13º salário 4838,13 rs",True,True,True,1.0,0.949,Salário,Salário
+Hambúrguer no food truck R$57.57,True,True,True,0.76,0.888,Comida,Comida
+"Prêmio da loteria 188,19 reais",True,True,False,0.97,0.931,Outros,Outros
+Material escolar 210.72 reais,True,True,True,1.0,0.906,Educação,Educação
+Corte de cabelo R$ 46.79,True,True,True,0.79,0.481,Outros,Outros
+Reembolso do plano 95.15 reais,True,True,False,0.95,0.873,Outros,Outros
+Remédio da pressão 23.01 reais,True,True,True,1.0,0.918,Saúde,Saúde
+"Aluguel da casa 88,03 rs",True,True,False,0.94,0.599,Outros,Outros
+"Reforma do banheiro 1121,26 reais",True,True,True,0.74,0.85,Moradia,Moradia
+"IPTU 1796,56 reais",True,True,True,0.77,0.925,Moradia,Moradia
+Atacadão compras 446.97 reais,True,True,True,1.0,0.938,Mercado,Mercado
+"Sacolão R$ 123,45",True,True,True,0.77,0.935,Mercado,Mercado
+PIX agendado R$ 178.34,True,True,True,0.97,0.936,Outros,Outros
+"Carnes no açougue 77,79 rs",True,True,True,0.76,0.907,Mercado,Mercado
+"PLR da empresa 4090,64 rs",True,True,False,0.76,0.909,Salário,Salário
+"Exames de sangue 130,91 rs",True,True,True,1.0,0.949,Saúde,Saúde
+Troca de óleo 132.67 rs,True,True,True,0.77,0.93,Transporte,Transporte

@@ -1,51 +1,968 @@
-{"raw_text": "5 reais num pastel", "type": "gasto", "amount": 5.0, "currency": "BRL", "category": "Comida", "place": null, "details": "pastel", "date": null, "meta": {"amount_source": "regex", "category_source": "keyword", "place_source": "none", "confidence": 0.8}}
-{"raw_text": "13 reais em uber de casa para shopping", "type": "gasto", "amount": 13.0, "currency": "BRL", "category": "Transporte", "place": "uber", "details": "de casa para shopping", "date": null, "meta": {"amount_source": "regex", "category_source": "keyword", "place_source": "heuristic", "confidence": 0.8}}
-{"raw_text": "50 reais no jantar bodega rainha", "type": "gasto", "amount": 50.0, "currency": "BRL", "category": "Comida", "place": "Bodega Rainha", "details": "jantar", "date": null, "meta": {"amount_source": "regex", "category_source": "keyword", "place_source": "heuristic", "confidence": 0.8}}
-{"raw_text": "Depósito salário 02/09 3500", "type": "receita", "amount": 3500.0, "currency": "BRL", "category": "Salário", "place": null, "details": null, "date": "2024-09-02", "meta": {"amount_source": "regex", "category_source": "keyword", "place_source": "none", "confidence": 0.8}}
-{"raw_text": "Paguei R$ 40 no posto de gasolina", "type": "gasto", "amount": 40.0, "currency": "BRL", "category": "Transporte", "place": "posto de gasolina", "details": null, "date": null, "meta": {"amount_source": "regex", "category_source": "keyword", "place_source": "heuristic", "confidence": 0.8}}
-{"raw_text": "Gastei R$ 23,50 no mercado", "type": "gasto", "amount": 23.5, "currency": "BRL", "category": "Mercado", "place": "mercado", "details": null, "date": null, "meta": {"amount_source": "regex", "category_source": "keyword", "place_source": "heuristic", "confidence": 0.8}}
-{"raw_text": "200 reais na farmácia", "type": "gasto", "amount": 200.0, "currency": "BRL", "category": "Saúde", "place": "farmácia", "details": null, "date": null, "meta": {"amount_source": "regex", "category_source": "keyword", "place_source": "heuristic", "confidence": 0.8}}
-{"raw_text": "R$150 consulta médica", "type": "gasto", "amount": 150.0, "currency": "BRL", "category": "Saúde", "place": null, "details": "consulta médica", "date": null, "meta": {"amount_source": "regex", "category_source": "keyword", "place_source": "none", "confidence": 0.8}}
-{"raw_text": "Paguei 1.500,00 de aluguel", "type": "gasto", "amount": 1500.0, "currency": "BRL", "category": "Moradia", "place": null, "details": "aluguel", "date": null, "meta": {"amount_source": "regex", "category_source": "keyword", "place_source": "none", "confidence": 0.8}}
-{"raw_text": "85 rs no cinema ontem", "type": "gasto", "amount": 85.0, "currency": "BRL", "category": "Lazer", "place": "cinema", "details": null, "date": null, "meta": {"amount_source": "regex", "category_source": "keyword", "place_source": "heuristic", "confidence": 0.8}}
-{"raw_text": "Transferi R$ 500 para minha mãe", "type": "transferencia", "amount": 500.0, "currency": "BRL", "category": "Outros", "place": null, "details": "para minha mãe", "date": null, "meta": {"amount_source": "regex", "category_source": "none", "place_source": "none", "confidence": 0.7}}
-{"raw_text": "Pix de 100 reais pro João", "type": "transferencia", "amount": 100.0, "currency": "BRL", "category": "Outros", "place": null, "details": "pro João", "date": null, "meta": {"amount_source": "regex", "category_source": "none", "place_source": "none", "confidence": 0.7}}
-{"raw_text": "Recebi R$ 2500 freelance", "type": "receita", "amount": 2500.0, "currency": "BRL", "category": "Salário", "place": null, "details": "freelance", "date": null, "meta": {"amount_source": "regex", "category_source": "keyword", "place_source": "none", "confidence": 0.8}}
-{"raw_text": "Salário 15/09 4200", "type": "receita", "amount": 4200.0, "currency": "BRL", "category": "Salário", "place": null, "details": null, "date": "2024-09-15", "meta": {"amount_source": "regex", "category_source": "keyword", "place_source": "none", "confidence": 0.8}}
-{"raw_text": "30 reais na padaria", "type": "gasto", "amount": 30.0, "currency": "BRL", "category": "Comida", "place": "padaria", "details": null, "date": null, "meta": {"amount_source": "regex", "category_source": "keyword", "place_source": "heuristic", "confidence": 0.8}}
-{"raw_text": "Gastei 45 reais em livros", "type": "gasto", "amount": 45.0, "currency": "BRL", "category": "Educação", "place": null, "details": "livros", "date": null, "meta": {"amount_source": "regex", "category_source": "keyword", "place_source": "none", "confidence": 0.8}}
-{"raw_text": "20 reais para o ônibus", "type": "gasto", "amount": 20.0, "currency": "BRL", "category": "Transporte", "place": null, "details": "ônibus", "date": null, "meta": {"amount_source": "regex", "category_source": "keyword", "place_source": "none", "confidence": 0.8}}
-{"raw_text": "Comi um hamburguer por 25 reais", "type": "gasto", "amount": 25.0, "currency": "BRL", "category": "Comida", "place": null, "details": "hamburguer", "date": null, "meta": {"amount_source": "regex", "category_source": "keyword", "place_source": "none", "confidence": 0.8}}
-{"raw_text": "Gastei R$ 80 na fhamacia", "type": "gasto", "amount": 80.0, "currency": "BRL", "category": "Saúde", "place": "fhamacia", "details": null, "date": null, "meta": {"amount_source": "regex", "category_source": "keyword", "place_source": "heuristic", "confidence": 0.7}}
-{"raw_text": "Compras do mês R$ 680 no Extra", "type": "gasto", "amount": 680.0, "currency": "BRL", "category": "Mercado", "place": "Extra", "details": "compras do mês", "date": null, "meta": {"amount_source": "regex", "category_source": "keyword", "place_source": "heuristic", "confidence": 0.8}}
-{"raw_text": "120 reais supermercado Pão de Açúcar", "type": "gasto", "amount": 120.0, "currency": "BRL", "category": "Mercado", "place": "Pão de Açúcar", "details": null, "date": null, "meta": {"amount_source": "regex", "category_source": "keyword", "place_source": "heuristic", "confidence": 0.8}}
-{"raw_text": "Netflix R$ 29,90 mensal", "type": "gasto", "amount": 29.9, "currency": "BRL", "category": "Lazer", "place": "Netflix", "details": "mensal", "date": null, "meta": {"amount_source": "regex", "category_source": "keyword", "place_source": "heuristic", "confidence": 0.8}}
-{"raw_text": "Spotify premium 16,90", "type": "gasto", "amount": 16.9, "currency": "BRL", "category": "Lazer", "place": "Spotify", "details": "premium", "date": null, "meta": {"amount_source": "regex", "category_source": "keyword", "place_source": "heuristic", "confidence": 0.8}}
-{"raw_text": "Cerveja 12,50 no bar", "type": "gasto", "amount": 12.5, "currency": "BRL", "category": "Lazer", "place": "bar", "details": "cerveja", "date": null, "meta": {"amount_source": "regex", "category_source": "keyword", "place_source": "heuristic", "confidence": 0.8}}
-{"raw_text": "Doação de 50 reais", "type": "gasto", "amount": 50.0, "currency": "BRL", "category": "Outros", "place": null, "details": "doação", "date": null, "meta": {"amount_source": "regex", "category_source": "none", "place_source": "none", "confidence": 0.7}}
-{"raw_text": "Cortei o cabelo 35 reais", "type": "gasto", "amount": 35.0, "currency": "BRL", "category": "Outros", "place": null, "details": "cortei o cabelo", "date": null, "meta": {"amount_source": "regex", "category_source": "none", "place_source": "none", "confidence": 0.7}}
-{"raw_text": "Curso online R$199", "type": "gasto", "amount": 199.0, "currency": "BRL", "category": "Educação", "place": null, "details": "curso online", "date": null, "meta": {"amount_source": "regex", "category_source": "keyword", "place_source": "none", "confidence": 0.8}}
-{"raw_text": "Remédio na drogaria 89 reais", "type": "gasto", "amount": 89.0, "currency": "BRL", "category": "Saúde", "place": "drogaria", "details": "remédio", "date": null, "meta": {"amount_source": "regex", "category_source": "keyword", "place_source": "heuristic", "confidence": 0.8}}
-{"raw_text": "Pizza delivery 42,90", "type": "gasto", "amount": 42.9, "currency": "BRL", "category": "Comida", "place": null, "details": "pizza delivery", "date": null, "meta": {"amount_source": "regex", "category_source": "keyword", "place_source": "none", "confidence": 0.8}}
-{"raw_text": "Táxi pro aeroporto R$ 65", "type": "gasto", "amount": 65.0, "currency": "BRL", "category": "Transporte", "place": null, "details": "pro aeroporto", "date": null, "meta": {"amount_source": "regex", "category_source": "keyword", "place_source": "none", "confidence": 0.8}}
-{"raw_text": "Exame laboratorial 180,00", "type": "gasto", "amount": 180.0, "currency": "BRL", "category": "Saúde", "place": null, "details": "exame laboratorial", "date": null, "meta": {"amount_source": "regex", "category_source": "keyword", "place_source": "none", "confidence": 0.8}}
-{"raw_text": "Gasolina posto Shell 120", "type": "gasto", "amount": 120.0, "currency": "BRL", "category": "Transporte", "place": "posto Shell", "details": "gasolina", "date": null, "meta": {"amount_source": "regex", "category_source": "keyword", "place_source": "heuristic", "confidence": 0.8}}
-{"raw_text": "Jantar romântico R$ 95,50", "type": "gasto", "amount": 95.5, "currency": "BRL", "category": "Comida", "place": null, "details": "jantar romântico", "date": null, "meta": {"amount_source": "regex", "category_source": "keyword", "place_source": "none", "confidence": 0.8}}
-{"raw_text": "Paguei a conta de luz 230 reais", "type": "gasto", "amount": 230.0, "currency": "BRL", "category": "Moradia", "place": null, "details": "conta de luz", "date": null, "meta": {"amount_source": "regex", "category_source": "keyword", "place_source": "none", "confidence": 0.8}}
-{"raw_text": "Internet 89,90 por mês", "type": "gasto", "amount": 89.9, "currency": "BRL", "category": "Moradia", "place": null, "details": "por mês", "date": null, "meta": {"amount_source": "regex", "category_source": "keyword", "place_source": "none", "confidence": 0.8}}
-{"raw_text": "Comprei tênis R$ 180 na loja", "type": "gasto", "amount": 180.0, "currency": "BRL", "category": "Outros", "place": "loja", "details": "tênis", "date": null, "meta": {"amount_source": "regex", "category_source": "none", "place_source": "heuristic", "confidence": 0.7}}
-{"raw_text": "Vendeu bicicleta por 450", "type": "receita", "amount": 450.0, "currency": "BRL", "category": "Outros", "place": null, "details": "bicicleta", "date": null, "meta": {"amount_source": "regex", "category_source": "none", "place_source": "none", "confidence": 0.7}}
-{"raw_text": "Academia mensal 79,90", "type": "gasto", "amount": 79.9, "currency": "BRL", "category": "Saúde", "place": null, "details": "mensal", "date": null, "meta": {"amount_source": "regex", "category_source": "keyword", "place_source": "none", "confidence": 0.8}}
-{"raw_text": "Manutenção do carro R$ 350", "type": "gasto", "amount": 350.0, "currency": "BRL", "category": "Transporte", "place": null, "details": "manutenção do carro", "date": null, "meta": {"amount_source": "regex", "category_source": "keyword", "place_source": "none", "confidence": 0.8}}
-{"raw_text": "Lanche na cantina 15,50", "type": "gasto", "amount": 15.5, "currency": "BRL", "category": "Comida", "place": "cantina", "details": "lanche", "date": null, "meta": {"amount_source": "regex", "category_source": "keyword", "place_source": "heuristic", "confidence": 0.8}}
-{"raw_text": "Ingresso teatro 60 reais", "type": "gasto", "amount": 60.0, "currency": "BRL", "category": "Lazer", "place": null, "details": "ingresso teatro", "date": null, "meta": {"amount_source": "regex", "category_source": "keyword", "place_source": "none", "confidence": 0.8}}
-{"raw_text": "Empréstimo recebido 800 reais", "type": "receita", "amount": 800.0, "currency": "BRL", "category": "Outros", "place": null, "details": "empréstimo", "date": null, "meta": {"amount_source": "regex", "category_source": "none", "place_source": "none", "confidence": 0.7}}
-{"raw_text": "Material escolar R$ 120", "type": "gasto", "amount": 120.0, "currency": "BRL", "category": "Educação", "place": null, "details": "material escolar", "date": null, "meta": {"amount_source": "regex", "category_source": "keyword", "place_source": "none", "confidence": 0.8}}
-{"raw_text": "Bonificação 13/10 1200", "type": "receita", "amount": 1200.0, "currency": "BRL", "category": "Salário", "place": null, "details": "bonificação", "date": "2024-10-13", "meta": {"amount_source": "regex", "category_source": "keyword", "place_source": "none", "confidence": 0.8}}
-{"raw_text": "Serviço de limpeza 100 reais", "type": "gasto", "amount": 100.0, "currency": "BRL", "category": "Moradia", "place": null, "details": "serviço de limpeza", "date": null, "meta": {"amount_source": "regex", "category_source": "keyword", "place_source": "none", "confidence": 0.8}}
-{"raw_text": "Dentista particular R$ 280", "type": "gasto", "amount": 280.0, "currency": "BRL", "category": "Saúde", "place": null, "details": "dentista particular", "date": null, "meta": {"amount_source": "regex", "category_source": "keyword", "place_source": "none", "confidence": 0.8}}
-{"raw_text": "Convênio médico 450,90 mensal", "type": "gasto", "amount": 450.9, "currency": "BRL", "category": "Saúde", "place": null, "details": "mensal", "date": null, "meta": {"amount_source": "regex", "category_source": "keyword", "place_source": "none", "confidence": 0.8}}
-{"raw_text": "Estacionamento shopping 8 reais", "type": "gasto", "amount": 8.0, "currency": "BRL", "category": "Transporte", "place": "shopping", "details": "estacionamento", "date": null, "meta": {"amount_source": "regex", "category_source": "keyword", "place_source": "heuristic", "confidence": 0.8}}
-{"raw_text": "Cashback R$ 25,80", "type": "receita", "amount": 25.8, "currency": "BRL", "category": "Outros", "place": null, "details": "cashback", "date": null, "meta": {"amount_source": "regex", "category_source": "none", "place_source": "none", "confidence": 0.7}}
-{"raw_text": "Comprei um café hoje", "type": "desconhecido", "amount": null, "currency": "BRL", "category": "Comida", "place": null, "details": "café", "date": null, "meta": {"amount_source": "none", "category_source": "keyword", "place_source": "none", "confidence": 0.6}}
-{"raw_text": "Pagamento pendente", "type": "desconhecido", "amount": null, "currency": "BRL", "category": "Outros", "place": null, "details": null, "date": null, "meta": {"amount_source": "none", "category_source": "none", "place_source": "none", "confidence": 0.3}}
+{"raw_text":"5 reais num pastel","type":"gasto","amount":5.0,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"13 reais em uber de casa para shopping","type":"gasto","amount":13.0,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"50 reais no jantar bodega rainha","type":"gasto","amount":50.0,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Depósito salário 3500","type":"receita","amount":3500.0,"currency":"BRL","category":"Salário","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Paguei R$ 40 no posto de gasolina","type":"gasto","amount":40.0,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Gastei R$ 23,50 no mercado","type":"gasto","amount":23.5,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"200 reais na farmácia","type":"gasto","amount":200.0,"currency":"BRL","category":"Saúde","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"R$150 consulta médica","type":"gasto","amount":150.0,"currency":"BRL","category":"Saúde","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Paguei 1.500,00 de aluguel","type":"gasto","amount":1500.0,"currency":"BRL","category":"Moradia","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"85 rs no cinema ontem","type":"gasto","amount":85.0,"currency":"BRL","category":"Lazer","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Transferi R$ 500 para minha mãe","type":"transferencia","amount":500.0,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"none","confidence":0.7}}
+{"raw_text":"Pix de 100 reais pro João","type":"transferencia","amount":100.0,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"none","confidence":0.7}}
+{"raw_text":"Recebi R$ 2500 freelance","type":"receita","amount":2500.0,"currency":"BRL","category":"Salário","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Salário 4200","type":"receita","amount":4200.0,"currency":"BRL","category":"Salário","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"30 reais na padaria","type":"gasto","amount":30.0,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Gastei 45 reais em livros","type":"gasto","amount":45.0,"currency":"BRL","category":"Educação","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"20 reais para o ônibus","type":"gasto","amount":20.0,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Comi um hamburguer por 25 reais","type":"gasto","amount":25.0,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Gastei R$ 80 na fhamacia","type":"gasto","amount":80.0,"currency":"BRL","category":"Saúde","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.7}}
+{"raw_text":"Compras do mês R$ 680 no Extra","type":"gasto","amount":680.0,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"120 reais supermercado Pão de Açúcar","type":"gasto","amount":120.0,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Netflix R$ 29,90 mensal","type":"gasto","amount":29.9,"currency":"BRL","category":"Lazer","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Spotify premium 16,90","type":"gasto","amount":16.9,"currency":"BRL","category":"Lazer","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Cerveja 12,50 no bar","type":"gasto","amount":12.5,"currency":"BRL","category":"Lazer","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Doação de 50 reais","type":"gasto","amount":50.0,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"none","confidence":0.7}}
+{"raw_text":"Cortei o cabelo 35 reais","type":"gasto","amount":35.0,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"none","confidence":0.7}}
+{"raw_text":"Curso online R$199","type":"gasto","amount":199.0,"currency":"BRL","category":"Educação","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Remédio na drogaria 89 reais","type":"gasto","amount":89.0,"currency":"BRL","category":"Saúde","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Pizza delivery 42,90","type":"gasto","amount":42.9,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Táxi pro aeroporto R$ 65","type":"gasto","amount":65.0,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Exame laboratorial 180,00","type":"gasto","amount":180.0,"currency":"BRL","category":"Saúde","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Gasolina posto Shell 120","type":"gasto","amount":120.0,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Jantar romântico R$ 95,50","type":"gasto","amount":95.5,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Paguei a conta de luz 230 reais","type":"gasto","amount":230.0,"currency":"BRL","category":"Moradia","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Internet 89,90 por mês","type":"gasto","amount":89.9,"currency":"BRL","category":"Moradia","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Comprei tênis R$ 180 na loja","type":"gasto","amount":180.0,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"none","confidence":0.7}}
+{"raw_text":"Vendeu bicicleta por 450","type":"receita","amount":450.0,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"none","confidence":0.7}}
+{"raw_text":"Academia mensal 79,90","type":"gasto","amount":79.9,"currency":"BRL","category":"Saúde","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Manutenção do carro R$ 350","type":"gasto","amount":350.0,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Lanche na cantina 15,50","type":"gasto","amount":15.5,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Ingresso teatro 60 reais","type":"gasto","amount":60.0,"currency":"BRL","category":"Lazer","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Empréstimo recebido 800 reais","type":"receita","amount":800.0,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"none","confidence":0.7}}
+{"raw_text":"Material escolar R$ 120","type":"gasto","amount":120.0,"currency":"BRL","category":"Educação","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Bonificação 13\/10 1200","type":"receita","amount":1200.0,"currency":"BRL","category":"Salário","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Serviço de limpeza 100 reais","type":"gasto","amount":100.0,"currency":"BRL","category":"Moradia","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Dentista particular R$ 280","type":"gasto","amount":280.0,"currency":"BRL","category":"Saúde","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Convênio médico 450,90","type":"gasto","amount":450.9,"currency":"BRL","category":"Saúde","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Estacionamento shopping 8 reais","type":"gasto","amount":8.0,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Cashback R$ 25,80","type":"receita","amount":25.8,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"none","confidence":0.7}}
+{"raw_text":"Comprei um café hoje","type":"desconhecido","amount":null,"currency":"BRL","category":"Comida","meta":{"amount_source":"none","category_source":"keyword","confidence":0.6}}
+{"raw_text":"Pagamento pendente","type":"desconhecido","amount":null,"currency":"BRL","category":"Outros","meta":{"amount_source":"none","category_source":"none","confidence":0.3}}
+{"raw_text":"6,5 num misto quente em Helio","type":"gasto","amount":6.5,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"15 reais em uma caipirinha na praia","type":"gasto","amount":15.0,"currency":"BRL","category":"Lazer","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"10 reais no paceio de barco","type":"gasto","amount":10.0,"currency":"BRL","category":"Lazer","meta":{"amount_source":"regex","category_source":"fuzzy","confidence":0.7}}
+{"raw_text":"30 reais paceio de caiaque","type":"gasto","amount":30.0,"currency":"BRL","category":"Lazer","meta":{"amount_source":"regex","category_source":"fuzzy","confidence":0.7}}
+{"raw_text":"80 reais num protetor solar","type":"gasto","amount":80.0,"currency":"BRL","category":"Saúde","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"66 reais da internet","type":"gasto","amount":66.0,"currency":"BRL","category":"Moradia","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"2 reais numa bolacha","type":"gasto","amount":2.0,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"10 reais no pix pra mãe","type":"transferencia","amount":10.0,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"none","confidence":0.7}}
+{"raw_text":"700 reais na viagem fortaleza","type":"gasto","amount":700.0,"currency":"BRL","category":"Lazer","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"183 reais para o evento BRACIS","type":"gasto","amount":183.0,"currency":"BRL","category":"Lazer","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"R$ 7,50 no pão francês","type":"gasto","amount":7.5,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Depósito 1200 para conta poupança","type":"receita","amount":1200.0,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"none","confidence":0.7}}
+{"raw_text":"Trabalhei e recebi 600 de freelancer","type":"receita","amount":600.0,"currency":"BRL","category":"Salário","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"R$ 3.200,00 salário 01\/07\/2025","type":"receita","amount":3200.0,"currency":"BRL","category":"Salário","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Comprei 3 latas de cerveja 27,30","type":"gasto","amount":27.3,"currency":"BRL","category":"Lazer","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Pedi delivery ifood 49,90","type":"gasto","amount":49.9,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"R$ 45 em material de escritório","type":"gasto","amount":45.0,"currency":"BRL","category":"Educação","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Transferi 250 para João via pix","type":"transferencia","amount":250.0,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"none","confidence":0.7}}
+{"raw_text":"R$ 9,90 assinatura app","type":"gasto","amount":9.9,"currency":"BRL","category":"Lazer","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"400 reais em peças para o carro","type":"gasto","amount":400.0,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Aluguel 01\/08 R$ 1.800,00","type":"gasto","amount":1800.0,"currency":"BRL","category":"Moradia","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Doação 25 reais para instituição","type":"gasto","amount":25.0,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"none","confidence":0.7}}
+{"raw_text":"R$ 220 no supermercado Extra","type":"gasto","amount":220.0,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Paguei a água 55,75","type":"gasto","amount":55.75,"currency":"BRL","category":"Moradia","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Comprei passagem R$ 350 para Recife","type":"gasto","amount":350.0,"currency":"BRL","category":"Lazer","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"R$ 14,20 no restaurante japonês","type":"gasto","amount":14.2,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Venda de livros 120 reais","type":"receita","amount":120.0,"currency":"BRL","category":"Educação","meta":{"amount_source":"regex","category_source":"none","confidence":0.7}}
+{"raw_text":"R$ 49 mensalidade curso online","type":"gasto","amount":49.0,"currency":"BRL","category":"Educação","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Paguei estacionamento 12 reais no centro","type":"gasto","amount":12.0,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"R$ 15 no lanche da escola","type":"gasto","amount":15.0,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Recebi 200 de reembolso do plano","type":"receita","amount":200.0,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"none","confidence":0.7}}
+{"raw_text":"Paguei R$ 55 no conserto do celular","type":"gasto","amount":55.0,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"none","confidence":0.7}}
+{"raw_text":"R$ 300 consulta psicólogo particular","type":"gasto","amount":300.0,"currency":"BRL","category":"Saúde","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Gastei 22 reais em pastel e suco","type":"gasto","amount":22.0,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Pagamento MercadoPago R$ 60","type":"gasto","amount":60.0,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"model","confidence":0.75}}
+{"raw_text":"R$ 18,50 na padaria São José","type":"gasto","amount":18.5,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Compras farmacia 75,00","type":"gasto","amount":75.0,"currency":"BRL","category":"Saúde","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"R$ 250 de depósito salário extra","type":"receita","amount":250.0,"currency":"BRL","category":"Salário","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Pedi uber 28,00 pro trabalho","type":"gasto","amount":28.0,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"R$ 5,00 do cafezinho na esquina","type":"gasto","amount":5.0,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Venda de roupa 90 reais","type":"receita","amount":90.0,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"none","confidence":0.7}}
+{"raw_text":"Paguei R$ 120 no curso de fotografia","type":"gasto","amount":120.0,"currency":"BRL","category":"Educação","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"R$ 250 transferência para poupança","type":"transferencia","amount":250.0,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"none","confidence":0.7}}
+{"raw_text":"Paguei doc 15,00 pelo banco","type":"gasto","amount":15.0,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"none","confidence":0.7}}
+{"raw_text":"R$ 3.600 aluguel anual dividido","type":"gasto","amount":3600.0,"currency":"BRL","category":"Moradia","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Compra mercado 320,50 Pão de Açúcar","type":"gasto","amount":320.5,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Cinema com amigos 35,00","type":"gasto","amount":35.0,"currency":"BRL","category":"Lazer","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Pedi entrega de comida R$ 58,20","type":"gasto","amount":58.2,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"R$ 95 restauração do carro","type":"gasto","amount":95.0,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Dois cafés grátis (cupom)","type":"desconhecido","amount":null,"currency":"BRL","category":"Comida","meta":{"amount_source":"none","category_source":"keyword","confidence":0.6}}
+{"raw_text":"R$ 18,50 táxi até a rodoviária","type":"gasto","amount":18.5,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Paguei R$ 14 na manicure","type":"gasto","amount":14.0,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"none","confidence":0.7}}
+{"raw_text":"Workshop R$ 210 12\/11\/2024","type":"gasto","amount":210.0,"currency":"BRL","category":"Educação","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"R$ 49,90 Spotify Premium","type":"gasto","amount":49.9,"currency":"BRL","category":"Lazer","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Pagamento condomínio 420","type":"gasto","amount":420.0,"currency":"BRL","category":"Moradia","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"R$ 33,20 compra na padaria do bairro","type":"gasto","amount":33.2,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Venda ingresso 120 para show","type":"receita","amount":120.0,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"none","confidence":0.7}}
+{"raw_text":"R$ 5,50 salgadinho no intervalo","type":"gasto","amount":5.5,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Transferência recebida 600 PIX","type":"receita","amount":600.0,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"none","confidence":0.7}}
+{"raw_text":"R$ 1.250 conserto ar condicionado","type":"gasto","amount":1250.0,"currency":"BRL","category":"Moradia","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Paguei 27,40 por livro usado","type":"gasto","amount":27.4,"currency":"BRL","category":"Educação","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"R$ 75,00 do conserto da bicicleta","type":"gasto","amount":75.0,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Pix 40 pro André","type":"transferencia","amount":40.0,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"none","confidence":0.7}}
+{"raw_text":"R$ 5.000 adiantamento salário","type":"receita","amount":5000.0,"currency":"BRL","category":"Salário","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Compra no atacarejo 560,00","type":"gasto","amount":560.0,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"R$ 19,90 assinatura de notícias","type":"gasto","amount":19.9,"currency":"BRL","category":"Lazer","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Gastei 12 reais no ponto de táxi","type":"gasto","amount":12.0,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"R$ 250 compra de presente","type":"gasto","amount":250.0,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"none","confidence":0.7}}
+{"raw_text":"Recebi doação 1000","type":"receita","amount":1000.0,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"none","confidence":0.7}}
+{"raw_text":"R$ 6 no pão de queijo hoje","type":"gasto","amount":6.0,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Pagamento Uber 32,10","type":"gasto","amount":32.1,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"R$ 14,00 compra na banca de jornal","type":"gasto","amount":14.0,"currency":"BRL","category":"Lazer","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Comprei material de desenho 58,60","type":"gasto","amount":58.6,"currency":"BRL","category":"Educação","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"R$ 5 pix devolução","type":"receita","amount":5.0,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"none","confidence":0.7}}
+{"raw_text":"Pagamento de luz 210,00","type":"gasto","amount":210.0,"currency":"BRL","category":"Moradia","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"R$ 11,50 sorvete na praça","type":"gasto","amount":11.5,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Transferi 800 pro aluguel via TED","type":"transferencia","amount":800.0,"currency":"BRL","category":"Moradia","meta":{"amount_source":"regex","category_source":"none","confidence":0.7}}
+{"raw_text":"R$ 29,99 compra app jogo","type":"gasto","amount":29.99,"currency":"BRL","category":"Lazer","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Serviço doméstico 90 reais","type":"gasto","amount":90.0,"currency":"BRL","category":"Moradia","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"R$ 42,40 lanche pós-treino","type":"gasto","amount":42.4,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Venda equipamento 1.200,00","type":"receita","amount":1200.0,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"none","confidence":0.7}}
+{"raw_text":"Paguei ingresso cinema 50","type":"gasto","amount":50.0,"currency":"BRL","category":"Lazer","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"R$ 260 consulta veterinária","type":"gasto","amount":260.0,"currency":"BRL","category":"Saúde","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Assinatura revista 19,00 mensal","type":"gasto","amount":19.0,"currency":"BRL","category":"Lazer","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Recebi 3.000 por venda do carro","type":"receita","amount":3000.0,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"none","confidence":0.7}}
+{"raw_text":"R$ 7,00 água mineral na praia","type":"gasto","amount":7.0,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Pagamento de bolsa 500,00","type":"receita","amount":500.0,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"none","confidence":0.7}}
+{"raw_text":"R$ 120 compra de presente do aniversário","type":"gasto","amount":120.0,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"none","confidence":0.7}}
+{"raw_text":"Gastei 27 reais em sucos naturais","type":"gasto","amount":27.0,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Paguei plano saúde 320,00 mensal","type":"gasto","amount":320.0,"currency":"BRL","category":"Saúde","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"R$ 18 almoço Executivo restaurante","type":"gasto","amount":18.0,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Transferi 60 para divisão de conta","type":"transferencia","amount":60.0,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"none","confidence":0.7}}
+{"raw_text":"R$ 45,00 lavagem de carro","type":"gasto","amount":45.0,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Venda ingressos feira 300","type":"receita","amount":300.0,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"none","confidence":0.7}}
+{"raw_text":"Táxi até em casa 45.92 reais","type":"gasto","amount":45.92,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.85}}
+{"raw_text":"Sapato novo R$136,17","type":"gasto","amount":136.17,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.89}}
+{"raw_text":"Workshop de marketing R$ 346.79","type":"gasto","amount":346.79,"currency":"BRL","category":"Educação","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.91}}
+{"raw_text":"Pastel na feira 12,32 reais","type":"gasto","amount":12.32,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.93}}
+{"raw_text":"Hambúrguer no food truck R$28,30","type":"gasto","amount":28.3,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.86}}
+{"raw_text":"Débito automático","type":"desconhecido","amount":null,"currency":"BRL","category":"Outros","meta":{"amount_source":"none","category_source":"none","confidence":0.52}}
+{"raw_text":"Pagamento consultoria 4293.71 rs","type":"receita","amount":4293.71,"currency":"BRL","category":"Salário","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.89}}
+{"raw_text":"Água da SABESP R$1460,05","type":"gasto","amount":1460.05,"currency":"BRL","category":"Moradia","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.86}}
+{"raw_text":"Devolução da loja R$135.31","type":"receita","amount":135.31,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.91}}
+{"raw_text":"Spotify premium R$63.14","type":"gasto","amount":63.14,"currency":"BRL","category":"Lazer","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.95}}
+{"raw_text":"Estorno pendente","type":"desconhecido","amount":null,"currency":"BRL","category":"Outros","meta":{"amount_source":"none","category_source":"none","confidence":0.36}}
+{"raw_text":"Certificação online R$314.56","type":"gasto","amount":314.56,"currency":"BRL","category":"Educação","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.82}}
+{"raw_text":"Hora extra 7449,81 rs","type":"receita","amount":7449.81,"currency":"BRL","category":"Salário","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.83}}
+{"raw_text":"Reembolso do plano R$294,19","type":"receita","amount":294.19,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.83}}
+{"raw_text":"Transferi 89,37 reais para minha filho","type":"transferencia","amount":89.37,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.78}}
+{"raw_text":"Conserto do celular R$88,41","type":"gasto","amount":88.41,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.89}}
+{"raw_text":"PIX 252.81 reais divisão conta","type":"transferencia","amount":252.81,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.93}}
+{"raw_text":"Transferi R$224.98 para minha irmã","type":"transferencia","amount":224.98,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.81}}
+{"raw_text":"Workshop de marketing R$ 102,74","type":"gasto","amount":102.74,"currency":"BRL","category":"Educação","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.85}}
+{"raw_text":"Show no Allianz 10.62 rs","type":"gasto","amount":10.62,"currency":"BRL","category":"Lazer","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.88}}
+{"raw_text":"Emprestei 351,80 rs para o Fernanda","type":"transferencia","amount":351.8,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.75}}
+{"raw_text":"Hora extra 2494.25 rs","type":"receita","amount":2494.25,"currency":"BRL","category":"Salário","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.91}}
+{"raw_text":"R$30 no lanche da tarde","type":"gasto","amount":30.0,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.81}}
+{"raw_text":"Sapato novo R$220,00","type":"gasto","amount":220.0,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.81}}
+{"raw_text":"99 pop 170.93 reais","type":"gasto","amount":170.93,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.83}}
+{"raw_text":"Aula particular 223,18 reais","type":"gasto","amount":223.18,"currency":"BRL","category":"Educação","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.89}}
+{"raw_text":"DOC R$249,69 para filho","type":"transferencia","amount":249.69,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.75}}
+{"raw_text":"Material escolar R$307,31","type":"gasto","amount":307.31,"currency":"BRL","category":"Educação","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.84}}
+{"raw_text":"Caneta e caderno 282,04 rs","type":"gasto","amount":282.04,"currency":"BRL","category":"Educação","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.89}}
+{"raw_text":"Pagamento da empresa 5961,13 rs","type":"receita","amount":5961.13,"currency":"BRL","category":"Salário","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.82}}
+{"raw_text":"Mercadinho da esquina 417.25 reais","type":"gasto","amount":417.25,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.82}}
+{"raw_text":"Perfume importado 156,25 rs","type":"gasto","amount":156.25,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Prêmio da loteria R$ 208.04","type":"receita","amount":208.04,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.82}}
+{"raw_text":"Viagem para a praia R$ 96.04","type":"gasto","amount":96.04,"currency":"BRL","category":"Lazer","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.84}}
+{"raw_text":"99 pop 64,64 rs","type":"gasto","amount":64.64,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.94}}
+{"raw_text":"Sacolão 258,67 rs","type":"gasto","amount":258.67,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.79}}
+{"raw_text":"Prêmio da loteria 85,46 rs","type":"receita","amount":85.46,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.94}}
+{"raw_text":"Remédio da pressão 73.28 reais","type":"gasto","amount":73.28,"currency":"BRL","category":"Saúde","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.79}}
+{"raw_text":"Apostila do concurso R$ 299,89","type":"gasto","amount":299.89,"currency":"BRL","category":"Educação","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.9}}
+{"raw_text":"Maquiagem Natura 340.91 reais","type":"gasto","amount":340.91,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.75}}
+{"raw_text":"PIX agendado 384.05 rs","type":"transferencia","amount":384.05,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.76}}
+{"raw_text":"Transação não identificada","type":"desconhecido","amount":null,"currency":"BRL","category":"Outros","meta":{"amount_source":"none","category_source":"none","confidence":0.41}}
+{"raw_text":"Emprestei 315,76 reais para o Paulo","type":"transferencia","amount":315.76,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Pedágio da rodovia R$ 165,19","type":"gasto","amount":165.19,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.81}}
+{"raw_text":"Ajuda familiar R$383,85","type":"transferencia","amount":383.85,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.93}}
+{"raw_text":"Material de limpeza 1093.21 reais","type":"gasto","amount":1093.21,"currency":"BRL","category":"Moradia","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.88}}
+{"raw_text":"Freelance programação R$2633,22","type":"receita","amount":2633.22,"currency":"BRL","category":"Salário","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.91}}
+{"raw_text":"Mandei R$15,49 pro José","type":"transferencia","amount":15.49,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.83}}
+{"raw_text":"Teatro municipal R$7,03","type":"gasto","amount":7.03,"currency":"BRL","category":"Lazer","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.94}}
+{"raw_text":"Compra cancelada","type":"desconhecido","amount":null,"currency":"BRL","category":"Outros","meta":{"amount_source":"none","category_source":"none","confidence":0.46}}
+{"raw_text":"Reembolso processando","type":"desconhecido","amount":null,"currency":"BRL","category":"Outros","meta":{"amount_source":"none","category_source":"none","confidence":0.5}}
+{"raw_text":"Taxa do banco R$145.50","type":"gasto","amount":145.5,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.83}}
+{"raw_text":"Hora extra R$4461,55","type":"receita","amount":4461.55,"currency":"BRL","category":"Salário","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.9}}
+{"raw_text":"Plano de saúde R$16,29","type":"gasto","amount":16.29,"currency":"BRL","category":"Saúde","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.81}}
+{"raw_text":"Aluguel do apartamento R$ 1659,27","type":"gasto","amount":1659.27,"currency":"BRL","category":"Moradia","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.88}}
+{"raw_text":"Passagem de ônibus R$45,68","type":"gasto","amount":45.68,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Saiu do banco","type":"desconhecido","amount":null,"currency":"BRL","category":"Outros","meta":{"amount_source":"none","category_source":"none","confidence":0.48}}
+{"raw_text":"Cinema no shopping 127.11 reais","type":"gasto","amount":127.11,"currency":"BRL","category":"Lazer","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.92}}
+{"raw_text":"Certificação online R$ 371,07","type":"gasto","amount":371.07,"currency":"BRL","category":"Educação","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.95}}
+{"raw_text":"Sacolão R$ 170.59","type":"gasto","amount":170.59,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.88}}
+{"raw_text":"Dividendos ações R$ 278,30","type":"receita","amount":278.3,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.93}}
+{"raw_text":"Exames de sangue R$315,75","type":"gasto","amount":315.75,"currency":"BRL","category":"Saúde","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.91}}
+{"raw_text":"Maquiagem Natura R$243.53","type":"gasto","amount":243.53,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.89}}
+{"raw_text":"Estacionamento do shopping 146.02 reais","type":"gasto","amount":146.02,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.95}}
+{"raw_text":"Taxa do banco 328,41 rs","type":"gasto","amount":328.41,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.94}}
+{"raw_text":"Pão de Açúcar R$150,63","type":"gasto","amount":150.63,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.83}}
+{"raw_text":"Presente de aniversário R$ 185,57","type":"gasto","amount":185.57,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.86}}
+{"raw_text":"Pizza delivery R$ 35,19","type":"gasto","amount":35.19,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.82}}
+{"raw_text":"Revisão do carro 158.17 rs","type":"gasto","amount":158.17,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.9}}
+{"raw_text":"Comprinhas básicas 174.01 rs","type":"gasto","amount":174.01,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.85}}
+{"raw_text":"Uber para o trabalho R$152.17","type":"gasto","amount":152.17,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.92}}
+{"raw_text":"Roupas na C&A R$343,39","type":"gasto","amount":343.39,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.77}}
+{"raw_text":"Pão de Açúcar R$ 124,41","type":"gasto","amount":124.41,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Comprei umas coisas hoje","type":"desconhecido","amount":null,"currency":"BRL","category":"Outros","meta":{"amount_source":"none","category_source":"none","confidence":0.4}}
+{"raw_text":"Dividendos ações 367,10 reais","type":"receita","amount":367.1,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.91}}
+{"raw_text":"Consulta médica 266.58 reais","type":"gasto","amount":266.58,"currency":"BRL","category":"Saúde","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.81}}
+{"raw_text":"Condomínio 1078,17 rs","type":"gasto","amount":1078.17,"currency":"BRL","category":"Moradia","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.93}}
+{"raw_text":"Carnes no açougue 449.75 reais","type":"gasto","amount":449.75,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.83}}
+{"raw_text":"Seguro do carro R$57.54","type":"gasto","amount":57.54,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.76}}
+{"raw_text":"Teatro municipal R$ 85.96","type":"gasto","amount":85.96,"currency":"BRL","category":"Lazer","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.88}}
+{"raw_text":"Parque de diversões 173,54 reais","type":"gasto","amount":173.54,"currency":"BRL","category":"Lazer","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.9}}
+{"raw_text":"Presente de aniversário 23.11 reais","type":"gasto","amount":23.11,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.85}}
+{"raw_text":"Internet banda larga R$ 515.64","type":"gasto","amount":515.64,"currency":"BRL","category":"Moradia","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.87}}
+{"raw_text":"Academia Smart Fit R$102.31","type":"gasto","amount":102.31,"currency":"BRL","category":"Saúde","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.79}}
+{"raw_text":"Remédio da pressão 293.38 rs","type":"gasto","amount":293.38,"currency":"BRL","category":"Saúde","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.81}}
+{"raw_text":"25.87 rs no lanche da tarde","type":"gasto","amount":25.87,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.82}}
+{"raw_text":"Transferi 364.01 rs para minha irmã","type":"transferencia","amount":364.01,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.92}}
+{"raw_text":"Prêmio da loteria R$201.30","type":"receita","amount":201.3,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.91}}
+{"raw_text":"Faxina da casa R$ 170.97","type":"gasto","amount":170.97,"currency":"BRL","category":"Moradia","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.84}}
+{"raw_text":"61.36 rs no lanche da tarde","type":"gasto","amount":61.36,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.91}}
+{"raw_text":"Farmácia popular 300,07 rs","type":"gasto","amount":300.07,"currency":"BRL","category":"Saúde","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.81}}
+{"raw_text":"Taxa do banco R$341,73","type":"gasto","amount":341.73,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.79}}
+{"raw_text":"Pão de Açúcar 21,23 reais","type":"gasto","amount":21.23,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.84}}
+{"raw_text":"Show no Allianz 23,20 reais","type":"gasto","amount":23.2,"currency":"BRL","category":"Lazer","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.9}}
+{"raw_text":"Aula particular 183,61 reais","type":"gasto","amount":183.61,"currency":"BRL","category":"Educação","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.76}}
+{"raw_text":"5.21 rs no lanche da tarde","type":"gasto","amount":5.21,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.81}}
+{"raw_text":"Certificação online R$183,82","type":"gasto","amount":183.82,"currency":"BRL","category":"Educação","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.83}}
+{"raw_text":"Fisioterapia R$ 190.73","type":"gasto","amount":190.73,"currency":"BRL","category":"Saúde","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.83}}
+{"raw_text":"IPTU R$ 1424,03","type":"gasto","amount":1424.03,"currency":"BRL","category":"Moradia","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.77}}
+{"raw_text":"Trabalho extra R$ 1655,12","type":"receita","amount":1655.12,"currency":"BRL","category":"Salário","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.84}}
+{"raw_text":"Transferi R$ 54,38 para minha irmã","type":"transferencia","amount":54.38,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.88}}
+{"raw_text":"R$ 74.00 no lanche da tarde","type":"gasto","amount":74.0,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.84}}
+{"raw_text":"Show no Allianz R$44.90","type":"gasto","amount":44.9,"currency":"BRL","category":"Lazer","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.79}}
+{"raw_text":"Mercadinho da esquina 449.35 reais","type":"gasto","amount":449.35,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.92}}
+{"raw_text":"Comprinhas básicas 419.97 rs","type":"gasto","amount":419.97,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.84}}
+{"raw_text":"Exames de sangue 62.26 rs","type":"gasto","amount":62.26,"currency":"BRL","category":"Saúde","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.82}}
+{"raw_text":"Troca de óleo R$76,76","type":"gasto","amount":76.76,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.89}}
+{"raw_text":"Fisioterapia R$317,44","type":"gasto","amount":317.44,"currency":"BRL","category":"Saúde","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.76}}
+{"raw_text":"Show no Allianz 131,57 reais","type":"gasto","amount":131.57,"currency":"BRL","category":"Lazer","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.95}}
+{"raw_text":"Ajuda familiar R$ 90,76","type":"transferencia","amount":90.76,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.85}}
+{"raw_text":"Curso de inglês R$ 34.20","type":"gasto","amount":34.2,"currency":"BRL","category":"Educação","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.88}}
+{"raw_text":"46,87 rs no lanche da tarde","type":"gasto","amount":46.87,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.91}}
+{"raw_text":"Seguro do carro 44.44 rs","type":"gasto","amount":44.44,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.87}}
+{"raw_text":"99 pop 11,85 rs","type":"gasto","amount":11.85,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.87}}
+{"raw_text":"Troca de óleo R$99.83","type":"gasto","amount":99.83,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.84}}
+{"raw_text":"Carnes no açougue R$ 398.23","type":"gasto","amount":398.23,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.9}}
+{"raw_text":"Presente de aniversário R$ 213,49","type":"gasto","amount":213.49,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.95}}
+{"raw_text":"Sapato novo R$ 136.15","type":"gasto","amount":136.15,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.76}}
+{"raw_text":"Taxa administrativa","type":"desconhecido","amount":null,"currency":"BRL","category":"Outros","meta":{"amount_source":"none","category_source":"none","confidence":0.34}}
+{"raw_text":"Empréstimo recebido 173,65 reais","type":"receita","amount":173.65,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.81}}
+{"raw_text":"Doação para ONG R$131,07","type":"gasto","amount":131.07,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.95}}
+{"raw_text":"Cinema no shopping 202.15 rs","type":"gasto","amount":202.15,"currency":"BRL","category":"Lazer","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.9}}
+{"raw_text":"Salário depositado R$3639,13","type":"receita","amount":3639.13,"currency":"BRL","category":"Salário","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.78}}
+{"raw_text":"Taxa do banco R$37,66","type":"gasto","amount":37.66,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.89}}
+{"raw_text":"Compras da semana R$ 295,34","type":"gasto","amount":295.34,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.91}}
+{"raw_text":"Atacadão compras 403,43 reais","type":"gasto","amount":403.43,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.92}}
+{"raw_text":"Emprestei R$ 335,78 para o José","type":"transferencia","amount":335.78,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.81}}
+{"raw_text":"Dividendos ações R$ 303,63","type":"receita","amount":303.63,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.93}}
+{"raw_text":"Extra supermercados 35,87 rs","type":"gasto","amount":35.87,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.93}}
+{"raw_text":"Spotify premium R$13,40","type":"gasto","amount":13.4,"currency":"BRL","category":"Lazer","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Jantar romântico custou R$ 8,79","type":"gasto","amount":8.79,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.9}}
+{"raw_text":"Ingresso do jogo R$47,98","type":"gasto","amount":47.98,"currency":"BRL","category":"Lazer","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.78}}
+{"raw_text":"Água da SABESP R$ 1756,22","type":"gasto","amount":1756.22,"currency":"BRL","category":"Moradia","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.79}}
+{"raw_text":"Drogaria pacheco R$ 77.04","type":"gasto","amount":77.04,"currency":"BRL","category":"Saúde","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.9}}
+{"raw_text":"Remédio da pressão 112.85 reais","type":"gasto","amount":112.85,"currency":"BRL","category":"Saúde","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.83}}
+{"raw_text":"Prêmio da loteria 61,34 rs","type":"receita","amount":61.34,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.82}}
+{"raw_text":"Vendeu o celular 294.76 rs","type":"receita","amount":294.76,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.88}}
+{"raw_text":"Transferência 71,00 rs emergência","type":"transferencia","amount":71.0,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.77}}
+{"raw_text":"Uber para o trabalho R$94,04","type":"gasto","amount":94.04,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.79}}
+{"raw_text":"Pão de açúcar 38.40 rs","type":"gasto","amount":38.4,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.83}}
+{"raw_text":"Faxina da casa R$ 285.38","type":"gasto","amount":285.38,"currency":"BRL","category":"Moradia","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.91}}
+{"raw_text":"Verduras e frutas R$408.23","type":"gasto","amount":408.23,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.79}}
+{"raw_text":"Vendeu o celular 365.57 reais","type":"receita","amount":365.57,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.75}}
+{"raw_text":"Aula particular R$357.42","type":"gasto","amount":357.42,"currency":"BRL","category":"Educação","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.81}}
+{"raw_text":"Salário depositado R$3853.56","type":"receita","amount":3853.56,"currency":"BRL","category":"Salário","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.83}}
+{"raw_text":"Reembolso do plano 367.33 reais","type":"receita","amount":367.33,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.87}}
+{"raw_text":"Spotify premium 231,05 rs","type":"gasto","amount":231.05,"currency":"BRL","category":"Lazer","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.83}}
+{"raw_text":"Gasolina do carro R$102.01","type":"gasto","amount":102.01,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.88}}
+{"raw_text":"Conserto do celular R$177,38","type":"gasto","amount":177.38,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.76}}
+{"raw_text":"Açaí com granola R$ 84.81","type":"gasto","amount":84.81,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.81}}
+{"raw_text":"Hora extra 2189,57 reais","type":"receita","amount":2189.57,"currency":"BRL","category":"Salário","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.91}}
+{"raw_text":"Gastei no cartão","type":"desconhecido","amount":null,"currency":"BRL","category":"Outros","meta":{"amount_source":"none","category_source":"none","confidence":0.42}}
+{"raw_text":"Gás de cozinha 626,96 rs","type":"gasto","amount":626.96,"currency":"BRL","category":"Moradia","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.84}}
+{"raw_text":"Cashback do cartão 120,01 rs","type":"receita","amount":120.01,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.91}}
+{"raw_text":"Pagamento da empresa R$ 2439.93","type":"receita","amount":2439.93,"currency":"BRL","category":"Salário","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.78}}
+{"raw_text":"Estacionamento do shopping 68.25 rs","type":"gasto","amount":68.25,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.84}}
+{"raw_text":"Atacadão compras R$213,83","type":"gasto","amount":213.83,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Gás de cozinha R$1724,42","type":"gasto","amount":1724.42,"currency":"BRL","category":"Moradia","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.76}}
+{"raw_text":"Sacolão R$ 160.69","type":"gasto","amount":160.69,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.9}}
+{"raw_text":"Freelance programação 4162,54 reais","type":"receita","amount":4162.54,"currency":"BRL","category":"Salário","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.93}}
+{"raw_text":"Revisão do carro 61,95 rs","type":"gasto","amount":61.95,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.88}}
+{"raw_text":"Aluguel da casa 159,37 rs","type":"receita","amount":159.37,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.78}}
+{"raw_text":"Comissão de vendas R$3170,30","type":"receita","amount":3170.3,"currency":"BRL","category":"Salário","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.92}}
+{"raw_text":"Jantar romântico custou R$44.77","type":"gasto","amount":44.77,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.81}}
+{"raw_text":"Conta de luz R$1498.72","type":"gasto","amount":1498.72,"currency":"BRL","category":"Moradia","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.91}}
+{"raw_text":"Caneta e caderno 152,83 reais","type":"gasto","amount":152.83,"currency":"BRL","category":"Educação","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.76}}
+{"raw_text":"Reforma do banheiro R$1062.25","type":"gasto","amount":1062.25,"currency":"BRL","category":"Moradia","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.92}}
+{"raw_text":"Pastel na feira 11.89 reais","type":"gasto","amount":11.89,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.78}}
+{"raw_text":"Netflix mensal R$ 202,52","type":"gasto","amount":202.52,"currency":"BRL","category":"Lazer","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.94}}
+{"raw_text":"Bonificação R$2553,29","type":"receita","amount":2553.29,"currency":"BRL","category":"Salário","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.81}}
+{"raw_text":"Netflix mensal 99.96 rs","type":"gasto","amount":99.96,"currency":"BRL","category":"Lazer","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.88}}
+{"raw_text":"Vendeu o celular 128,74 reais","type":"receita","amount":128.74,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.86}}
+{"raw_text":"Passagem de ônibus 74.51 rs","type":"gasto","amount":74.51,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.85}}
+{"raw_text":"Roupas na C&A 76.68 rs","type":"gasto","amount":76.68,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.79}}
+{"raw_text":"Caneta e caderno 92,38 reais","type":"gasto","amount":92.38,"currency":"BRL","category":"Educação","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.77}}
+{"raw_text":"Presente de aniversário R$163.64","type":"gasto","amount":163.64,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.88}}
+{"raw_text":"Renda extra R$ 123,79","type":"receita","amount":123.79,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.88}}
+{"raw_text":"Cinema no shopping R$235.57","type":"gasto","amount":235.57,"currency":"BRL","category":"Lazer","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.76}}
+{"raw_text":"Certificação online R$70.16","type":"gasto","amount":70.16,"currency":"BRL","category":"Educação","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.93}}
+{"raw_text":"Exames de sangue 269,76 reais","type":"gasto","amount":269.76,"currency":"BRL","category":"Saúde","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.83}}
+{"raw_text":"Renda extra 182.76 reais","type":"receita","amount":182.76,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.84}}
+{"raw_text":"Sapato novo R$ 120,79","type":"gasto","amount":120.79,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.76}}
+{"raw_text":"Balada sábado R$ 212.33","type":"gasto","amount":212.33,"currency":"BRL","category":"Lazer","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.88}}
+{"raw_text":"IPTU R$ 1661.25","type":"gasto","amount":1661.25,"currency":"BRL","category":"Moradia","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.79}}
+{"raw_text":"Trabalho extra R$ 5509.89","type":"receita","amount":5509.89,"currency":"BRL","category":"Salário","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.77}}
+{"raw_text":"Cervejinha com os amigos 16,49 rs","type":"gasto","amount":16.49,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.94}}
+{"raw_text":"Pedágio da rodovia 45,80 rs","type":"gasto","amount":45.8,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.79}}
+{"raw_text":"Pedágio da rodovia R$ 10,02","type":"gasto","amount":10.02,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.89}}
+{"raw_text":"Transferência 6,34 reais emergência","type":"transferencia","amount":6.34,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.88}}
+{"raw_text":"99 pop 154,01 rs","type":"gasto","amount":154.01,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.83}}
+{"raw_text":"Prêmio da loteria R$83.16","type":"receita","amount":83.16,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.94}}
+{"raw_text":"Spotify premium 65,82 rs","type":"gasto","amount":65.82,"currency":"BRL","category":"Lazer","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.94}}
+{"raw_text":"Freelance programação R$ 5554,58","type":"receita","amount":5554.58,"currency":"BRL","category":"Salário","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.78}}
+{"raw_text":"Reembolso do plano 172,80 rs","type":"receita","amount":172.8,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.88}}
+{"raw_text":"Reembolso do plano R$ 204,59","type":"receita","amount":204.59,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.84}}
+{"raw_text":"Sacolão 251,96 reais","type":"gasto","amount":251.96,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Sapato novo R$ 65.06","type":"gasto","amount":65.06,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.76}}
+{"raw_text":"Carnes no açougue 427,16 reais","type":"gasto","amount":427.16,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.82}}
+{"raw_text":"Consulta médica R$ 143,52","type":"gasto","amount":143.52,"currency":"BRL","category":"Saúde","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.93}}
+{"raw_text":"Devolução da loja R$ 305.90","type":"receita","amount":305.9,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.92}}
+{"raw_text":"Fisioterapia R$118,82","type":"gasto","amount":118.82,"currency":"BRL","category":"Saúde","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.82}}
+{"raw_text":"Empréstimo recebido 75.05 rs","type":"receita","amount":75.05,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.94}}
+{"raw_text":"Balada sábado 107.26 reais","type":"gasto","amount":107.26,"currency":"BRL","category":"Lazer","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.94}}
+{"raw_text":"Prêmio da loteria R$ 55,20","type":"receita","amount":55.2,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.79}}
+{"raw_text":"Passagem de ônibus 133.85 rs","type":"gasto","amount":133.85,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.86}}
+{"raw_text":"Almocei hoje e gastei 75,56 rs","type":"gasto","amount":75.56,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.95}}
+{"raw_text":"R$ 31.41 no lanche da tarde","type":"gasto","amount":31.41,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.93}}
+{"raw_text":"Mensalidade Unopar 221.47 rs","type":"gasto","amount":221.47,"currency":"BRL","category":"Educação","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.78}}
+{"raw_text":"Mandei 250,17 rs pro João","type":"transferencia","amount":250.17,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.83}}
+{"raw_text":"Hambúrguer no food truck R$40.93","type":"gasto","amount":40.93,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.77}}
+{"raw_text":"Material escolar R$ 301,29","type":"gasto","amount":301.29,"currency":"BRL","category":"Educação","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.87}}
+{"raw_text":"Caneta e caderno R$47.89","type":"gasto","amount":47.89,"currency":"BRL","category":"Educação","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.82}}
+{"raw_text":"Seguro do carro R$287,27","type":"gasto","amount":287.27,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.79}}
+{"raw_text":"99 pop R$ 155,01","type":"gasto","amount":155.01,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Balada sábado R$ 35,20","type":"gasto","amount":35.2,"currency":"BRL","category":"Lazer","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.82}}
+{"raw_text":"Academia Smart Fit 296.53 rs","type":"gasto","amount":296.53,"currency":"BRL","category":"Saúde","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.84}}
+{"raw_text":"Cervejinha com os amigos R$ 62.27","type":"gasto","amount":62.27,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.88}}
+{"raw_text":"Parque de diversões R$189.37","type":"gasto","amount":189.37,"currency":"BRL","category":"Lazer","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.75}}
+{"raw_text":"Empréstimo recebido R$49.29","type":"receita","amount":49.29,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.93}}
+{"raw_text":"Transferi 359,92 rs para minha irmã","type":"transferencia","amount":359.92,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.92}}
+{"raw_text":"Seguro do carro 242,10 rs","type":"gasto","amount":242.1,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.83}}
+{"raw_text":"Curso de inglês R$ 366,68","type":"gasto","amount":366.68,"currency":"BRL","category":"Educação","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.94}}
+{"raw_text":"Aluguel da casa 272,56 reais","type":"receita","amount":272.56,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.76}}
+{"raw_text":"Apostila do concurso R$365,02","type":"gasto","amount":365.02,"currency":"BRL","category":"Educação","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.94}}
+{"raw_text":"Certificação online R$ 359.46","type":"gasto","amount":359.46,"currency":"BRL","category":"Educação","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.92}}
+{"raw_text":"Faxina da casa R$ 1542,21","type":"gasto","amount":1542.21,"currency":"BRL","category":"Moradia","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.9}}
+{"raw_text":"Dividendos ações 373,25 rs","type":"receita","amount":373.25,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.82}}
+{"raw_text":"Material escolar 12,40 reais","type":"gasto","amount":12.4,"currency":"BRL","category":"Educação","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.88}}
+{"raw_text":"IPTU 1239.51 rs","type":"gasto","amount":1239.51,"currency":"BRL","category":"Moradia","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.85}}
+{"raw_text":"Bar com a galera 249,24 reais","type":"gasto","amount":249.24,"currency":"BRL","category":"Lazer","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.93}}
+{"raw_text":"Venda produtos R$ 33.35","type":"receita","amount":33.35,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.89}}
+{"raw_text":"Viagem para a praia 17.87 rs","type":"gasto","amount":17.87,"currency":"BRL","category":"Lazer","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.86}}
+{"raw_text":"Jantar romântico custou 30,71 reais","type":"gasto","amount":30.71,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.91}}
+{"raw_text":"Sapato novo R$ 199,10","type":"gasto","amount":199.1,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.92}}
+{"raw_text":"Xerox das provas 23.58 rs","type":"gasto","amount":23.58,"currency":"BRL","category":"Educação","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.92}}
+{"raw_text":"Plano de saúde R$ 14,09","type":"gasto","amount":14.09,"currency":"BRL","category":"Saúde","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.75}}
+{"raw_text":"Sapato novo R$ 158.86","type":"gasto","amount":158.86,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.92}}
+{"raw_text":"Pastel na feira 75.22 rs","type":"gasto","amount":75.22,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.76}}
+{"raw_text":"Condomínio 771.65 reais","type":"gasto","amount":771.65,"currency":"BRL","category":"Moradia","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.88}}
+{"raw_text":"PIX agendado R$335.01","type":"transferencia","amount":335.01,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.76}}
+{"raw_text":"Extra supermercados R$273.96","type":"gasto","amount":273.96,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.91}}
+{"raw_text":"Transferi 383,99 reais para minha filho","type":"transferencia","amount":383.99,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.78}}
+{"raw_text":"Sacolão R$ 39.76","type":"gasto","amount":39.76,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.81}}
+{"raw_text":"Exames de sangue 307.67 reais","type":"gasto","amount":307.67,"currency":"BRL","category":"Saúde","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.78}}
+{"raw_text":"Sacolão R$ 175,00","type":"gasto","amount":175.0,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.92}}
+{"raw_text":"Certificação online 277,36 reais","type":"gasto","amount":277.36,"currency":"BRL","category":"Educação","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.86}}
+{"raw_text":"Empréstimo recebido R$24,81","type":"receita","amount":24.81,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.81}}
+{"raw_text":"Hambúrguer no food truck 66.21 reais","type":"gasto","amount":66.21,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.82}}
+{"raw_text":"Cafezinho da manhã 60,70 reais","type":"gasto","amount":60.7,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.95}}
+{"raw_text":"Fisioterapia 268,48 rs","type":"gasto","amount":268.48,"currency":"BRL","category":"Saúde","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.83}}
+{"raw_text":"Pizza delivery R$ 43.05","type":"gasto","amount":43.05,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.82}}
+{"raw_text":"Apostila do concurso 109,40 rs","type":"gasto","amount":109.4,"currency":"BRL","category":"Educação","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.77}}
+{"raw_text":"Pão de açúcar R$76.12","type":"gasto","amount":76.12,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.83}}
+{"raw_text":"Devolução da loja R$376.49","type":"receita","amount":376.49,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.81}}
+{"raw_text":"Doação para ONG R$ 52.22","type":"gasto","amount":52.22,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.81}}
+{"raw_text":"Vendeu o celular R$ 166.07","type":"receita","amount":166.07,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.89}}
+{"raw_text":"Faxina da casa R$ 1208.86","type":"gasto","amount":1208.86,"currency":"BRL","category":"Moradia","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.9}}
+{"raw_text":"Doação para ONG R$ 236.28","type":"gasto","amount":236.28,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.84}}
+{"raw_text":"Dentista 39,14 rs","type":"gasto","amount":39.14,"currency":"BRL","category":"Saúde","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.86}}
+{"raw_text":"Troca de óleo R$ 47,68","type":"gasto","amount":47.68,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.92}}
+{"raw_text":"Xerox das provas 257.59 reais","type":"gasto","amount":257.59,"currency":"BRL","category":"Educação","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.81}}
+{"raw_text":"Comissão de vendas R$1577.38","type":"receita","amount":1577.38,"currency":"BRL","category":"Salário","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.9}}
+{"raw_text":"R$ 52,92 no lanche da tarde","type":"gasto","amount":52.92,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.81}}
+{"raw_text":"Reembolso do plano R$253,14","type":"receita","amount":253.14,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.95}}
+{"raw_text":"Cafezinho da manhã 55.85 rs","type":"gasto","amount":55.85,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.83}}
+{"raw_text":"Hambúrguer no food truck R$ 59,76","type":"gasto","amount":59.76,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.86}}
+{"raw_text":"Parque de diversões R$241,26","type":"gasto","amount":241.26,"currency":"BRL","category":"Lazer","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.94}}
+{"raw_text":"Farmácia popular R$111.56","type":"gasto","amount":111.56,"currency":"BRL","category":"Saúde","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.9}}
+{"raw_text":"Roupas na C&A R$ 177,02","type":"gasto","amount":177.02,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.79}}
+{"raw_text":"Cinema no shopping 244,72 rs","type":"gasto","amount":244.72,"currency":"BRL","category":"Lazer","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.93}}
+{"raw_text":"Revisão do carro 8.27 rs","type":"gasto","amount":8.27,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.83}}
+{"raw_text":"Apostila do concurso R$360,78","type":"gasto","amount":360.78,"currency":"BRL","category":"Educação","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.76}}
+{"raw_text":"Cashback do cartão R$108.55","type":"receita","amount":108.55,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.88}}
+{"raw_text":"Caneta e caderno R$32.71","type":"gasto","amount":32.71,"currency":"BRL","category":"Educação","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.79}}
+{"raw_text":"Roupas na C&A R$ 125,13","type":"gasto","amount":125.13,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.93}}
+{"raw_text":"Conserto do celular R$164,02","type":"gasto","amount":164.02,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.87}}
+{"raw_text":"Estacionamento do shopping R$21,40","type":"gasto","amount":21.4,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Presente de aniversário R$293,36","type":"gasto","amount":293.36,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.91}}
+{"raw_text":"Bilhete único R$ 175,37","type":"gasto","amount":175.37,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.94}}
+{"raw_text":"Devolução da loja 378.46 rs","type":"receita","amount":378.46,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.77}}
+{"raw_text":"Verduras e frutas R$ 56.35","type":"gasto","amount":56.35,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.93}}
+{"raw_text":"Estacionamento do shopping 59,58 reais","type":"gasto","amount":59.58,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.83}}
+{"raw_text":"Presente de aniversário R$ 73,86","type":"gasto","amount":73.86,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.86}}
+{"raw_text":"Cashback do cartão 302.92 rs","type":"receita","amount":302.92,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.76}}
+{"raw_text":"Hambúrguer no food truck R$ 53.53","type":"gasto","amount":53.53,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.83}}
+{"raw_text":"Apostila do concurso R$268.24","type":"gasto","amount":268.24,"currency":"BRL","category":"Educação","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.84}}
+{"raw_text":"Passagem de ônibus 17,38 rs","type":"gasto","amount":17.38,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.92}}
+{"raw_text":"Venda produtos R$358,42","type":"receita","amount":358.42,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.77}}
+{"raw_text":"28.72 rs no lanche da tarde","type":"gasto","amount":28.72,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Freelance programação 6943.27 reais","type":"receita","amount":6943.27,"currency":"BRL","category":"Salário","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.83}}
+{"raw_text":"Gás de cozinha 1294,64 reais","type":"gasto","amount":1294.64,"currency":"BRL","category":"Moradia","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.82}}
+{"raw_text":"Aluguel do apartamento 463,57 reais","type":"gasto","amount":463.57,"currency":"BRL","category":"Moradia","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.94}}
+{"raw_text":"51.04 rs no lanche da tarde","type":"gasto","amount":51.04,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.87}}
+{"raw_text":"Pão de Açúcar 179.04 rs","type":"gasto","amount":179.04,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.85}}
+{"raw_text":"Farmácia popular R$ 70,84","type":"gasto","amount":70.84,"currency":"BRL","category":"Saúde","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.76}}
+{"raw_text":"PIX agendado 35,64 rs","type":"transferencia","amount":35.64,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.78}}
+{"raw_text":"Cervejinha com os amigos 69.13 rs","type":"gasto","amount":69.13,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.95}}
+{"raw_text":"Netflix mensal R$ 62,88","type":"gasto","amount":62.88,"currency":"BRL","category":"Lazer","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.82}}
+{"raw_text":"Devolução da loja R$ 197.46","type":"receita","amount":197.46,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.9}}
+{"raw_text":"Seguro do carro R$ 181.89","type":"gasto","amount":181.89,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Condomínio R$ 229.24","type":"gasto","amount":229.24,"currency":"BRL","category":"Moradia","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.83}}
+{"raw_text":"Gás de cozinha 810.47 reais","type":"gasto","amount":810.47,"currency":"BRL","category":"Moradia","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.9}}
+{"raw_text":"Academia Smart Fit 319,74 reais","type":"gasto","amount":319.74,"currency":"BRL","category":"Saúde","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.78}}
+{"raw_text":"Taxa do banco R$ 65.34","type":"gasto","amount":65.34,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.94}}
+{"raw_text":"Devolução da loja 346,57 reais","type":"receita","amount":346.57,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.77}}
+{"raw_text":"Material de limpeza 501.74 reais","type":"gasto","amount":501.74,"currency":"BRL","category":"Moradia","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.75}}
+{"raw_text":"Balada sábado 120.92 reais","type":"gasto","amount":120.92,"currency":"BRL","category":"Lazer","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.84}}
+{"raw_text":"Renda extra 328.53 rs","type":"receita","amount":328.53,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.78}}
+{"raw_text":"13º salário R$ 2112.83","type":"receita","amount":2112.83,"currency":"BRL","category":"Salário","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.88}}
+{"raw_text":"Venda produtos 269.57 reais","type":"receita","amount":269.57,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.9}}
+{"raw_text":"Comprinhas básicas 403,74 reais","type":"gasto","amount":403.74,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.85}}
+{"raw_text":"Mercadinho da esquina 79.56 reais","type":"gasto","amount":79.56,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.82}}
+{"raw_text":"Parque de diversões R$ 138,92","type":"gasto","amount":138.92,"currency":"BRL","category":"Lazer","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.79}}
+{"raw_text":"Fisioterapia R$301.12","type":"gasto","amount":301.12,"currency":"BRL","category":"Saúde","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Pagamento consultoria R$ 3772,98","type":"receita","amount":3772.98,"currency":"BRL","category":"Salário","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.94}}
+{"raw_text":"Devolução da loja 111,45 rs","type":"receita","amount":111.45,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.84}}
+{"raw_text":"Comprinhas básicas R$266.82","type":"gasto","amount":266.82,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.95}}
+{"raw_text":"Conserto do celular R$167,33","type":"gasto","amount":167.33,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.88}}
+{"raw_text":"Ajuda familiar R$365,03","type":"transferencia","amount":365.03,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.95}}
+{"raw_text":"Mercadinho da esquina 440.18 reais","type":"gasto","amount":440.18,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.77}}
+{"raw_text":"Gasolina do carro 162,10 reais","type":"gasto","amount":162.1,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Devolução da loja 368,21 rs","type":"receita","amount":368.21,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.9}}
+{"raw_text":"Cervejinha com os amigos R$ 45.07","type":"gasto","amount":45.07,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.94}}
+{"raw_text":"Aluguel da casa R$ 224,95","type":"receita","amount":224.95,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.94}}
+{"raw_text":"Freelance programação 7292.64 rs","type":"receita","amount":7292.64,"currency":"BRL","category":"Salário","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.87}}
+{"raw_text":"PIX agendado R$308,41","type":"transferencia","amount":308.41,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.81}}
+{"raw_text":"Empréstimo recebido 148.67 reais","type":"receita","amount":148.67,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.88}}
+{"raw_text":"Renda extra R$ 86,07","type":"receita","amount":86.07,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.87}}
+{"raw_text":"99 pop R$ 85.12","type":"gasto","amount":85.12,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.89}}
+{"raw_text":"Mensalidade Unopar R$ 58,46","type":"gasto","amount":58.46,"currency":"BRL","category":"Educação","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.93}}
+{"raw_text":"Consulta médica R$ 228.87","type":"gasto","amount":228.87,"currency":"BRL","category":"Saúde","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.92}}
+{"raw_text":"Consulta médica R$18.78","type":"gasto","amount":18.78,"currency":"BRL","category":"Saúde","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.76}}
+{"raw_text":"Fisioterapia R$ 59.93","type":"gasto","amount":59.93,"currency":"BRL","category":"Saúde","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.93}}
+{"raw_text":"Aluguel da casa R$370.54","type":"receita","amount":370.54,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.75}}
+{"raw_text":"Ingresso do jogo 143.00 rs","type":"gasto","amount":143.0,"currency":"BRL","category":"Lazer","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.9}}
+{"raw_text":"Trabalho extra 7239,98 reais","type":"receita","amount":7239.98,"currency":"BRL","category":"Salário","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.79}}
+{"raw_text":"Transferi 75,31 rs para minha filha","type":"transferencia","amount":75.31,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Taxa do banco R$ 370.24","type":"gasto","amount":370.24,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.78}}
+{"raw_text":"Freelance programação R$5252.83","type":"receita","amount":5252.83,"currency":"BRL","category":"Salário","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Parque de diversões 132.15 rs","type":"gasto","amount":132.15,"currency":"BRL","category":"Lazer","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.81}}
+{"raw_text":"Carnes no açougue R$ 66,91","type":"gasto","amount":66.91,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.76}}
+{"raw_text":"Ingresso do jogo 180.68 reais","type":"gasto","amount":180.68,"currency":"BRL","category":"Lazer","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.76}}
+{"raw_text":"Hora extra 4591.22 reais","type":"receita","amount":4591.22,"currency":"BRL","category":"Salário","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.86}}
+{"raw_text":"Perfume importado 221,68 rs","type":"gasto","amount":221.68,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.89}}
+{"raw_text":"Bar com a galera R$6,88","type":"gasto","amount":6.88,"currency":"BRL","category":"Lazer","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.86}}
+{"raw_text":"Mandei 355,06 rs pro José","type":"transferencia","amount":355.06,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.79}}
+{"raw_text":"Compras da semana R$82.15","type":"gasto","amount":82.15,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.92}}
+{"raw_text":"Aluguel da casa R$ 57,87","type":"receita","amount":57.87,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.91}}
+{"raw_text":"Perfume importado R$142,66","type":"gasto","amount":142.66,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.84}}
+{"raw_text":"Devolução da loja R$91,36","type":"receita","amount":91.36,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.87}}
+{"raw_text":"Doação para ONG R$178,76","type":"gasto","amount":178.76,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.92}}
+{"raw_text":"Empréstimo recebido R$123.71","type":"receita","amount":123.71,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.78}}
+{"raw_text":"Comprinhas básicas 449,91 rs","type":"gasto","amount":449.91,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.82}}
+{"raw_text":"Certificação online R$358,02","type":"gasto","amount":358.02,"currency":"BRL","category":"Educação","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.77}}
+{"raw_text":"Verduras e frutas 271,29 reais","type":"gasto","amount":271.29,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.92}}
+{"raw_text":"Dividendos ações R$ 267.43","type":"receita","amount":267.43,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.89}}
+{"raw_text":"Bonificação 4134,49 rs","type":"receita","amount":4134.49,"currency":"BRL","category":"Salário","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.94}}
+{"raw_text":"Devolução da loja R$192,62","type":"receita","amount":192.62,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.89}}
+{"raw_text":"Vendeu o celular R$ 76,82","type":"receita","amount":76.82,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.83}}
+{"raw_text":"Dentista 152,95 rs","type":"gasto","amount":152.95,"currency":"BRL","category":"Saúde","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Pastel na feira 31,48 rs","type":"gasto","amount":31.48,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.92}}
+{"raw_text":"Venda produtos 258,66 rs","type":"receita","amount":258.66,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.86}}
+{"raw_text":"Uber para o trabalho R$88.86","type":"gasto","amount":88.86,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.77}}
+{"raw_text":"Material escolar R$29.92","type":"gasto","amount":29.92,"currency":"BRL","category":"Educação","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.82}}
+{"raw_text":"Remédio da pressão 181.42 rs","type":"gasto","amount":181.42,"currency":"BRL","category":"Saúde","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.92}}
+{"raw_text":"Material escolar R$ 131","type":"gasto","amount":131.0,"currency":"BRL","category":"Educação","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.83}}
+{"raw_text":"Verduras e frutas 225,92 rs","type":"gasto","amount":225.92,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.91}}
+{"raw_text":"Revisão do carro 69,17 rs","type":"gasto","amount":69.17,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.76}}
+{"raw_text":"Pão de açúcar R$ 48,03","type":"gasto","amount":48.03,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.77}}
+{"raw_text":"Emprestei 328.57 rs para o João","type":"transferencia","amount":328.57,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.89}}
+{"raw_text":"Presente de aniversário 173,54 rs","type":"gasto","amount":173.54,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.82}}
+{"raw_text":"Aluguel da casa 164,94 rs","type":"receita","amount":164.94,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.91}}
+{"raw_text":"Reembolso do plano R$275,37","type":"receita","amount":275.37,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Verduras e frutas R$ 24.20","type":"gasto","amount":24.2,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Remédio da pressão 26.28 reais","type":"gasto","amount":26.28,"currency":"BRL","category":"Saúde","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.76}}
+{"raw_text":"Trabalho extra 7080.66 reais","type":"receita","amount":7080.66,"currency":"BRL","category":"Salário","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.82}}
+{"raw_text":"Doação para ONG 99,00 reais","type":"gasto","amount":99.0,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.78}}
+{"raw_text":"Remédio da pressão 95,40 reais","type":"gasto","amount":95.4,"currency":"BRL","category":"Saúde","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.82}}
+{"raw_text":"Devolução da loja 281.50 rs","type":"receita","amount":281.5,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.78}}
+{"raw_text":"TED 362.79 reais pagamento","type":"transferencia","amount":362.79,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.82}}
+{"raw_text":"13º salário 1117.35 reais","type":"receita","amount":1117.35,"currency":"BRL","category":"Salário","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.78}}
+{"raw_text":"Mensalidade Unopar R$203.21","type":"gasto","amount":203.21,"currency":"BRL","category":"Educação","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.78}}
+{"raw_text":"Pagamento consultoria R$ 5677,01","type":"receita","amount":5677.01,"currency":"BRL","category":"Salário","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.84}}
+{"raw_text":"Consulta médica R$136.29","type":"gasto","amount":136.29,"currency":"BRL","category":"Saúde","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.75}}
+{"raw_text":"Prêmio da loteria R$ 345.43","type":"receita","amount":345.43,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.93}}
+{"raw_text":"Conta de luz R$149,53","type":"gasto","amount":149.53,"currency":"BRL","category":"Moradia","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.78}}
+{"raw_text":"Extra supermercados 18,59 reais","type":"gasto","amount":18.59,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.91}}
+{"raw_text":"Apostila do concurso R$69,99","type":"gasto","amount":69.99,"currency":"BRL","category":"Educação","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.84}}
+{"raw_text":"Show no Allianz 224,12 rs","type":"gasto","amount":224.12,"currency":"BRL","category":"Lazer","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.76}}
+{"raw_text":"Mensalidade Unopar R$250,78","type":"gasto","amount":250.78,"currency":"BRL","category":"Educação","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.83}}
+{"raw_text":"Devolução da loja 398,05 rs","type":"receita","amount":398.05,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.82}}
+{"raw_text":"Pizza delivery 40,98 rs","type":"gasto","amount":40.98,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.87}}
+{"raw_text":"Plano de saúde 250,40 rs","type":"gasto","amount":250.4,"currency":"BRL","category":"Saúde","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.76}}
+{"raw_text":"Hambúrguer no food truck 56,01 rs","type":"gasto","amount":56.01,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.84}}
+{"raw_text":"PIX agendado R$ 168.65","type":"transferencia","amount":168.65,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.76}}
+{"raw_text":"Verduras e frutas R$ 361,57","type":"gasto","amount":361.57,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Academia Smart Fit 84.85 reais","type":"gasto","amount":84.85,"currency":"BRL","category":"Saúde","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.92}}
+{"raw_text":"Reembolso do plano 384.40 rs","type":"receita","amount":384.4,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.77}}
+{"raw_text":"Farmácia popular 107,37 reais","type":"gasto","amount":107.37,"currency":"BRL","category":"Saúde","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Parque de diversões R$ 111.45","type":"gasto","amount":111.45,"currency":"BRL","category":"Lazer","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.86}}
+{"raw_text":"Passagem de ônibus R$ 107.25","type":"gasto","amount":107.25,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.89}}
+{"raw_text":"Jantar romântico custou R$ 27,87","type":"gasto","amount":27.87,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.94}}
+{"raw_text":"Spotify premium R$ 220.24","type":"gasto","amount":220.24,"currency":"BRL","category":"Lazer","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.79}}
+{"raw_text":"Cashback do cartão 276,28 rs","type":"receita","amount":276.28,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.81}}
+{"raw_text":"Passagem de ônibus 22,46 reais","type":"gasto","amount":22.46,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.88}}
+{"raw_text":"Corte de cabelo R$ 291,28","type":"gasto","amount":291.28,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Compras da semana R$409,23","type":"gasto","amount":409.23,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.84}}
+{"raw_text":"Renda extra R$ 258.89","type":"receita","amount":258.89,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Cervejinha com os amigos R$9,10","type":"gasto","amount":9.1,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.94}}
+{"raw_text":"Pizza delivery R$3.22","type":"gasto","amount":3.22,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.78}}
+{"raw_text":"Material escolar R$ 144.45","type":"gasto","amount":144.45,"currency":"BRL","category":"Educação","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.91}}
+{"raw_text":"Netflix mensal 134.13 rs","type":"gasto","amount":134.13,"currency":"BRL","category":"Lazer","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.77}}
+{"raw_text":"Prêmio da loteria 215.95 rs","type":"receita","amount":215.95,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.76}}
+{"raw_text":"Mandei R$269.18 pro Antônio","type":"transferencia","amount":269.18,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.78}}
+{"raw_text":"PIX para Carlos R$245,49","type":"transferencia","amount":245.49,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.84}}
+{"raw_text":"Renda extra R$33.95","type":"receita","amount":33.95,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.85}}
+{"raw_text":"TED 94,72 reais pagamento","type":"transferencia","amount":94.72,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.81}}
+{"raw_text":"Mercadinho da esquina 155,09 reais","type":"gasto","amount":155.09,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.85}}
+{"raw_text":"99 pop 147,40 reais","type":"gasto","amount":147.4,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.94}}
+{"raw_text":"Água da SABESP 1047.24 rs","type":"gasto","amount":1047.24,"currency":"BRL","category":"Moradia","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.92}}
+{"raw_text":"Maquiagem Natura R$ 206.12","type":"gasto","amount":206.12,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.84}}
+{"raw_text":"Mercadinho da esquina R$360,33","type":"gasto","amount":360.33,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.95}}
+{"raw_text":"Maquiagem Natura R$271.07","type":"gasto","amount":271.07,"currency":"BRL","category":"Salário","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.94}}
+{"raw_text":"Uber para o trabalho R$ 157.70","type":"gasto","amount":157.7,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.9}}
+{"raw_text":"Pão de Açúcar R$ 78.32","type":"gasto","amount":78.32,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.79}}
+{"raw_text":"Movimento estranho","type":"desconhecido","amount":null,"currency":"BRL","category":"Outros","meta":{"amount_source":"none","category_source":"none","confidence":0.56}}
+{"raw_text":"Trabalho extra R$5808.98","type":"receita","amount":5808.98,"currency":"BRL","category":"Salário","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.75}}
+{"raw_text":"Pagamento da empresa R$ 2525.41","type":"receita","amount":2525.41,"currency":"BRL","category":"Salário","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.84}}
+{"raw_text":"Reembolso do plano 251,50 rs","type":"receita","amount":251.5,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.91}}
+{"raw_text":"Condomínio R$1266.05","type":"gasto","amount":1266.05,"currency":"BRL","category":"Moradia","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.79}}
+{"raw_text":"Seguro do carro R$70,18","type":"gasto","amount":70.18,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.78}}
+{"raw_text":"Exames de sangue 77.99 reais","type":"gasto","amount":77.99,"currency":"BRL","category":"Saúde","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.94}}
+{"raw_text":"Maquiagem Natura 270,30 rs","type":"gasto","amount":270.3,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.84}}
+{"raw_text":"Compras da semana 161,80 reais","type":"gasto","amount":161.8,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.76}}
+{"raw_text":"Cafezinho da manhã R$ 54.37","type":"gasto","amount":54.37,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.78}}
+{"raw_text":"Curso de inglês 217.06 rs","type":"gasto","amount":217.06,"currency":"BRL","category":"Educação","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Almocei hoje e gastei R$41,07","type":"gasto","amount":41.07,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.92}}
+{"raw_text":"Gás de cozinha R$1699.67","type":"gasto","amount":1699.67,"currency":"BRL","category":"Moradia","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.76}}
+{"raw_text":"Transferi R$243,51 para minha cunhado","type":"transferencia","amount":243.51,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.94}}
+{"raw_text":"Pagamento da empresa 4166.83 rs","type":"receita","amount":4166.83,"currency":"BRL","category":"Salário","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.79}}
+{"raw_text":"Pão de Açúcar R$318,42","type":"gasto","amount":318.42,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.92}}
+{"raw_text":"Academia Smart Fit R$103.40","type":"gasto","amount":103.4,"currency":"BRL","category":"Saúde","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.86}}
+{"raw_text":"Jantar romântico custou 17,41 reais","type":"gasto","amount":17.41,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Pastel na feira 66,55 rs","type":"gasto","amount":66.55,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.86}}
+{"raw_text":"13º salário 6988,81 rs","type":"receita","amount":6988.81,"currency":"BRL","category":"Salário","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.79}}
+{"raw_text":"Ajuda familiar 372,93 reais","type":"transferencia","amount":372.93,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.77}}
+{"raw_text":"35 reais de crédito no celular","type":"gasto","amount":35.0,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"none","confidence":0.7}}
+{"raw_text":"Curso de inglês 157,52 reais","type":"gasto","amount":157.52,"currency":"BRL","category":"Educação","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.76}}
+{"raw_text":"Remédio da pressão R$248.58","type":"gasto","amount":248.58,"currency":"BRL","category":"Saúde","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.87}}
+{"raw_text":"Ajuda familiar R$ 63.97","type":"transferencia","amount":63.97,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.91}}
+{"raw_text":"Taxa do banco 199.69 rs","type":"gasto","amount":199.69,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.79}}
+{"raw_text":"Spotify premium R$ 168,33","type":"gasto","amount":168.33,"currency":"BRL","category":"Lazer","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.78}}
+{"raw_text":"Consulta médica R$ 219.28","type":"gasto","amount":219.28,"currency":"BRL","category":"Saúde","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.75}}
+{"raw_text":"PIX para Ana R$347,39","type":"transferencia","amount":347.39,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.75}}
+{"raw_text":"Cashback do cartão 398,56 rs","type":"receita","amount":398.56,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.94}}
+{"raw_text":"TED R$ 135.57 pagamento","type":"transferencia","amount":135.57,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.85}}
+{"raw_text":"Sacolão R$ 202,23","type":"gasto","amount":202.23,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.76}}
+{"raw_text":"Prêmio da loteria R$ 212.51","type":"receita","amount":212.51,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.77}}
+{"raw_text":"Renda extra 382,70 reais","type":"receita","amount":382.7,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Bilhete único R$ 11,61","type":"gasto","amount":11.61,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.78}}
+{"raw_text":"Taxa do banco 141,84 rs","type":"gasto","amount":141.84,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.91}}
+{"raw_text":"99 pop 84.14 reais","type":"gasto","amount":84.14,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.77}}
+{"raw_text":"Certificação online R$353,87","type":"gasto","amount":353.87,"currency":"BRL","category":"Educação","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.91}}
+{"raw_text":"Açaí com granola 81.72 reais","type":"gasto","amount":81.72,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.85}}
+{"raw_text":"Pagamento consultoria R$828,59","type":"receita","amount":828.59,"currency":"BRL","category":"Salário","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.92}}
+{"raw_text":"Xerox das provas R$27.24","type":"gasto","amount":27.24,"currency":"BRL","category":"Educação","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.87}}
+{"raw_text":"Hora extra 6970.89 rs","type":"receita","amount":6970.89,"currency":"BRL","category":"Salário","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.87}}
+{"raw_text":"Venda produtos 14,74 reais","type":"receita","amount":14.74,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.83}}
+{"raw_text":"IPTU R$ 103.13","type":"gasto","amount":103.13,"currency":"BRL","category":"Moradia","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.94}}
+{"raw_text":"Hambúrguer no food truck 14.13 reais","type":"gasto","amount":14.13,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.95}}
+{"raw_text":"TED R$ 214,38 pagamento","type":"transferencia","amount":214.38,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.76}}
+{"raw_text":"Transferi R$38,91 para minha irmã","type":"transferencia","amount":38.91,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.9}}
+{"raw_text":"Comprinhas básicas 312.81 reais","type":"gasto","amount":312.81,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.9}}
+{"raw_text":"Pedágio da rodovia 12,76 rs","type":"gasto","amount":12.76,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.84}}
+{"raw_text":"Dividendos ações 354.85 reais","type":"receita","amount":354.85,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.89}}
+{"raw_text":"Mandei R$390.10 pro Francisca","type":"transferencia","amount":390.1,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.87}}
+{"raw_text":"Condomínio R$ 408.84","type":"gasto","amount":408.84,"currency":"BRL","category":"Moradia","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.77}}
+{"raw_text":"Roupas na C&A R$233.92","type":"gasto","amount":233.92,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.89}}
+{"raw_text":"Hora extra R$ 1668.88","type":"receita","amount":1668.88,"currency":"BRL","category":"Salário","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.85}}
+{"raw_text":"Apostila do concurso R$ 178.58","type":"gasto","amount":178.58,"currency":"BRL","category":"Educação","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.81}}
+{"raw_text":"Pedágio da rodovia 79,88 reais","type":"gasto","amount":79.88,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.79}}
+{"raw_text":"IPTU R$ 1405.98","type":"gasto","amount":1405.98,"currency":"BRL","category":"Moradia","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.77}}
+{"raw_text":"Gasolina do carro 33.04 reais","type":"gasto","amount":33.04,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.92}}
+{"raw_text":"Prêmio da loteria R$ 241.06","type":"receita","amount":241.06,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.76}}
+{"raw_text":"Açaí com granola 48.73 rs","type":"gasto","amount":48.73,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.89}}
+{"raw_text":"Pedágio da rodovia R$16,76","type":"gasto","amount":16.76,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.85}}
+{"raw_text":"Ajuda familiar R$272.14","type":"transferencia","amount":272.14,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.79}}
+{"raw_text":"Trabalho extra R$1406.38","type":"receita","amount":1406.38,"currency":"BRL","category":"Salário","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.92}}
+{"raw_text":"Venda produtos R$ 67,24","type":"receita","amount":67.24,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.87}}
+{"raw_text":"Verduras e frutas 171.02 reais","type":"gasto","amount":171.02,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.94}}
+{"raw_text":"Pagamento da empresa 5262,76 reais","type":"receita","amount":5262.76,"currency":"BRL","category":"Salário","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.93}}
+{"raw_text":"99 pop 35.18 rs","type":"gasto","amount":35.18,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.81}}
+{"raw_text":"Carnes no açougue 141,16 rs","type":"gasto","amount":141.16,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.83}}
+{"raw_text":"Ajuda familiar 99,50 reais","type":"transferencia","amount":99.5,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.95}}
+{"raw_text":"Ajuda familiar R$ 342","type":"transferencia","amount":342.0,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.82}}
+{"raw_text":"13º salário 3034.56 rs","type":"receita","amount":3034.56,"currency":"BRL","category":"Salário","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.92}}
+{"raw_text":"Vendeu o celular 145,60 reais","type":"receita","amount":145.6,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.81}}
+{"raw_text":"Gasolina do carro 15.86 rs","type":"gasto","amount":15.86,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.79}}
+{"raw_text":"Emprestei 60,66 rs para o Pedro","type":"transferencia","amount":60.66,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.91}}
+{"raw_text":"Salário depositado 4931.45 reais","type":"receita","amount":4931.45,"currency":"BRL","category":"Salário","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.75}}
+{"raw_text":"Empréstimo recebido 357,37 rs","type":"receita","amount":357.37,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.84}}
+{"raw_text":"Plano de saúde 66.74 rs","type":"gasto","amount":66.74,"currency":"BRL","category":"Saúde","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.93}}
+{"raw_text":"13º salário 2585,97 rs","type":"receita","amount":2585.97,"currency":"BRL","category":"Salário","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.79}}
+{"raw_text":"Certificação online R$316.22","type":"gasto","amount":316.22,"currency":"BRL","category":"Educação","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.79}}
+{"raw_text":"Gasolina do carro R$150,93","type":"gasto","amount":150.93,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.79}}
+{"raw_text":"Venda produtos R$ 373.25","type":"receita","amount":373.25,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.84}}
+{"raw_text":"PIX agendado R$ 83.29","type":"transferencia","amount":83.29,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.77}}
+{"raw_text":"Plano de saúde 80,74 rs","type":"gasto","amount":80.74,"currency":"BRL","category":"Saúde","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.81}}
+{"raw_text":"Curso de inglês 154,96 rs","type":"gasto","amount":154.96,"currency":"BRL","category":"Educação","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Livros da faculdade R$140.11","type":"gasto","amount":140.11,"currency":"BRL","category":"Educação","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.89}}
+{"raw_text":"Remédio da pressão R$ 266,78","type":"gasto","amount":266.78,"currency":"BRL","category":"Saúde","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.88}}
+{"raw_text":"Teatro municipal R$ 22.32","type":"gasto","amount":22.32,"currency":"BRL","category":"Lazer","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.93}}
+{"raw_text":"Doação para ONG 48,49 reais","type":"gasto","amount":48.49,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.78}}
+{"raw_text":"Cashback do cartão 46,63 reais","type":"receita","amount":46.63,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Perfume importado R$ 113.16","type":"gasto","amount":113.16,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.81}}
+{"raw_text":"Plano de saúde 147.90 reais","type":"gasto","amount":147.9,"currency":"BRL","category":"Saúde","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.85}}
+{"raw_text":"Táxi até em casa 125,96 rs","type":"gasto","amount":125.96,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Workshop de marketing 98,92 reais","type":"gasto","amount":98.92,"currency":"BRL","category":"Educação","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.85}}
+{"raw_text":"Transferência 165.10 rs emergência","type":"transferencia","amount":165.1,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.95}}
+{"raw_text":"Táxi até em casa 168.18 reais","type":"gasto","amount":168.18,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.92}}
+{"raw_text":"Reembolso do plano R$286,88","type":"receita","amount":286.88,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.9}}
+{"raw_text":"Taxa do banco 250,88 reais","type":"gasto","amount":250.88,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.94}}
+{"raw_text":"Farmácia popular 231,54 reais","type":"gasto","amount":231.54,"currency":"BRL","category":"Saúde","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.86}}
+{"raw_text":"PIX para Maria R$224.19","type":"transferencia","amount":224.19,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.94}}
+{"raw_text":"Remédio da pressão 153,22 reais","type":"gasto","amount":153.22,"currency":"BRL","category":"Saúde","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.9}}
+{"raw_text":"Conta de luz 935,20 reais","type":"gasto","amount":935.2,"currency":"BRL","category":"Moradia","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.95}}
+{"raw_text":"Jantar romântico custou R$16,48","type":"gasto","amount":16.48,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.86}}
+{"raw_text":"Vendeu o celular 10,25 rs","type":"receita","amount":10.25,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.95}}
+{"raw_text":"Netflix mensal R$ 44,60","type":"gasto","amount":44.6,"currency":"BRL","category":"Lazer","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.76}}
+{"raw_text":"Farmácia popular 230.93 rs","type":"gasto","amount":230.93,"currency":"BRL","category":"Saúde","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.76}}
+{"raw_text":"PIX 46,18 rs divisão conta","type":"transferencia","amount":46.18,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.78}}
+{"raw_text":"Ingresso do jogo 241.23 rs","type":"gasto","amount":241.23,"currency":"BRL","category":"Lazer","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.93}}
+{"raw_text":"Consulta médica R$ 204,46","type":"gasto","amount":204.46,"currency":"BRL","category":"Saúde","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.85}}
+{"raw_text":"Extra supermercados R$ 253.65","type":"gasto","amount":253.65,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.9}}
+{"raw_text":"Gasolina do carro R$123,56","type":"gasto","amount":123.56,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.78}}
+{"raw_text":"Sapato novo R$351,55","type":"gasto","amount":351.55,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.93}}
+{"raw_text":"Taxa do banco 233,42 reais","type":"gasto","amount":233.42,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.88}}
+{"raw_text":"Taxa do banco 39,58 rs","type":"gasto","amount":39.58,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.76}}
+{"raw_text":"TED R$ 316.52 pagamento","type":"transferencia","amount":316.52,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.76}}
+{"raw_text":"Conserto do celular 309.80 rs","type":"gasto","amount":309.8,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Viagem para a praia R$ 165.75","type":"gasto","amount":165.75,"currency":"BRL","category":"Lazer","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.83}}
+{"raw_text":"Água da SABESP R$ 1108,61","type":"gasto","amount":1108.61,"currency":"BRL","category":"Moradia","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Perfume importado 390,01 rs","type":"gasto","amount":390.01,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.91}}
+{"raw_text":"PIX agendado R$ 261,63","type":"transferencia","amount":261.63,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.82}}
+{"raw_text":"Plano de saúde 162,18 reais","type":"gasto","amount":162.18,"currency":"BRL","category":"Saúde","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.81}}
+{"raw_text":"Netflix mensal R$ 156.78","type":"gasto","amount":156.78,"currency":"BRL","category":"Lazer","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.93}}
+{"raw_text":"Aluguel do apartamento 1327,82 rs","type":"gasto","amount":1327.82,"currency":"BRL","category":"Moradia","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.95}}
+{"raw_text":"Parque de diversões R$113.21","type":"gasto","amount":113.21,"currency":"BRL","category":"Lazer","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.95}}
+{"raw_text":"Presente de aniversário R$ 263.27","type":"gasto","amount":263.27,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.75}}
+{"raw_text":"Seguro do carro 93.72 reais","type":"gasto","amount":93.72,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.95}}
+{"raw_text":"Aluguel da casa 257,00 reais","type":"receita","amount":257.0,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.79}}
+{"raw_text":"Teatro municipal 41,72 rs","type":"gasto","amount":41.72,"currency":"BRL","category":"Lazer","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.93}}
+{"raw_text":"Cafezinho da manhã R$ 3.13","type":"gasto","amount":3.13,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.76}}
+{"raw_text":"Pagamento da empresa 883.25 rs","type":"receita","amount":883.25,"currency":"BRL","category":"Salário","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.9}}
+{"raw_text":"Condomínio R$1172,59","type":"gasto","amount":1172.59,"currency":"BRL","category":"Moradia","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.89}}
+{"raw_text":"Táxi até em casa 74,92 reais","type":"gasto","amount":74.92,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.78}}
+{"raw_text":"Cinema no shopping R$171.20","type":"gasto","amount":171.2,"currency":"BRL","category":"Lazer","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.77}}
+{"raw_text":"Roupas na C&A 265,63 rs","type":"gasto","amount":265.63,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.83}}
+{"raw_text":"PIX agendado R$ 34.54","type":"transferencia","amount":34.54,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.76}}
+{"raw_text":"Exames de sangue 249.33 reais","type":"gasto","amount":249.33,"currency":"BRL","category":"Saúde","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.89}}
+{"raw_text":"Vendeu o celular R$347,85","type":"receita","amount":347.85,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.88}}
+{"raw_text":"R$65.32 no lanche da tarde","type":"gasto","amount":65.32,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Uber para o trabalho 104.93 rs","type":"gasto","amount":104.93,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.93}}
+{"raw_text":"Seguro do carro 105,82 rs","type":"gasto","amount":105.82,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.78}}
+{"raw_text":"Dividendos ações R$288.70","type":"receita","amount":288.7,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.94}}
+{"raw_text":"Sacolão 347,00 reais","type":"gasto","amount":347.0,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.84}}
+{"raw_text":"Atacadão compras 227,17 reais","type":"gasto","amount":227.17,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.79}}
+{"raw_text":"Show no Allianz R$ 228,71","type":"gasto","amount":228.71,"currency":"BRL","category":"Lazer","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.91}}
+{"raw_text":"Comprinhas básicas 79,48 rs","type":"gasto","amount":79.48,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.78}}
+{"raw_text":"Corte de cabelo R$391,31","type":"gasto","amount":391.31,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.86}}
+{"raw_text":"Gás de cozinha 1478.41 rs","type":"gasto","amount":1478.41,"currency":"BRL","category":"Moradia","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.87}}
+{"raw_text":"PIX para João R$ 382.95","type":"transferencia","amount":382.95,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.85}}
+{"raw_text":"Pizza delivery 22,92 reais","type":"gasto","amount":22.92,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.84}}
+{"raw_text":"Verduras e frutas 54.23 rs","type":"gasto","amount":54.23,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.93}}
+{"raw_text":"DOC 371.06 rs para filho","type":"transferencia","amount":371.06,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.85}}
+{"raw_text":"Fisioterapia 274,59 reais","type":"gasto","amount":274.59,"currency":"BRL","category":"Saúde","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.85}}
+{"raw_text":"Uber para o trabalho 46,54 reais","type":"gasto","amount":46.54,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.86}}
+{"raw_text":"Almocei hoje e gastei R$ 69.60","type":"gasto","amount":69.6,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.76}}
+{"raw_text":"IPTU R$622,40","type":"gasto","amount":622.4,"currency":"BRL","category":"Moradia","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.77}}
+{"raw_text":"Cashback do cartão R$190.58","type":"receita","amount":190.58,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.82}}
+{"raw_text":"Farmácia popular 83,13 reais","type":"gasto","amount":83.13,"currency":"BRL","category":"Saúde","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.78}}
+{"raw_text":"PIX agendado R$ 107,27","type":"transferencia","amount":107.27,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.81}}
+{"raw_text":"Pão de Açúcar 261,54 rs","type":"gasto","amount":261.54,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.93}}
+{"raw_text":"Bonificação 3097,90 reais","type":"receita","amount":3097.9,"currency":"BRL","category":"Salário","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.9}}
+{"raw_text":"Compras da semana R$157,83","type":"gasto","amount":157.83,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.86}}
+{"raw_text":"Pão de Açúcar 236.81 reais","type":"gasto","amount":236.81,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.79}}
+{"raw_text":"Plano de saúde 242,17 reais","type":"gasto","amount":242.17,"currency":"BRL","category":"Saúde","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.77}}
+{"raw_text":"Exames de sangue 145.42 reais","type":"gasto","amount":145.42,"currency":"BRL","category":"Saúde","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.79}}
+{"raw_text":"Pagamento da empresa 2288,40 reais","type":"receita","amount":2288.4,"currency":"BRL","category":"Salário","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Cervejinha com os amigos 64,23 reais","type":"gasto","amount":64.23,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.9}}
+{"raw_text":"Xerox das provas R$ 29.96","type":"gasto","amount":29.96,"currency":"BRL","category":"Educação","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Dentista R$57,65","type":"gasto","amount":57.65,"currency":"BRL","category":"Saúde","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.86}}
+{"raw_text":"Passagem de ônibus R$ 53,25","type":"gasto","amount":53.25,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.79}}
+{"raw_text":"Hora extra R$ 4362,87","type":"receita","amount":4362.87,"currency":"BRL","category":"Salário","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Dividendos ações 96,30 rs","type":"receita","amount":96.3,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.9}}
+{"raw_text":"Balada sábado R$112,89","type":"gasto","amount":112.89,"currency":"BRL","category":"Lazer","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Emprestei 348,29 reais para o José","type":"transferencia","amount":348.29,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.85}}
+{"raw_text":"Perfume importado R$284.98","type":"gasto","amount":284.98,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.89}}
+{"raw_text":"Faxina da casa R$ 1783,69","type":"gasto","amount":1783.69,"currency":"BRL","category":"Moradia","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.83}}
+{"raw_text":"Certificação online 205.88 reais","type":"gasto","amount":205.88,"currency":"BRL","category":"Educação","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.82}}
+{"raw_text":"Ajuda familiar R$361,23","type":"transferencia","amount":361.23,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.75}}
+{"raw_text":"Material escolar 237.19 reais","type":"gasto","amount":237.19,"currency":"BRL","category":"Educação","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.86}}
+{"raw_text":"Faxina da casa R$ 259.66","type":"gasto","amount":259.66,"currency":"BRL","category":"Moradia","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.76}}
+{"raw_text":"PIX para José 24.81 rs","type":"transferencia","amount":24.81,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.83}}
+{"raw_text":"Remédio da pressão R$ 99.94","type":"gasto","amount":99.94,"currency":"BRL","category":"Saúde","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.94}}
+{"raw_text":"Vendeu o celular R$ 32,16","type":"receita","amount":32.16,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.81}}
+{"raw_text":"Passagem de ônibus R$ 37,48","type":"gasto","amount":37.48,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.93}}
+{"raw_text":"Transferência R$171,86 emergência","type":"transferencia","amount":171.86,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.83}}
+{"raw_text":"Prêmio da loteria 315.77 reais","type":"receita","amount":315.77,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.81}}
+{"raw_text":"Aula particular 39.51 rs","type":"gasto","amount":39.51,"currency":"BRL","category":"Educação","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.9}}
+{"raw_text":"PIX para Juliana R$52.67","type":"transferencia","amount":52.67,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.84}}
+{"raw_text":"Pão de açúcar 50.89 reais","type":"gasto","amount":50.89,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.92}}
+{"raw_text":"Academia Smart Fit 32,76 rs","type":"gasto","amount":32.76,"currency":"BRL","category":"Saúde","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.86}}
+{"raw_text":"Comprinhas básicas 206,55 rs","type":"gasto","amount":206.55,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.92}}
+{"raw_text":"Corte de cabelo 62.04 rs","type":"gasto","amount":62.04,"currency":"BRL","category":"Salário","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.86}}
+{"raw_text":"13º salário R$1219.35","type":"receita","amount":1219.35,"currency":"BRL","category":"Salário","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.83}}
+{"raw_text":"Aula particular R$ 49,26","type":"gasto","amount":49.26,"currency":"BRL","category":"Educação","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.77}}
+{"raw_text":"Freelance programação R$1705.31","type":"receita","amount":1705.31,"currency":"BRL","category":"Salário","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.89}}
+{"raw_text":"Cashback do cartão 179,80 rs","type":"receita","amount":179.8,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.89}}
+{"raw_text":"Troca de óleo 62,07 reais","type":"gasto","amount":62.07,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.91}}
+{"raw_text":"Hora extra R$ 1489.34","type":"receita","amount":1489.34,"currency":"BRL","category":"Salário","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.92}}
+{"raw_text":"Pastel na feira R$ 20.43","type":"gasto","amount":20.43,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.83}}
+{"raw_text":"Seguro do carro R$138.96","type":"gasto","amount":138.96,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.77}}
+{"raw_text":"Extra supermercados R$213,48","type":"gasto","amount":213.48,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.79}}
+{"raw_text":"Xerox das provas 50.05 reais","type":"gasto","amount":50.05,"currency":"BRL","category":"Educação","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.79}}
+{"raw_text":"Viagem para a praia 6,53 rs","type":"gasto","amount":6.53,"currency":"BRL","category":"Lazer","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.87}}
+{"raw_text":"Vendeu o celular 329.25 reais","type":"receita","amount":329.25,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.89}}
+{"raw_text":"Sapato novo R$289,81","type":"gasto","amount":289.81,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.92}}
+{"raw_text":"Renda extra 100,01 reais","type":"receita","amount":100.01,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.87}}
+{"raw_text":"Pão de Açúcar R$ 38,01","type":"gasto","amount":38.01,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.93}}
+{"raw_text":"Passagem de ônibus R$167.51","type":"gasto","amount":167.51,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.9}}
+{"raw_text":"Apostila do concurso R$ 209,68","type":"gasto","amount":209.68,"currency":"BRL","category":"Educação","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.93}}
+{"raw_text":"Caneta e caderno R$ 55,33","type":"gasto","amount":55.33,"currency":"BRL","category":"Educação","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.94}}
+{"raw_text":"Hambúrguer no food truck R$57,92","type":"gasto","amount":57.92,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.89}}
+{"raw_text":"Comissão de vendas R$ 4429,93","type":"receita","amount":4429.93,"currency":"BRL","category":"Salário","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.85}}
+{"raw_text":"Salário depositado 3566.84 rs","type":"receita","amount":3566.84,"currency":"BRL","category":"Salário","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.76}}
+{"raw_text":"Bar com a galera 64.49 reais","type":"gasto","amount":64.49,"currency":"BRL","category":"Lazer","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.94}}
+{"raw_text":"40 reais em um gel de limpeza facial","type":"gasto","amount":40.0,"currency":"BRL","category":"Saúde","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Conserto do celular 288.35 reais","type":"gasto","amount":288.35,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.92}}
+{"raw_text":"Sacolão 425.29 reais","type":"gasto","amount":425.29,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.87}}
+{"raw_text":"Curso de inglês 287.96 rs","type":"gasto","amount":287.96,"currency":"BRL","category":"Educação","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.79}}
+{"raw_text":"Trabalho extra R$3420,53","type":"receita","amount":3420.53,"currency":"BRL","category":"Salário","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.91}}
+{"raw_text":"Bilhete único R$33.54","type":"gasto","amount":33.54,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.83}}
+{"raw_text":"Pão de Açúcar R$ 134.38","type":"gasto","amount":134.38,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.83}}
+{"raw_text":"Roupas na C&A R$ 202.10","type":"gasto","amount":202.1,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.79}}
+{"raw_text":"Pagamento consultoria R$1515,50","type":"receita","amount":1515.5,"currency":"BRL","category":"Salário","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.76}}
+{"raw_text":"Cafezinho da manhã R$ 34.48","type":"gasto","amount":34.48,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.88}}
+{"raw_text":"PIX 307.65 rs divisão conta","type":"transferencia","amount":307.65,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.94}}
+{"raw_text":"Pizza delivery 20,97 rs","type":"gasto","amount":20.97,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.9}}
+{"raw_text":"Uber para o trabalho R$8,06","type":"gasto","amount":8.06,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.84}}
+{"raw_text":"Remédio da pressão 30.45 rs","type":"gasto","amount":30.45,"currency":"BRL","category":"Saúde","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.82}}
+{"raw_text":"Faxina da casa R$ 742.40","type":"gasto","amount":742.4,"currency":"BRL","category":"Moradia","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.82}}
+{"raw_text":"Seguro do carro 343 reais","type":"gasto","amount":343.0,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.77}}
+{"raw_text":"Faxina da casa 1367.94 rs","type":"gasto","amount":1367.94,"currency":"BRL","category":"Moradia","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.92}}
+{"raw_text":"Apostila do concurso 161,54 reais","type":"gasto","amount":161.54,"currency":"BRL","category":"Educação","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.88}}
+{"raw_text":"Pastel na feira R$64.78","type":"gasto","amount":64.78,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.79}}
+{"raw_text":"Exames de sangue R$ 34.61","type":"gasto","amount":34.61,"currency":"BRL","category":"Saúde","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.93}}
+{"raw_text":"Bilhete único R$ 20.59","type":"gasto","amount":20.59,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.9}}
+{"raw_text":"Faxina da casa 1704.31 reais","type":"gasto","amount":1704.31,"currency":"BRL","category":"Moradia","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.82}}
+{"raw_text":"Renda extra R$316.16","type":"receita","amount":316.16,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.92}}
+{"raw_text":"Emprestei R$82.94 para o Francisca","type":"transferencia","amount":82.94,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.85}}
+{"raw_text":"Reforma do banheiro 244,98 rs","type":"gasto","amount":244.98,"currency":"BRL","category":"Moradia","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.87}}
+{"raw_text":"Emprestei R$ 260.90 para o Maria","type":"transferencia","amount":260.9,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.94}}
+{"raw_text":"Sapato novo R$ 320,99","type":"gasto","amount":320.99,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.9}}
+{"raw_text":"Atacadão compras R$ 84.78","type":"gasto","amount":84.78,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.77}}
+{"raw_text":"Material escolar 172.10 reais","type":"gasto","amount":172.1,"currency":"BRL","category":"Educação","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.76}}
+{"raw_text":"Venda produtos 390,02 rs","type":"receita","amount":390.02,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.85}}
+{"raw_text":"Bonificação R$6506,27","type":"receita","amount":6506.27,"currency":"BRL","category":"Salário","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.85}}
+{"raw_text":"Devolução da loja R$274.17","type":"receita","amount":274.17,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.79}}
+{"raw_text":"PIX R$11,00 divisão conta","type":"transferencia","amount":11.0,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.78}}
+{"raw_text":"Devolução da loja R$ 166.49","type":"receita","amount":166.49,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.86}}
+{"raw_text":"Material de limpeza 248.08 rs","type":"gasto","amount":248.08,"currency":"BRL","category":"Moradia","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.86}}
+{"raw_text":"Roupas na C&A R$328,22","type":"gasto","amount":328.22,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.93}}
+{"raw_text":"IPTU 1629,39 rs","type":"gasto","amount":1629.39,"currency":"BRL","category":"Moradia","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.91}}
+{"raw_text":"Transferi 361.23 rs para minha irmã","type":"transferencia","amount":361.23,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.85}}
+{"raw_text":"Troca de óleo R$ 144.26","type":"gasto","amount":144.26,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.87}}
+{"raw_text":"Compras da semana 319,93 rs","type":"gasto","amount":319.93,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.88}}
+{"raw_text":"Plano de saúde 213.30 rs","type":"gasto","amount":213.3,"currency":"BRL","category":"Saúde","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.86}}
+{"raw_text":"Cafezinho da manhã 51.10 reais","type":"gasto","amount":51.1,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.91}}
+{"raw_text":"Hora extra R$ 5159,96","type":"receita","amount":5159.96,"currency":"BRL","category":"Salário","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.76}}
+{"raw_text":"Comissão de vendas R$ 7384,42","type":"receita","amount":7384.42,"currency":"BRL","category":"Salário","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.94}}
+{"raw_text":"DOC R$125,62 para sogra","type":"transferencia","amount":125.62,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.84}}
+{"raw_text":"Revisão do carro 174,14 rs","type":"gasto","amount":174.14,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.94}}
+{"raw_text":"Apostila do concurso 227,01 reais","type":"gasto","amount":227.01,"currency":"BRL","category":"Educação","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.9}}
+{"raw_text":"99 pop 141.23 rs","type":"gasto","amount":141.23,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.88}}
+{"raw_text":"Pão de açúcar R$ 80.46","type":"gasto","amount":80.46,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.78}}
+{"raw_text":"Renda extra R$ 26.86","type":"receita","amount":26.86,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.81}}
+{"raw_text":"Gasolina do carro 159,75 rs","type":"gasto","amount":159.75,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.86}}
+{"raw_text":"Conserto do celular R$ 333.10","type":"gasto","amount":333.1,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.82}}
+{"raw_text":"Bilhete único R$153.91","type":"gasto","amount":153.91,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.82}}
+{"raw_text":"Perfume importado 330,23 reais","type":"gasto","amount":330.23,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.92}}
+{"raw_text":"Transferência 344.95 reais emergência","type":"transferencia","amount":344.95,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.76}}
+{"raw_text":"Reforma do banheiro R$592,85","type":"gasto","amount":592.85,"currency":"BRL","category":"Moradia","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.81}}
+{"raw_text":"Almocei hoje e gastei R$49,89","type":"gasto","amount":49.89,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.94}}
+{"raw_text":"Dividendos ações 95,76 reais","type":"receita","amount":95.76,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.87}}
+{"raw_text":"Remédio da pressão 187.17 reais","type":"gasto","amount":187.17,"currency":"BRL","category":"Saúde","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.78}}
+{"raw_text":"Transferi 389,17 reais para minha irmã","type":"transferencia","amount":389.17,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.92}}
+{"raw_text":"Cashback do cartão 28.41 rs","type":"receita","amount":28.41,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.92}}
+{"raw_text":"Hora extra R$1997.43","type":"receita","amount":1997.43,"currency":"BRL","category":"Salário","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Pizza delivery R$ 19,74","type":"gasto","amount":19.74,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.9}}
+{"raw_text":"Aluguel da casa 124,95 rs","type":"receita","amount":124.95,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.85}}
+{"raw_text":"Pastel na feira R$79.23","type":"gasto","amount":79.23,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.85}}
+{"raw_text":"Devolução da loja R$92.10","type":"receita","amount":92.1,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.87}}
+{"raw_text":"Carnes no açougue R$ 325,69","type":"gasto","amount":325.69,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.78}}
+{"raw_text":"Troca de óleo 110,14 rs","type":"gasto","amount":110.14,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.82}}
+{"raw_text":"Mandei R$ 216,06 pro Francisca","type":"transferencia","amount":216.06,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.86}}
+{"raw_text":"Material de limpeza 1613,79 reais","type":"gasto","amount":1613.79,"currency":"BRL","category":"Moradia","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.9}}
+{"raw_text":"Reembolso do plano 341.15 rs","type":"receita","amount":341.15,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.89}}
+{"raw_text":"Teatro municipal 105,36 rs","type":"gasto","amount":105.36,"currency":"BRL","category":"Lazer","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.87}}
+{"raw_text":"Reembolso do plano R$ 122.44","type":"receita","amount":122.44,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.9}}
+{"raw_text":"Xerox das provas 25,93 rs","type":"gasto","amount":25.93,"currency":"BRL","category":"Educação","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.84}}
+{"raw_text":"Hambúrguer no food truck 9.19 rs","type":"gasto","amount":9.19,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.94}}
+{"raw_text":"Xerox das provas 212,17 reais","type":"gasto","amount":212.17,"currency":"BRL","category":"Educação","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.79}}
+{"raw_text":"Cinema no shopping R$143,50","type":"gasto","amount":143.5,"currency":"BRL","category":"Lazer","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.92}}
+{"raw_text":"Aluguel da casa 236,64 reais","type":"receita","amount":236.64,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.9}}
+{"raw_text":"Seguro do carro 202.33 reais","type":"gasto","amount":202.33,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.93}}
+{"raw_text":"Cashback do cartão R$ 116.06","type":"receita","amount":116.06,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.83}}
+{"raw_text":"Vendeu o celular 356,84 reais","type":"receita","amount":356.84,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Bilhete único 42,83 rs","type":"gasto","amount":42.83,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.91}}
+{"raw_text":"Conta de luz 1069.51 rs","type":"gasto","amount":1069.51,"currency":"BRL","category":"Moradia","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.91}}
+{"raw_text":"Conta de luz 600.83 rs","type":"gasto","amount":600.83,"currency":"BRL","category":"Moradia","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.81}}
+{"raw_text":"Transferi 160.04 rs para minha mãe","type":"transferencia","amount":160.04,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.85}}
+{"raw_text":"Conta de luz R$143,51","type":"gasto","amount":143.51,"currency":"BRL","category":"Moradia","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.87}}
+{"raw_text":"Cashback do cartão R$ 195,51","type":"receita","amount":195.51,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.94}}
+{"raw_text":"Pagamento consultoria R$1847.54","type":"receita","amount":1847.54,"currency":"BRL","category":"Salário","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.84}}
+{"raw_text":"Troca de óleo 176.13 reais","type":"gasto","amount":176.13,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Teatro municipal 38,82 rs","type":"gasto","amount":38.82,"currency":"BRL","category":"Lazer","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.81}}
+{"raw_text":"Compras da semana 410.51 reais","type":"gasto","amount":410.51,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.84}}
+{"raw_text":"TED R$309.83 pagamento","type":"transferencia","amount":309.83,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.84}}
+{"raw_text":"Mensalidade Unopar 268.52 reais","type":"gasto","amount":268.52,"currency":"BRL","category":"Educação","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.9}}
+{"raw_text":"Internet banda larga 144,07 rs","type":"gasto","amount":144.07,"currency":"BRL","category":"Moradia","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.88}}
+{"raw_text":"PIX para Luiza R$ 86.55","type":"transferencia","amount":86.55,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.94}}
+{"raw_text":"Teatro municipal R$ 14,56","type":"gasto","amount":14.56,"currency":"BRL","category":"Lazer","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.78}}
+{"raw_text":"Carnes no açougue R$ 116,94","type":"gasto","amount":116.94,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.86}}
+{"raw_text":"Taxa do banco 54.84 rs","type":"gasto","amount":54.84,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.86}}
+{"raw_text":"Troca de óleo 64,55 reais","type":"gasto","amount":64.55,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.79}}
+{"raw_text":"Devolução da loja 275.49 reais","type":"receita","amount":275.49,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.9}}
+{"raw_text":"Material escolar 332.87 reais","type":"gasto","amount":332.87,"currency":"BRL","category":"Educação","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.89}}
+{"raw_text":"Pagamento da empresa 4052,95 rs","type":"receita","amount":4052.95,"currency":"BRL","category":"Salário","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.84}}
+{"raw_text":"Cafezinho da manhã 37.86 rs","type":"gasto","amount":37.86,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.93}}
+{"raw_text":"IPTU 1595.74 reais","type":"gasto","amount":1595.74,"currency":"BRL","category":"Moradia","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.87}}
+{"raw_text":"Carnes no açougue 117,42 reais","type":"gasto","amount":117.42,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.94}}
+{"raw_text":"Cafezinho da manhã R$ 15,48","type":"gasto","amount":15.48,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.94}}
+{"raw_text":"Hambúrguer no food truck R$44.06","type":"gasto","amount":44.06,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.91}}
+{"raw_text":"PIX agendado R$108,67","type":"transferencia","amount":108.67,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Prêmio da loteria R$156,12","type":"receita","amount":156.12,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.93}}
+{"raw_text":"Hora extra R$6634,77","type":"receita","amount":6634.77,"currency":"BRL","category":"Salário","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.77}}
+{"raw_text":"Taxa do banco R$290,63","type":"gasto","amount":290.63,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.82}}
+{"raw_text":"Água da SABESP R$758,06","type":"gasto","amount":758.06,"currency":"BRL","category":"Moradia","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.84}}
+{"raw_text":"Material escolar 139,47 rs","type":"gasto","amount":139.47,"currency":"BRL","category":"Educação","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.93}}
+{"raw_text":"15,17 rs no lanche da tarde","type":"gasto","amount":15.17,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.81}}
+{"raw_text":"Cashback do cartão R$ 104.82","type":"receita","amount":104.82,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.76}}
+{"raw_text":"Cafezinho da manhã 79,13 rs","type":"gasto","amount":79.13,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.77}}
+{"raw_text":"13º salário R$ 4405.21","type":"receita","amount":4405.21,"currency":"BRL","category":"Salário","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.79}}
+{"raw_text":"Presente de aniversário R$208,41","type":"gasto","amount":208.41,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.85}}
+{"raw_text":"Troca de óleo 37.67 reais","type":"gasto","amount":37.67,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.84}}
+{"raw_text":"13º salário R$ 5611.63","type":"receita","amount":5611.63,"currency":"BRL","category":"Salário","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.93}}
+{"raw_text":"Apostila do concurso R$ 71.82","type":"gasto","amount":71.82,"currency":"BRL","category":"Educação","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.78}}
+{"raw_text":"Compras da semana 389.15 rs","type":"gasto","amount":389.15,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.85}}
+{"raw_text":"Spotify premium 170.92 rs","type":"gasto","amount":170.92,"currency":"BRL","category":"Lazer","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.79}}
+{"raw_text":"Empréstimo recebido 154.03 rs","type":"receita","amount":154.03,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.94}}
+{"raw_text":"Academia Smart Fit R$74.70","type":"gasto","amount":74.7,"currency":"BRL","category":"Saúde","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.77}}
+{"raw_text":"Corte de cabelo 253,73 rs","type":"gasto","amount":253.73,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.88}}
+{"raw_text":"Comprinhas básicas R$406,10","type":"gasto","amount":406.1,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.91}}
+{"raw_text":"Ajuda familiar R$ 44,64","type":"transferencia","amount":44.64,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.94}}
+{"raw_text":"Vendeu o celular R$ 332.85","type":"receita","amount":332.85,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.89}}
+{"raw_text":"Ajuda familiar R$ 357.25","type":"transferencia","amount":357.25,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.92}}
+{"raw_text":"Extra supermercados 103,53 rs","type":"gasto","amount":103.53,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.92}}
+{"raw_text":"Trabalho extra 2838.88 reais","type":"receita","amount":2838.88,"currency":"BRL","category":"Salário","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.86}}
+{"raw_text":"Aluguel do apartamento R$ 205,23","type":"gasto","amount":205.23,"currency":"BRL","category":"Moradia","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.82}}
+{"raw_text":"Comprinhas básicas R$44.59","type":"gasto","amount":44.59,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.87}}
+{"raw_text":"Pão de Açúcar 164,57 reais","type":"gasto","amount":164.57,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.83}}
+{"raw_text":"Ajuda familiar 60.07 rs","type":"transferencia","amount":60.07,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.84}}
+{"raw_text":"Uber para o trabalho 94,30 rs","type":"gasto","amount":94.3,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.93}}
+{"raw_text":"Prêmio da loteria R$222,08","type":"receita","amount":222.08,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.76}}
+{"raw_text":"Drogaria pacheco 105,45 rs","type":"gasto","amount":105.45,"currency":"BRL","category":"Saúde","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.86}}
+{"raw_text":"Pão de Açúcar R$ 241.20","type":"gasto","amount":241.2,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.78}}
+{"raw_text":"Açaí com granola 68,35 reais","type":"gasto","amount":68.35,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.92}}
+{"raw_text":"Emprestei R$61.16 para o João","type":"transferencia","amount":61.16,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.92}}
+{"raw_text":"68.23 reais no lanche da tarde","type":"gasto","amount":68.23,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.78}}
+{"raw_text":"Spotify premium 144.98 reais","type":"gasto","amount":144.98,"currency":"BRL","category":"Lazer","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.82}}
+{"raw_text":"DOC R$214,30 para irmão","type":"transferencia","amount":214.3,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.93}}
+{"raw_text":"Vitaminas R$129,33","type":"gasto","amount":129.33,"currency":"BRL","category":"Saúde","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.82}}
+{"raw_text":"Pagamento da empresa 5642,72 reais","type":"receita","amount":5642.72,"currency":"BRL","category":"Salário","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.87}}
+{"raw_text":"Uber para o trabalho 125.94 rs","type":"gasto","amount":125.94,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.93}}
+{"raw_text":"Mensalidade Unopar R$229.47","type":"gasto","amount":229.47,"currency":"BRL","category":"Educação","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.85}}
+{"raw_text":"Material escolar R$291,54","type":"gasto","amount":291.54,"currency":"BRL","category":"Educação","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.79}}
+{"raw_text":"Dividendos ações R$ 62.69","type":"receita","amount":62.69,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.76}}
+{"raw_text":"Devolução da loja R$ 31.34","type":"receita","amount":31.34,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.79}}
+{"raw_text":"Bar com a galera 159,15 rs","type":"gasto","amount":159.15,"currency":"BRL","category":"Lazer","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.83}}
+{"raw_text":"Sapato novo 163.37 reais","type":"gasto","amount":163.37,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.81}}
+{"raw_text":"Comprinhas básicas 29,08 rs","type":"gasto","amount":29.08,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.85}}
+{"raw_text":"Ajuda familiar R$217.97","type":"transferencia","amount":217.97,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.76}}
+{"raw_text":"Água da SABESP R$502.93","type":"gasto","amount":502.93,"currency":"BRL","category":"Moradia","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.84}}
+{"raw_text":"Reembolso do plano 236,20 reais","type":"receita","amount":236.2,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.91}}
+{"raw_text":"Aluguel do apartamento R$ 792.34","type":"gasto","amount":792.34,"currency":"BRL","category":"Moradia","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.77}}
+{"raw_text":"Cafezinho da manhã R$16.21","type":"gasto","amount":16.21,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.94}}
+{"raw_text":"Prêmio da loteria R$ 151.66","type":"receita","amount":151.66,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.77}}
+{"raw_text":"Empréstimo recebido 175.51 reais","type":"receita","amount":175.51,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.84}}
+{"raw_text":"Balada sábado 194.29 reais","type":"gasto","amount":194.29,"currency":"BRL","category":"Lazer","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.95}}
+{"raw_text":"Pastel na feira 76.25 rs","type":"gasto","amount":76.25,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.83}}
+{"raw_text":"Gás de cozinha R$278,92","type":"gasto","amount":278.92,"currency":"BRL","category":"Moradia","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.93}}
+{"raw_text":"Venda produtos 162,40 reais","type":"receita","amount":162.4,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.94}}
+{"raw_text":"Conta de luz R$ 767","type":"gasto","amount":767.0,"currency":"BRL","category":"Moradia","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.93}}
+{"raw_text":"Apostila do concurso R$ 85,44","type":"gasto","amount":85.44,"currency":"BRL","category":"Educação","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.83}}
+{"raw_text":"Devolução da loja 342,65 reais","type":"receita","amount":342.65,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.87}}
+{"raw_text":"13º salário 4838,13 rs","type":"receita","amount":4838.13,"currency":"BRL","category":"Salário","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.92}}
+{"raw_text":"Hambúrguer no food truck R$57.57","type":"gasto","amount":57.57,"currency":"BRL","category":"Comida","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.87}}
+{"raw_text":"Prêmio da loteria 188,19 reais","type":"receita","amount":188.19,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.78}}
+{"raw_text":"Material escolar 210.72 reais","type":"gasto","amount":210.72,"currency":"BRL","category":"Educação","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.89}}
+{"raw_text":"Corte de cabelo R$ 46.79","type":"gasto","amount":46.79,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.84}}
+{"raw_text":"Reembolso do plano 95.15 reais","type":"receita","amount":95.15,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.8}}
+{"raw_text":"Remédio da pressão 23.01 reais","type":"gasto","amount":23.01,"currency":"BRL","category":"Saúde","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.86}}
+{"raw_text":"Aluguel da casa 88,03 rs","type":"receita","amount":88.03,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.85}}
+{"raw_text":"Reforma do banheiro 1121,26 reais","type":"gasto","amount":1121.26,"currency":"BRL","category":"Moradia","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.82}}
+{"raw_text":"IPTU 1796,56 reais","type":"gasto","amount":1796.56,"currency":"BRL","category":"Moradia","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.89}}
+{"raw_text":"Atacadão compras 446.97 reais","type":"gasto","amount":446.97,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.88}}
+{"raw_text":"Sacolão R$ 123,45","type":"gasto","amount":123.45,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.95}}
+{"raw_text":"PIX agendado R$ 178.34","type":"transferencia","amount":178.34,"currency":"BRL","category":"Outros","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.95}}
+{"raw_text":"Carnes no açougue 77,79 rs","type":"gasto","amount":77.79,"currency":"BRL","category":"Mercado","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.87}}
+{"raw_text":"PLR da empresa 4090,64 rs","type":"receita","amount":4090.64,"currency":"BRL","category":"Salário","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.87}}
+{"raw_text":"Exames de sangue 130,91 rs","type":"gasto","amount":130.91,"currency":"BRL","category":"Saúde","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.94}}
+{"raw_text":"Troca de óleo 132.67 rs","type":"gasto","amount":132.67,"currency":"BRL","category":"Transporte","meta":{"amount_source":"regex","category_source":"keyword","confidence":0.85}}
